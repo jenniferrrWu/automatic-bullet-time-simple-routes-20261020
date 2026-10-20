@@ -1,0 +1,511 @@
+{
+  "checked_unix": 1792492324.0844424,
+  "status": "passed_execution_and_input_integrity",
+  "cases": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "runtime_status": "succeeded",
+      "upstream_native_path_matches": true,
+      "upstream_native_sha_matches": true,
+      "true_stage2_endpoint_hash_matches": true,
+      "full_source_file_sha_matches": true,
+      "actual_reference_video_sha_matches": true,
+      "all81_true_source_frames_retained_before_padding": true,
+      "explicit14_input_tail_hold_only": true,
+      "native_vae_source_eof_present": true,
+      "native_24fps_resampling_loses_intermediate_indices": [
+        12,
+        37,
+        62
+      ],
+      "dedicated_native_first_keyframe_parameter": false,
+      "quality_verdict": "pending_human_acceptance",
+      "native_joint_conditions_encoded": true,
+      "native_actual_reference_latent_shapes": [
+        [
+          1,
+          24,
+          1,
+          128,
+          232
+        ],
+        [
+          1,
+          24,
+          27,
+          48,
+          84
+        ]
+      ],
+      "saved_encoded_state_sha_matches": true,
+      "metric_aggregation_note": "Independent int64 absolute-error sum divided by pixel count; stored runner MAE used float32 reduction in isolated NumPy. Tolerance1e-4 validates reporting precision only, never quality.",
+      "independent_f0_rgb_equals_runner_saved_png": true,
+      "native_sha_matches": true,
+      "all124_native_frames_decode": true,
+      "native_output_wh": [
+        832,
+        480
+      ],
+      "independent_native_f0_vs_resized_s2_endpoint_mae": 28.4359375,
+      "mae_matches_record": true,
+      "no_postdecode_frame_replacement": true,
+      "no_sampling_latent_pin": true,
+      "first_state_comparison_contact": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/h3_ref2va/simple01_woman_talking_plants/input_and_native_f0.jpg",
+      "source_motion_timing_contact": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/h3_ref2va/simple01_woman_talking_plants/source_and_generated_requested_timing.jpg",
+      "timing_contact_is_observation_not_assumed_correct_alignment": true
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "runtime_status": "succeeded",
+      "upstream_native_path_matches": true,
+      "upstream_native_sha_matches": true,
+      "true_stage2_endpoint_hash_matches": true,
+      "full_source_file_sha_matches": true,
+      "actual_reference_video_sha_matches": true,
+      "all81_true_source_frames_retained_before_padding": true,
+      "explicit14_input_tail_hold_only": true,
+      "native_vae_source_eof_present": true,
+      "native_24fps_resampling_loses_intermediate_indices": [
+        12,
+        37,
+        62
+      ],
+      "dedicated_native_first_keyframe_parameter": false,
+      "quality_verdict": "pending_human_acceptance",
+      "native_joint_conditions_encoded": true,
+      "native_actual_reference_latent_shapes": [
+        [
+          1,
+          24,
+          1,
+          128,
+          232
+        ],
+        [
+          1,
+          24,
+          27,
+          48,
+          84
+        ]
+      ],
+      "saved_encoded_state_sha_matches": true,
+      "metric_aggregation_note": "Independent int64 absolute-error sum divided by pixel count; stored runner MAE used float32 reduction in isolated NumPy. Tolerance1e-4 validates reporting precision only, never quality.",
+      "independent_f0_rgb_equals_runner_saved_png": true,
+      "native_sha_matches": true,
+      "all124_native_frames_decode": true,
+      "native_output_wh": [
+        832,
+        480
+      ],
+      "independent_native_f0_vs_resized_s2_endpoint_mae": 7.2054520566239315,
+      "mae_matches_record": true,
+      "no_postdecode_frame_replacement": true,
+      "no_sampling_latent_pin": true,
+      "first_state_comparison_contact": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/h3_ref2va/simple02_woman_presenting_chalkboard/input_and_native_f0.jpg",
+      "source_motion_timing_contact": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/h3_ref2va/simple02_woman_presenting_chalkboard/source_and_generated_requested_timing.jpg",
+      "timing_contact_is_observation_not_assumed_correct_alignment": true
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "runtime_status": "succeeded",
+      "upstream_native_path_matches": true,
+      "upstream_native_sha_matches": true,
+      "true_stage2_endpoint_hash_matches": true,
+      "full_source_file_sha_matches": true,
+      "actual_reference_video_sha_matches": true,
+      "all81_true_source_frames_retained_before_padding": true,
+      "explicit14_input_tail_hold_only": true,
+      "native_vae_source_eof_present": true,
+      "native_24fps_resampling_loses_intermediate_indices": [
+        12,
+        37,
+        62
+      ],
+      "dedicated_native_first_keyframe_parameter": false,
+      "quality_verdict": "pending_human_acceptance",
+      "native_joint_conditions_encoded": true,
+      "native_actual_reference_latent_shapes": [
+        [
+          1,
+          24,
+          1,
+          128,
+          232
+        ],
+        [
+          1,
+          24,
+          27,
+          48,
+          84
+        ]
+      ],
+      "saved_encoded_state_sha_matches": true,
+      "metric_aggregation_note": "Independent int64 absolute-error sum divided by pixel count; stored runner MAE used float32 reduction in isolated NumPy. Tolerance1e-4 validates reporting precision only, never quality.",
+      "independent_f0_rgb_equals_runner_saved_png": true,
+      "native_sha_matches": true,
+      "all124_native_frames_decode": true,
+      "native_output_wh": [
+        832,
+        480
+      ],
+      "independent_native_f0_vs_resized_s2_endpoint_mae": 56.56261768830128,
+      "mae_matches_record": true,
+      "no_postdecode_frame_replacement": true,
+      "no_sampling_latent_pin": true,
+      "first_state_comparison_contact": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/h3_ref2va/simple03_woman_slow_expression/input_and_native_f0.jpg",
+      "source_motion_timing_contact": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/h3_ref2va/simple03_woman_slow_expression/source_and_generated_requested_timing.jpg",
+      "timing_contact_is_observation_not_assumed_correct_alignment": true
+    }
+  ],
+  "failed_checks": [],
+  "prior24_native_outputs": [
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple01_woman_talking_plants/native_v4_right_w2c_corrected/official_output/native_pose.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple02_woman_presenting_chalkboard/native_v4_right_w2c_corrected/official_output/native_pose.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple03_woman_slow_expression/native_v4_right_w2c_corrected/official_output/native_pose.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple01_woman_talking_plants/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple03_woman_slow_expression/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple01_woman_talking_plants/attempt01/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple02_woman_presenting_chalkboard/attempt01/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple03_woman_slow_expression/attempt01/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/route_b/h3_fl2va/stage2/simple01_woman_talking_plants/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/route_b/h3_fl2va/stage2/simple02_woman_presenting_chalkboard/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/route_b/h3_fl2va/stage2/simple03_woman_slow_expression/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/hunyuan_interpolation/stage2/simple01_woman_talking_plants/attempt01/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/hunyuan_interpolation/stage2/simple02_woman_presenting_chalkboard/attempt01/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/hunyuan_interpolation/stage2/simple03_woman_slow_expression/attempt01/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/vace_firstlast/stage2/simple01_woman_talking_plants/native_v1/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/vace_firstlast/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "unchanged": true
+    },
+    {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/vace_firstlast/stage2/simple03_woman_slow_expression/native_v1/native.mp4",
+      "unchanged": true
+    }
+  ],
+  "quality_passes_confirmed": 0,
+  "native_outputs_modified": false,
+  "stitched_total_pairs": 21,
+  "new_ref2va_display_checks": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "variant": "stitched_details",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_h3_ref2va/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "1b4e2c6b3bd9d31a33df10822d91c44e73bc4044975897f67acc58726c91fc57",
+      "expected_frames": 465,
+      "upstream_bound": true,
+      "decoded_frames": 465,
+      "all_stage_frames_retained": true
+    },
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "variant": "stitched_source_action_timing_details",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_h3_ref2va/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "58a85dc24611119f6fcafb979624c021dc10102a1c7ac90ebd3ef62d03080cec",
+      "expected_frames": 465,
+      "upstream_bound": true,
+      "decoded_frames": 465,
+      "all_stage_frames_retained": true
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "variant": "stitched_details",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_h3_ref2va/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "6f0d0919666b2a93f9e2ad22f74185cd7c108a18f8d13eef21a4652de29e60fd",
+      "expected_frames": 356,
+      "upstream_bound": true,
+      "decoded_frames": 356,
+      "all_stage_frames_retained": true
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "variant": "stitched_source_action_timing_details",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_h3_ref2va/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "2125d01f6193185889a09596afda6a5490b9a5ad8855795ede56dc2df5aa531c",
+      "expected_frames": 356,
+      "upstream_bound": true,
+      "decoded_frames": 356,
+      "all_stage_frames_retained": true
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "variant": "stitched_details",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_h3_ref2va/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "2cc2b6c5a3c060bc09a00394f9ca4c57acd79dcbf0298f7d7c2522b434fcc51b",
+      "expected_frames": 443,
+      "upstream_bound": true,
+      "decoded_frames": 443,
+      "all_stage_frames_retained": true
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "variant": "stitched_source_action_timing_details",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_h3_ref2va/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "5fed26ada48b60f62863782b8e1169cc6d2a40862f97f37ece3d5d2077db8ccc",
+      "expected_frames": 443,
+      "upstream_bound": true,
+      "decoded_frames": 443,
+      "all_stage_frames_retained": true
+    }
+  ],
+  "prior36_displays_unchanged": [
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "7efdcc55016f95e6fb0ebdc10ba66bd8b4e8faeb55d183de209348ce1d532e7e",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "3de300fe74bed39729053afd81b4ae19c27d15b748ead22f6794047bc4850d6a",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "81c94b0c31329cb14afbad7b0bdcc3b0547d2d42bf58e29108cd3819b21731e5",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "31d5e06e48149fd5246a956ab496577dea0de703969c71f65456766f666d2945",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "fa7193dec2e1ca03f8002212e8356724c1f66a6feca3d39ef07ff613bd081b21",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "a0dea19f281e8455adcac2d73baf199ae995966d3571011827f9d67cc74bd20b",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "bda39f30db1249b17006a44d6641e2db02b20c5cb2e8026ac4f9bfa7683d97f8",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "0bb7b92075eeb56c87c8acd17e0df7c7c4127c723d9392d14be93be09e3c176b",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "88ccbeb6d1b6426db3b9d2113aab1f1a17e1766dee41234b41a30376b87c9f68",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "6d5b15b49eb2666acd9d9c5f35b9a33e27046e18b20cd6099bd0d2c384ef977e",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "2f2c6cf114e396b7b395ed6916a9bcf8c37465c639fea4e31a613ad8f92e4e54",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "b3ad5b8a86f8886ee47aebb97976e732586fa882d57c82cd46ccc59ad52548b5",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "4a6f3c7c1b5274f84c0f6acaef0b835ee13677deaa5f9e85580fc1b75a26c279",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "1b63bb65cec40d908eac5fd4928630f18ed2924347ad7f7b83935fc048fef6fd",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "5eee8c7cf5bef9328cb55e3bf0fce62afb2f28d90a6c92308ef629a174b71acd",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "4eb4065fc708bfbb9de9e74f877cb62a6887a7c85ab1ba142ced8d0419f537c0",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "0500268e7c4b7ea9d76082c3fb7d552b1d80e607eae49063626baaf213dc7425",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "3e1e09d9fb6ddd68b0baa3ec21106dd48d86c5c95cdef713bd0cd7008c58c253",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "ef2be73072ed253327bc106aa16bc027847370ba5991d02dbda3c8616527d07c",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "2fa35f967217ab972089b4a29340454f3b6fd3bfc568685ac2d635fc8e9c3e36",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "9c4143b00f4850e941d9d375aaadeb45a42aa4b67ca8cb3574c75701811e3868",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "020bcd12d251c3a0538109f016591bf9c4fb78062ab3e5669ba16ce8e43cdd5a",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "6b4ec6f9ed91125aa12c57b770d0f8ed9f14de19db5102ac5c38cda826f69223",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "4d22d10408a107be1fd743daad6d719eae379941f840bffcedd1f0dcf88b1eee",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "c59f539a7f5de1aece815aafdd27f434be7cefac634513ce0c7fef4d41837aa3",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "16e96653addcaaf96ccdd1b7fc757d395b3f1fb454dbe570ffb31ee8bfe85356",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "9beffca4b94e46d32172c43211210408215134850657f5300df5a29edf5cc3af",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "99398f56a0b48f090976670c753da6d4b81c6a9ccfae611bdd1ceda2bf0fb506",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "861c7366292de6030e536956e3e8b4be757816042603e0cd2a9a915a401f1495",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "c9248e6e693cb13b7372a389d767a0f52a3b1b7daebdac459288b55ac22e539b",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "2d89bdaf5fceece93c7dbf84a85ee92e40679fe10e5958842252f0a3e594b5b5",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "f40ba770531b11724f01ac1375652ee2eda0b3718f013598097fb39b5f6f3968",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "f0424ca950cfee6fc70da48ad9f04ae064e436e0daa8c58f9bbc202cacfe4dfd",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "46f3768cf9c15585b8cd22466213e059d4aaf9ec8bb2dcd4bf362e261fb3fd79",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "sha256": "c3aafe97274cad6f6336185506eaeef0f0c445c27aeb6990920a2f850b72349a",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    },
+    {
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "sha256": "ab0056fdc5234d45387ab77dda595c12c188411d0bf0bfd68e19b7b62f5bcd85",
+      "same_bytes_as_pre_ref2va_snapshot": true
+    }
+  ],
+  "display_integrity_status": "passed",
+  "review_covers_exact_current_27_native_sha": true,
+  "updated_unix": 1792492815.4688942
+}

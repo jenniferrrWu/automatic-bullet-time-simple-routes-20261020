@@ -1,0 +1,238 @@
+{
+  "checked_unix": 1792492894.7255247,
+  "items": [
+    {
+      "key": "B_h3_fl2va_to_redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/route_b/h3_fl2va/stage2/simple01_woman_talking_plants/native.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple01_woman_talking_plants/attempt01/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple01_woman_talking_plants/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "Both boundary pairs broadly preserve person, pose and scene in these still comparisons; visible fine face/paper/background reconstruction differences remain. This is boundary similarity evidence only, not seamless temporal continuity or rigid orbit acceptance.",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "B_hunyuan_interpolation_to_redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/hunyuan_interpolation/stage2/simple01_woman_talking_plants/attempt01/native.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple01_woman_talking_plants/attempt01/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple01_woman_talking_plants/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "Both boundary pairs broadly preserve person, pose and scene in these still comparisons; visible fine face/paper/background reconstruction differences remain. This is boundary similarity evidence only, not seamless temporal continuity or rigid orbit acceptance.",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "B_vace_firstlast_to_redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/vace_firstlast/stage2/simple01_woman_talking_plants/native_v1/native.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple01_woman_talking_plants/attempt01/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple01_woman_talking_plants/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "Both boundary pairs broadly preserve person, pose and scene in these still comparisons; visible fine face/paper/background reconstruction differences remain. This is boundary similarity evidence only, not seamless temporal continuity or rigid orbit acceptance.",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "B_h3_fl2va_to_redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/route_b/h3_fl2va/stage2/simple02_woman_presenting_chalkboard/native.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple02_woman_presenting_chalkboard/attempt01/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple02_woman_presenting_chalkboard/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "Both boundary pairs broadly preserve person, pose and scene in these still comparisons; visible fine face/paper/background reconstruction differences remain. This is boundary similarity evidence only, not seamless temporal continuity or rigid orbit acceptance.",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "B_hunyuan_interpolation_to_redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/hunyuan_interpolation/stage2/simple02_woman_presenting_chalkboard/attempt01/native.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple02_woman_presenting_chalkboard/attempt01/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple02_woman_presenting_chalkboard/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "Both boundary pairs broadly preserve person, pose and scene in these still comparisons; visible fine face/paper/background reconstruction differences remain. This is boundary similarity evidence only, not seamless temporal continuity or rigid orbit acceptance.",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "B_vace_firstlast_to_redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/vace_firstlast/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple02_woman_presenting_chalkboard/attempt01/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple02_woman_presenting_chalkboard/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "Both boundary pairs broadly preserve person, pose and scene in these still comparisons; visible fine face/paper/background reconstruction differences remain. This is boundary similarity evidence only, not seamless temporal continuity or rigid orbit acceptance.",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "B_h3_fl2va_to_redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/route_b/h3_fl2va/stage2/simple03_woman_slow_expression/native.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple03_woman_slow_expression/attempt01/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple03_woman_slow_expression/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "Both boundary pairs broadly preserve person, pose and scene in these still comparisons; visible fine face/paper/background reconstruction differences remain. This is boundary similarity evidence only, not seamless temporal continuity or rigid orbit acceptance.",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "B_hunyuan_interpolation_to_redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/hunyuan_interpolation/stage2/simple03_woman_slow_expression/attempt01/native.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple03_woman_slow_expression/attempt01/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple03_woman_slow_expression/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "Both boundary pairs broadly preserve person, pose and scene in these still comparisons; visible fine face/paper/background reconstruction differences remain. This is boundary similarity evidence only, not seamless temporal continuity or rigid orbit acceptance.",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "B_vace_firstlast_to_redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/vace_firstlast/stage2/simple03_woman_slow_expression/native_v1/native.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple03_woman_slow_expression/attempt01/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple03_woman_slow_expression/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "Both boundary pairs broadly preserve person, pose and scene in these still comparisons; visible fine face/paper/background reconstruction differences remain. This is boundary similarity evidence only, not seamless temporal continuity or rigid orbit acceptance.",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_trimotion",
+      "case_id": "simple01_woman_talking_plants",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple01_woman_talking_plants/native_v4_right_w2c_corrected/official_output/native_pose.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple01_woman_talking_plants/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "已看两处真实边界：Stage1末帧与Stage2首帧、Stage2末帧与Stage3首帧的人物和场景大体贴合；细节重建和原生预处理裁切/画幅差仍可见。单张边界不能证明动作开启后连续。 TriMotion尺寸/画幅与S2不同，脸部和纸板存在重建差；须连同f1–f8检查。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple01_woman_talking_plants/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "已看两处真实边界：Stage1末帧与Stage2首帧、Stage2末帧与Stage3首帧的人物和场景大体贴合；细节重建和原生预处理裁切/画幅差仍可见。单张边界不能证明动作开启后连续。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_trimotion",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple02_woman_presenting_chalkboard/native_v4_right_w2c_corrected/official_output/native_pose.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple02_woman_presenting_chalkboard/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "已看两处真实边界：Stage1末帧与Stage2首帧、Stage2末帧与Stage3首帧的人物和场景大体贴合；细节重建和原生预处理裁切/画幅差仍可见。单张边界不能证明动作开启后连续。 TriMotion尺寸/画幅与S2不同，脸部和纸板存在重建差；须连同f1–f8检查。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_depthdirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple02_woman_presenting_chalkboard/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "已看两处真实边界：Stage1末帧与Stage2首帧、Stage2末帧与Stage3首帧的人物和场景大体贴合；细节重建和原生预处理裁切/画幅差仍可见。单张边界不能证明动作开启后连续。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_trimotion",
+      "case_id": "simple03_woman_slow_expression",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple03_woman_slow_expression/native_v4_right_w2c_corrected/official_output/native_pose.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple03_woman_slow_expression/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "已看两处真实边界：Stage1末帧与Stage2首帧、Stage2末帧与Stage3首帧的人物和场景大体贴合；细节重建和原生预处理裁切/画幅差仍可见。单张边界不能证明动作开启后连续。 TriMotion尺寸/画幅与S2不同，脸部和纸板存在重建差；须连同f1–f8检查。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_depthdirector",
+      "case_id": "simple03_woman_slow_expression",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple03_woman_slow_expression/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first; no full playback",
+      "observation": "已看两处真实边界：Stage1末帧与Stage2首帧、Stage2末帧与Stage3首帧的人物和场景大体贴合；细节重建和原生预处理裁切/画幅差仍可见。单张边界不能证明动作开启后连续。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_camclonemaster",
+      "case_id": "simple01_woman_talking_plants",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple01_woman_talking_plants/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple01_woman_talking_plants/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first plusf0..8; no full playback",
+      "observation": "两处边界外观大体贴合，原生尺寸/画幅和脸部细节重建可见；后续人物朝向变化需要单独检查，不据边界静图判无缝。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_camclonemaster",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple02_woman_presenting_chalkboard/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first plus f0..8; no full playback",
+      "observation": "已检查两处真实边界，人物姿态、纸板或服装及背景整体贴合；原生尺寸/预处理画幅和面部细节存在差别。边界单帧接近不能证明动作开启后的时序连续或冻结成立。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_camclonemaster",
+      "case_id": "simple03_woman_slow_expression",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple03_woman_slow_expression/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple03_woman_slow_expression/boundaries.jpg",
+      "review_method": "side-by-side decoded S1last/S2first/S2last/S3first plus f0..8; no full playback",
+      "observation": "已检查两处真实边界，人物姿态、纸板或服装及背景整体贴合；原生尺寸/预处理画幅和面部细节存在差别。边界单帧接近不能证明动作开启后的时序连续或冻结成立。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_h3_ref2va",
+      "case_id": "simple01_woman_talking_plants",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/h3_ref2va/stage3/simple01_woman_talking_plants/native_v1_reference_joint/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_h3_ref2va/simple01_woman_talking_plants/boundaries.jpg",
+      "review_method": "actual decoded S1last/S2first/S2last/S3first; additionally f0-f8; no full playback",
+      "observation": "已看实际输入/原生f0、f0–f8、5张时序帧、8个请求时刻源动作对照和两处边界。Stage2末图为侧向构图，但生成f0变为源片式正面构图，背景构成也不同，Stage2→Stage3接缝明显不贴合。后续能说话/微笑并在末段出现双拇指，但请求时间对照可见动作节奏滞后，不能判恢复原动作时间正确。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_h3_ref2va",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/h3_ref2va/stage3/simple02_woman_presenting_chalkboard/native_v1_reference_joint/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_h3_ref2va/simple02_woman_presenting_chalkboard/boundaries.jpg",
+      "review_method": "actual decoded S1last/S2first/S2last/S3first; additionally f0-f8; no full playback",
+      "observation": "已看实际输入/原生f0、f0–f8、5张时序帧、8个请求时刻源动作对照和两处边界。f0较接近输入的侧向人像、粉纸与黑板，仍有脸/手/纸板尺度及细节差异。后续脸和纸板方向逐渐趋正面；源后段本来动作较小，不能凭背景大体稳定就判新视角动作正确或首帧硬锁成立。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    },
+    {
+      "key": "A_depthdirector_to_h3_ref2va",
+      "case_id": "simple03_woman_slow_expression",
+      "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/h3_ref2va/stage3/simple03_woman_slow_expression/native_v1_reference_joint/native.mp4",
+      "boundaries_image": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_h3_ref2va/simple03_woman_slow_expression/boundaries.jpg",
+      "review_method": "actual decoded S1last/S2first/S2last/S3first; additionally f0-f8; no full playback",
+      "observation": "已看实际输入/原生f0、f0–f8、5张时序帧、8个请求时刻源动作对照和两处边界。原生f0的人物朝向和背景布局明显偏向原片初始视图，与Stage2末图不贴合；后续有小幅转头/表情，但从起始处已不满足所供新视角状态接续。",
+      "quality_acceptance": "pending_human_acceptance",
+      "full_video_watched": false
+    }
+  ],
+  "pairs_inspected": 21,
+  "human_confirmed_passes": 0
+}

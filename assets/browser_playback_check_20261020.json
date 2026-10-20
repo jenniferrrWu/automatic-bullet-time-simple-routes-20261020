@@ -1,5 +1,5 @@
 {
-  "started_unix": 1792486282.0591013,
+  "started_unix": 1792492897.4996116,
   "url": "http://127.0.0.1:8040/results/stage23_simple_routes_20261020/site/index.html",
   "model_quality_review": false,
   "test_environment": "server-side headless Chromium; does not certify playback on every client computer/network",
@@ -7,24 +7,24 @@
   "http_failures": [],
   "samples": [
     {
-      "at": 1792486283.4661925,
-      "visible": 45,
+      "at": 1792492898.922425,
+      "visible": 51,
       "downloaded": 32,
-      "ready": 25,
+      "ready": 27,
       "active_downloads": 4
     },
     {
-      "at": 1792486285.5042253,
-      "visible": 45,
-      "downloaded": 45,
-      "ready": 45,
+      "at": 1792492900.964988,
+      "visible": 51,
+      "downloaded": 51,
+      "ready": 51,
       "active_downloads": 0
     }
   ],
-  "tested_html_sha256": "9dadc083969390644ec15044fed533ee66a643095468d4901713cabfb619a91e",
+  "tested_html_sha256": "aa17dbef198c8ca45ac6f4ecf909bc0ff4b59a92aa1bd238ae320c2deb8c1969",
   "separate_load_and_play_buttons": 0,
   "before_play": {
-    "at": "2026-10-20T08:51:25.506Z",
+    "at": "2026-10-20T10:41:40.966Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -451,6 +451,132 @@
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/fbbc5e7b72c809f56e64d3ba_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/d1e4b2a5cd2ca96ae0b5dfe3_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/afa51bb25d317a91163c8ea1_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/2d70f8a0fedf9ab44dfaced0_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c2769e9944a465cb03af2123_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/73d045f643803aa4e9ba1226_preview.mp4"
+      },
+      {
         "label": "ReDirector route_b Stage3 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
@@ -869,6 +995,48 @@
         "error": "",
         "mediaError": null,
         "source": "assets/c3aafe97274cad6f63361855_preview.mp4"
+      },
+      {
+        "label": "route_a 原生时序拼接 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/1b4e2c6b3bd9d31a33df1082_preview.mp4"
+      },
+      {
+        "label": "route_a 原生时序拼接 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/6f0d0919666b2a93f9e2ad22_preview.mp4"
+      },
+      {
+        "label": "route_a 原生时序拼接 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/2cc2b6c5a3c060bc09a00394_preview.mp4"
       },
       {
         "label": "route_b 原生时序拼接 simple01_woman_talking_plants",
@@ -1006,7 +1174,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 84,
-      "time": 2.9924,
+      "time": 2.9868,
       "error": null
     },
     {
@@ -1016,7 +1184,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 83,
-      "time": 2.9718,
+      "time": 2.9678,
       "error": null
     },
     {
@@ -1026,7 +1194,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 83,
-      "time": 2.9665,
+      "time": 2.9493,
       "error": null
     },
     {
@@ -1036,7 +1204,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9662,
+      "time": 2.9491,
       "error": null
     },
     {
@@ -1056,7 +1224,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9637,
+      "time": 2.949,
       "error": null
     },
     {
@@ -1076,7 +1244,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9621,
+      "time": 2.9488,
       "error": null
     },
     {
@@ -1096,7 +1264,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9566,
+      "time": 2.9475,
       "error": null
     },
     {
@@ -1116,7 +1284,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9521,
+      "time": 2.9442,
       "error": null
     },
     {
@@ -1136,7 +1304,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9494,
+      "time": 2.9415,
       "error": null
     },
     {
@@ -1156,7 +1324,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1893,
+      "time": 0.1796,
       "error": null
     },
     {
@@ -1186,7 +1354,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1881,
+      "time": 0.1612,
       "error": null
     },
     {
@@ -1216,7 +1384,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1795,
+      "time": 0.1609,
       "error": null
     },
     {
@@ -1246,7 +1414,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1795,
+      "time": 0.1609,
       "error": null
     },
     {
@@ -1266,7 +1434,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1795,
+      "time": 0.1609,
       "error": null
     },
     {
@@ -1286,7 +1454,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1795,
+      "time": 0.1603,
       "error": null
     },
     {
@@ -1305,8 +1473,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9464,
+      "frames": 73,
+      "time": 2.9285,
       "error": null
     },
     {
@@ -1321,16 +1489,6 @@
     },
     {
       "i": 32,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 49,
-      "time": 2.9462,
-      "error": null
-    },
-    {
-      "i": 33,
       "hidden": true,
       "paused": true,
       "readyState": 0,
@@ -1340,13 +1498,23 @@
       "error": null
     },
     {
-      "i": 34,
+      "i": 33,
       "hidden": false,
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9462,
+      "frames": 73,
+      "time": 2.9279,
+      "error": null
+    },
+    {
+      "i": 34,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -1365,28 +1533,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9462,
+      "frames": 73,
+      "time": 2.9255,
       "error": null
     },
     {
       "i": 37,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.9461,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 38,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.945,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -1395,18 +1563,18 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 73,
-      "time": 2.9449,
+      "frames": 49,
+      "time": 2.9245,
       "error": null
     },
     {
       "i": 40,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 73,
-      "time": 2.9448,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -1415,28 +1583,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 73,
-      "time": 2.9448,
+      "frames": 49,
+      "time": 2.9244,
       "error": null
     },
     {
       "i": 42,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 51,
-      "time": 2.9444,
-      "error": null
-    },
-    {
-      "i": 43,
       "hidden": true,
       "paused": true,
       "readyState": 0,
       "width": 0,
       "frames": 0,
       "time": 0,
+      "error": null
+    },
+    {
+      "i": 43,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 49,
+      "time": 2.9243,
       "error": null
     },
     {
@@ -1455,28 +1623,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 51,
-      "time": 2.9443,
+      "frames": 76,
+      "time": 2.9243,
       "error": null
     },
     {
       "i": 46,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9242,
       "error": null
     },
     {
       "i": 47,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9242,
       "error": null
     },
     {
@@ -1485,28 +1653,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 51,
-      "time": 2.9435,
+      "frames": 73,
+      "time": 2.9242,
       "error": null
     },
     {
       "i": 49,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 2.9241,
       "error": null
     },
     {
       "i": 50,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 2.924,
       "error": null
     },
     {
@@ -1515,28 +1683,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9437,
+      "frames": 51,
+      "time": 2.924,
       "error": null
     },
     {
       "i": 52,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.9436,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 53,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.9432,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -1545,28 +1713,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9425,
+      "frames": 51,
+      "time": 2.9239,
       "error": null
     },
     {
       "i": 55,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.9421,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 56,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.9417,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -1575,28 +1743,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9412,
+      "frames": 51,
+      "time": 2.924,
       "error": null
     },
     {
       "i": 58,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.941,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 59,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.9408,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -1606,7 +1774,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9403,
+      "time": 2.9232,
       "error": null
     },
     {
@@ -1616,7 +1784,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9403,
+      "time": 2.923,
       "error": null
     },
     {
@@ -1626,7 +1794,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9403,
+      "time": 2.9239,
       "error": null
     },
     {
@@ -1636,7 +1804,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9403,
+      "time": 2.9235,
       "error": null
     },
     {
@@ -1645,8 +1813,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 78,
-      "time": 3.0354,
+      "frames": 76,
+      "time": 2.9233,
       "error": null
     },
     {
@@ -1655,8 +1823,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 78,
-      "time": 3.0354,
+      "frames": 76,
+      "time": 2.9232,
       "error": null
     },
     {
@@ -1665,8 +1833,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 78,
-      "time": 3.0354,
+      "frames": 76,
+      "time": 2.9228,
       "error": null
     },
     {
@@ -1675,8 +1843,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 78,
-      "time": 3.035,
+      "frames": 76,
+      "time": 2.9232,
       "error": null
     },
     {
@@ -1685,8 +1853,128 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 78,
-      "time": 3.0348,
+      "frames": 76,
+      "time": 2.9232,
+      "error": null
+    },
+    {
+      "i": 69,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9229,
+      "error": null
+    },
+    {
+      "i": 70,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9228,
+      "error": null
+    },
+    {
+      "i": 71,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9226,
+      "error": null
+    },
+    {
+      "i": 72,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9208,
+      "error": null
+    },
+    {
+      "i": 73,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9208,
+      "error": null
+    },
+    {
+      "i": 74,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9208,
+      "error": null
+    },
+    {
+      "i": 75,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9208,
+      "error": null
+    },
+    {
+      "i": 76,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9208,
+      "error": null
+    },
+    {
+      "i": 77,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9206,
+      "error": null
+    },
+    {
+      "i": 78,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9197,
+      "error": null
+    },
+    {
+      "i": 79,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9191,
+      "error": null
+    },
+    {
+      "i": 80,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9188,
       "error": null
     }
   ],
@@ -1698,7 +1986,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 134,
-      "time": 1.7729,
+      "time": 1.7705,
       "error": null
     },
     {
@@ -1707,8 +1995,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 134,
-      "time": 1.7545,
+      "frames": 133,
+      "time": 1.7535,
       "error": null
     },
     {
@@ -1717,8 +2005,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 134,
-      "time": 1.7487,
+      "frames": 133,
+      "time": 1.7343,
       "error": null
     },
     {
@@ -1728,7 +2016,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9921,
+      "time": 4.9778,
       "error": null
     },
     {
@@ -1748,7 +2036,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9895,
+      "time": 4.9777,
       "error": null
     },
     {
@@ -1768,7 +2056,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.988,
+      "time": 4.9775,
       "error": null
     },
     {
@@ -1788,7 +2076,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9823,
+      "time": 4.9762,
       "error": null
     },
     {
@@ -1808,7 +2096,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9778,
+      "time": 4.9728,
       "error": null
     },
     {
@@ -1828,7 +2116,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9752,
+      "time": 4.9701,
       "error": null
     },
     {
@@ -1848,7 +2136,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.215,
+      "time": 2.2082,
       "error": null
     },
     {
@@ -1878,7 +2166,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2139,
+      "time": 2.1899,
       "error": null
     },
     {
@@ -1908,7 +2196,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2053,
+      "time": 2.1896,
       "error": null
     },
     {
@@ -1938,7 +2226,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2053,
+      "time": 2.1896,
       "error": null
     },
     {
@@ -1958,7 +2246,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2053,
+      "time": 2.1896,
       "error": null
     },
     {
@@ -1978,7 +2266,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2052,
+      "time": 2.189,
       "error": null
     },
     {
@@ -1997,8 +2285,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 79,
-      "time": 4.9721,
+      "frames": 121,
+      "time": 4.9572,
       "error": null
     },
     {
@@ -2013,16 +2301,6 @@
     },
     {
       "i": 32,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 79,
-      "time": 4.9719,
-      "error": null
-    },
-    {
-      "i": 33,
       "hidden": true,
       "paused": true,
       "readyState": 0,
@@ -2032,13 +2310,23 @@
       "error": null
     },
     {
-      "i": 34,
+      "i": 33,
       "hidden": false,
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 79,
-      "time": 4.9719,
+      "frames": 121,
+      "time": 4.9566,
+      "error": null
+    },
+    {
+      "i": 34,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -2057,28 +2345,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.7075,
+      "frames": 121,
+      "time": 4.9542,
       "error": null
     },
     {
       "i": 37,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 1.7072,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 38,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 1.705,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -2087,18 +2375,18 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 121,
-      "time": 4.9706,
+      "frames": 79,
+      "time": 4.9532,
       "error": null
     },
     {
       "i": 40,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 121,
-      "time": 4.9706,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -2107,28 +2395,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 121,
-      "time": 4.9705,
+      "frames": 79,
+      "time": 4.9531,
       "error": null
     },
     {
       "i": 42,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 83,
-      "time": 4.9701,
-      "error": null
-    },
-    {
-      "i": 43,
       "hidden": true,
       "paused": true,
       "readyState": 0,
       "width": 0,
       "frames": 0,
       "time": 0,
+      "error": null
+    },
+    {
+      "i": 43,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 79,
+      "time": 4.953,
       "error": null
     },
     {
@@ -2147,28 +2435,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 83,
-      "time": 4.97,
+      "frames": 126,
+      "time": 1.6858,
       "error": null
     },
     {
       "i": 46,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 1.6857,
       "error": null
     },
     {
       "i": 47,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 1.6857,
       "error": null
     },
     {
@@ -2177,28 +2465,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 83,
-      "time": 4.9692,
+      "frames": 121,
+      "time": 4.9529,
       "error": null
     },
     {
       "i": 49,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 121,
+      "time": 4.9528,
       "error": null
     },
     {
       "i": 50,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 121,
+      "time": 4.9527,
       "error": null
     },
     {
@@ -2207,28 +2495,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 4.9694,
+      "frames": 83,
+      "time": 4.9527,
       "error": null
     },
     {
       "i": 52,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 4.9693,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 53,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 4.9689,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -2237,28 +2525,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 4.9682,
+      "frames": 83,
+      "time": 4.9526,
       "error": null
     },
     {
       "i": 55,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 4.9678,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 56,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 4.9674,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -2267,28 +2555,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 4.9669,
+      "frames": 83,
+      "time": 4.9527,
       "error": null
     },
     {
       "i": 58,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 4.9667,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 59,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 4.9665,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -2298,7 +2586,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 4.966,
+      "time": 4.952,
       "error": null
     },
     {
@@ -2308,7 +2596,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 4.966,
+      "time": 4.9517,
       "error": null
     },
     {
@@ -2318,7 +2606,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 4.9659,
+      "time": 4.9526,
       "error": null
     },
     {
@@ -2328,7 +2616,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 4.966,
+      "time": 4.9523,
       "error": null
     },
     {
@@ -2337,8 +2625,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 128,
-      "time": 5.0611,
+      "frames": 126,
+      "time": 4.952,
       "error": null
     },
     {
@@ -2347,8 +2635,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 128,
-      "time": 5.061,
+      "frames": 126,
+      "time": 4.9519,
       "error": null
     },
     {
@@ -2357,8 +2645,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 128,
-      "time": 5.061,
+      "frames": 126,
+      "time": 4.9516,
       "error": null
     },
     {
@@ -2367,8 +2655,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 128,
-      "time": 5.0607,
+      "frames": 126,
+      "time": 4.952,
       "error": null
     },
     {
@@ -2377,13 +2665,133 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 128,
-      "time": 5.0605,
+      "frames": 126,
+      "time": 4.9519,
+      "error": null
+    },
+    {
+      "i": 69,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9517,
+      "error": null
+    },
+    {
+      "i": 70,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9515,
+      "error": null
+    },
+    {
+      "i": 71,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9514,
+      "error": null
+    },
+    {
+      "i": 72,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9496,
+      "error": null
+    },
+    {
+      "i": 73,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9495,
+      "error": null
+    },
+    {
+      "i": 74,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9496,
+      "error": null
+    },
+    {
+      "i": 75,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9495,
+      "error": null
+    },
+    {
+      "i": 76,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9495,
+      "error": null
+    },
+    {
+      "i": 77,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9493,
+      "error": null
+    },
+    {
+      "i": 78,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9485,
+      "error": null
+    },
+    {
+      "i": 79,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9479,
+      "error": null
+    },
+    {
+      "i": 80,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 4.9476,
       "error": null
     }
   ],
   "after_play": {
-    "at": "2026-10-20T08:51:30.691Z",
+    "at": "2026-10-20T10:41:46.150Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -2398,7 +2806,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7944,
+        "currentTime": 1.7948,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -2412,7 +2820,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7761,
+        "currentTime": 1.7778,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -2426,7 +2834,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7703,
+        "currentTime": 1.7586,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
@@ -2440,7 +2848,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0137,
+        "currentTime": 5.0022,
         "error": "",
         "mediaError": null,
         "source": "assets/36ea8f30603c141b98b4275b_preview.mp4"
@@ -2468,7 +2876,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0112,
+        "currentTime": 5.002,
         "error": "",
         "mediaError": null,
         "source": "assets/d954719b0247586f1d904542_preview.mp4"
@@ -2496,7 +2904,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0096,
+        "currentTime": 5.0019,
         "error": "",
         "mediaError": null,
         "source": "assets/a4ca030005304f9346950265_preview.mp4"
@@ -2524,7 +2932,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.004,
+        "currentTime": 5.0006,
         "error": "",
         "mediaError": null,
         "source": "assets/1e397fe6d2f5a5d72489d14d_preview.mp4"
@@ -2552,7 +2960,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9995,
+        "currentTime": 4.9972,
         "error": "",
         "mediaError": null,
         "source": "assets/4a8ae4c2d99e33bfff03d181_preview.mp4"
@@ -2580,7 +2988,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9968,
+        "currentTime": 4.9945,
         "error": "",
         "mediaError": null,
         "source": "assets/e7f3525deb2c3b7f0b2d199a_preview.mp4"
@@ -2608,7 +3016,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2367,
+        "currentTime": 2.2326,
         "error": "",
         "mediaError": null,
         "source": "assets/b917e67a9473c916fd688b69_preview.mp4"
@@ -2650,7 +3058,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2356,
+        "currentTime": 2.2143,
         "error": "",
         "mediaError": null,
         "source": "assets/ead2ebd2fef9403d81f5a190_preview.mp4"
@@ -2692,7 +3100,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.227,
+        "currentTime": 2.214,
         "error": "",
         "mediaError": null,
         "source": "assets/2ae4cb93382db5fc2dbaa849_preview.mp4"
@@ -2734,7 +3142,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.227,
+        "currentTime": 2.214,
         "error": "",
         "mediaError": null,
         "source": "assets/4a5af0b491521d63c92247c3_preview.mp4"
@@ -2762,7 +3170,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.227,
+        "currentTime": 2.214,
         "error": "",
         "mediaError": null,
         "source": "assets/e1e1587dd0e6a57c752f876f_preview.mp4"
@@ -2790,7 +3198,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2269,
+        "currentTime": 2.2134,
         "error": "",
         "mediaError": null,
         "source": "assets/41789472686653a87826641d_preview.mp4"
@@ -2810,6 +3218,132 @@
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 4.9816,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/fbbc5e7b72c809f56e64d3ba_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/d1e4b2a5cd2ca96ae0b5dfe3_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 4.981,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/afa51bb25d317a91163c8ea1_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/2d70f8a0fedf9ab44dfaced0_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 4.9786,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c2769e9944a465cb03af2123_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/73d045f643803aa4e9ba1226_preview.mp4"
+      },
+      {
         "label": "ReDirector route_b Stage3 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
@@ -2818,7 +3352,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9938,
+        "currentTime": 4.9776,
         "error": "",
         "mediaError": null,
         "source": "assets/a6b5afc76ade674c00849edd_preview.mp4"
@@ -2846,7 +3380,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9936,
+        "currentTime": 4.9775,
         "error": "",
         "mediaError": null,
         "source": "assets/35bc8c7a56ca237f2220401e_preview.mp4"
@@ -2874,7 +3408,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9936,
+        "currentTime": 4.9774,
         "error": "",
         "mediaError": null,
         "source": "assets/7efe78087aaa69d7f78a0996_preview.mp4"
@@ -2902,7 +3436,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7292,
+        "currentTime": 1.7102,
         "error": "",
         "mediaError": null,
         "source": "assets/8fac6c840daab350a47cfc85_preview.mp4"
@@ -2916,7 +3450,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7289,
+        "currentTime": 1.7101,
         "error": "",
         "mediaError": null,
         "source": "assets/d07e893b4a4392f4b8a4c663_preview.mp4"
@@ -2930,7 +3464,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7268,
+        "currentTime": 1.7102,
         "error": "",
         "mediaError": null,
         "source": "assets/18baf97a8afc5507437dbed7_preview.mp4"
@@ -2944,7 +3478,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9923,
+        "currentTime": 4.9773,
         "error": "",
         "mediaError": null,
         "source": "assets/f9fc795a481043ff004a98df_preview.mp4"
@@ -2958,7 +3492,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9923,
+        "currentTime": 4.9773,
         "error": "",
         "mediaError": null,
         "source": "assets/0b661ff19da5299655ce5099_preview.mp4"
@@ -2972,7 +3506,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9923,
+        "currentTime": 4.9771,
         "error": "",
         "mediaError": null,
         "source": "assets/5f049bc3488566ec42db550e_preview.mp4"
@@ -2986,7 +3520,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9919,
+        "currentTime": 4.9771,
         "error": "",
         "mediaError": null,
         "source": "assets/c9fcff49d8d8799ca98a0d08_preview.mp4"
@@ -3028,7 +3562,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9917,
+        "currentTime": 4.9771,
         "error": "",
         "mediaError": null,
         "source": "assets/5b8f13792f3a04eb8a9837fa_preview.mp4"
@@ -3070,7 +3604,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.991,
+        "currentTime": 4.9772,
         "error": "",
         "mediaError": null,
         "source": "assets/81d68870a2fa018d6b36f13c_preview.mp4"
@@ -3112,7 +3646,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9911,
+        "currentTime": 4.9764,
         "error": "",
         "mediaError": null,
         "source": "assets/bda39f30db1249b17006a44d_preview.mp4"
@@ -3126,7 +3660,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9911,
+        "currentTime": 4.9762,
         "error": "",
         "mediaError": null,
         "source": "assets/ef2be73072ed253327bc106a_preview.mp4"
@@ -3140,7 +3674,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9907,
+        "currentTime": 4.9771,
         "error": "",
         "mediaError": null,
         "source": "assets/2d89bdaf5fceece93c7dbf84_preview.mp4"
@@ -3154,7 +3688,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9899,
+        "currentTime": 4.9767,
         "error": "",
         "mediaError": null,
         "source": "assets/88ccbeb6d1b6426db3b9d211_preview.mp4"
@@ -3168,7 +3702,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9896,
+        "currentTime": 4.9765,
         "error": "",
         "mediaError": null,
         "source": "assets/9c4143b00f4850e941d9d375_preview.mp4"
@@ -3182,7 +3716,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9892,
+        "currentTime": 4.9764,
         "error": "",
         "mediaError": null,
         "source": "assets/f0424ca950cfee6fc70da48a_preview.mp4"
@@ -3196,7 +3730,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9887,
+        "currentTime": 4.9761,
         "error": "",
         "mediaError": null,
         "source": "assets/2f2c6cf114e396b7b395ed69_preview.mp4"
@@ -3210,7 +3744,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9885,
+        "currentTime": 4.9764,
         "error": "",
         "mediaError": null,
         "source": "assets/6b4ec6f9ed91125aa12c57b7_preview.mp4"
@@ -3224,10 +3758,52 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9883,
+        "currentTime": 4.9764,
         "error": "",
         "mediaError": null,
         "source": "assets/c3aafe97274cad6f63361855_preview.mp4"
+      },
+      {
+        "label": "route_a 原生时序拼接 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 4.9762,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/1b4e2c6b3bd9d31a33df1082_preview.mp4"
+      },
+      {
+        "label": "route_a 原生时序拼接 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 4.976,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/6f0d0919666b2a93f9e2ad22_preview.mp4"
+      },
+      {
+        "label": "route_a 原生时序拼接 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 4.9759,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/2cc2b6c5a3c060bc09a00394_preview.mp4"
       },
       {
         "label": "route_b 原生时序拼接 simple01_woman_talking_plants",
@@ -3238,7 +3814,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9878,
+        "currentTime": 4.9741,
         "error": "",
         "mediaError": null,
         "source": "assets/7efdcc55016f95e6fb0ebdc1_preview.mp4"
@@ -3252,7 +3828,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9878,
+        "currentTime": 4.974,
         "error": "",
         "mediaError": null,
         "source": "assets/4a6f3c7c1b5274f84c0f6aca_preview.mp4"
@@ -3266,7 +3842,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9878,
+        "currentTime": 4.9741,
         "error": "",
         "mediaError": null,
         "source": "assets/c59f539a7f5de1aece815aaf_preview.mp4"
@@ -3280,7 +3856,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9878,
+        "currentTime": 4.974,
         "error": "",
         "mediaError": null,
         "source": "assets/81c94b0c31329cb14afbad7b_preview.mp4"
@@ -3294,7 +3870,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0829,
+        "currentTime": 4.974,
         "error": "",
         "mediaError": null,
         "source": "assets/5eee8c7cf5bef9328cb55e3b_preview.mp4"
@@ -3308,7 +3884,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0829,
+        "currentTime": 4.9739,
         "error": "",
         "mediaError": null,
         "source": "assets/9beffca4b94e46d32172c432_preview.mp4"
@@ -3322,7 +3898,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0829,
+        "currentTime": 4.973,
         "error": "",
         "mediaError": null,
         "source": "assets/fa7193dec2e1ca03f8002212_preview.mp4"
@@ -3336,7 +3912,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0825,
+        "currentTime": 4.9724,
         "error": "",
         "mediaError": null,
         "source": "assets/0500268e7c4b7ea9d76082c3_preview.mp4"
@@ -3350,18 +3926,18 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0823,
+        "currentTime": 4.9721,
         "error": "",
         "mediaError": null,
         "source": "assets/861c7366292de6030e536956_preview.mp4"
       }
     ]
   },
-  "visible_video_count": 45,
-  "simultaneous_playing_count": 45,
-  "decoding_advanced_count": 45,
+  "visible_video_count": 51,
+  "simultaneous_playing_count": 51,
+  "decoding_advanced_count": 51,
   "collapsed_state": {
-    "at": "2026-10-20T08:51:33.511Z",
+    "at": "2026-10-20T10:41:50.494Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -3376,7 +3952,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.2708,
+        "currentTime": 2.7821,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -3390,7 +3966,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.2703,
+        "currentTime": 2.782,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -3404,7 +3980,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.27,
+        "currentTime": 2.782,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
@@ -3786,6 +4362,132 @@
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/fbbc5e7b72c809f56e64d3ba_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/d1e4b2a5cd2ca96ae0b5dfe3_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/afa51bb25d317a91163c8ea1_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/2d70f8a0fedf9ab44dfaced0_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c2769e9944a465cb03af2123_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/73d045f643803aa4e9ba1226_preview.mp4"
       },
       {
         "label": "ReDirector route_b Stage3 simple01_woman_talking_plants",
@@ -4206,6 +4908,48 @@
         "error": "",
         "mediaError": null,
         "source": "assets/c3aafe97274cad6f63361855_preview.mp4"
+      },
+      {
+        "label": "route_a 原生时序拼接 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/1b4e2c6b3bd9d31a33df1082_preview.mp4"
+      },
+      {
+        "label": "route_a 原生时序拼接 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/6f0d0919666b2a93f9e2ad22_preview.mp4"
+      },
+      {
+        "label": "route_a 原生时序拼接 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/2cc2b6c5a3c060bc09a00394_preview.mp4"
       },
       {
         "label": "route_b 原生时序拼接 simple01_woman_talking_plants",
@@ -4338,5 +5082,5 @@
   "hidden_videos_released": true,
   "csv_score_export_roundtrip": true,
   "status": "passed",
-  "finished_unix": 1792486293.6540678
+  "finished_unix": 1792492910.7015047
 }
