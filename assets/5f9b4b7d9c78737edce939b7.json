@@ -1,5 +1,5 @@
 {
-  "checked_unix": 1792483876.9909587,
+  "checked_unix": 1792485859.526816,
   "items": [
     {
       "model": "depthdirector",
@@ -225,6 +225,237 @@
             "from": 7,
             "to": 8,
             "mae": 1.0560228824615479
+          }
+        ],
+        "metric_is_quality_pass": false
+      },
+      "visual_inspection": "pending",
+      "full_video_watched": false
+    },
+    {
+      "model": "camclonemaster",
+      "case_id": "simple01_woman_talking_plants",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple01_woman_talking_plants/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "native_sha256": "b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f",
+      "actual_stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "actual_stage2_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/native_last.png",
+      "actual_effective_condition_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple01_woman_talking_plants/native_v3_right_w2c_corrected/actual_model_first_frame.png",
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/first_condition_f0_to_f8.jpg",
+      "native_first_nine_pngs": [
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/00.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/01.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/02.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/03.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/04.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/05.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/06.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/07.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f/08.png"
+      ],
+      "metrics": {
+        "actual_effective_condition_wh": [
+          832,
+          480
+        ],
+        "native_wh": [
+          832,
+          480
+        ],
+        "input_to_f0_mae_0_255": 3.6319737434387207,
+        "native_frame_deltas_mae_0_255": [
+          {
+            "from": 0,
+            "to": 1,
+            "mae": 4.863705158233643
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "mae": 3.733266592025757
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "mae": 3.569053888320923
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "mae": 3.4747695922851562
+          },
+          {
+            "from": 4,
+            "to": 5,
+            "mae": 3.1680281162261963
+          },
+          {
+            "from": 5,
+            "to": 6,
+            "mae": 2.5241494178771973
+          },
+          {
+            "from": 6,
+            "to": 7,
+            "mae": 2.22705340385437
+          },
+          {
+            "from": 7,
+            "to": 8,
+            "mae": 1.8774205446243286
+          }
+        ],
+        "metric_is_quality_pass": false
+      },
+      "visual_inspection": "pending",
+      "full_video_watched": false
+    },
+    {
+      "model": "camclonemaster",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "native_sha256": "ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78",
+      "actual_stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "actual_stage2_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/native_last.png",
+      "actual_effective_condition_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/actual_model_first_frame.png",
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/first_condition_f0_to_f8.jpg",
+      "native_first_nine_pngs": [
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/00.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/01.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/02.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/03.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/04.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/05.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/06.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/07.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78/08.png"
+      ],
+      "metrics": {
+        "actual_effective_condition_wh": [
+          832,
+          480
+        ],
+        "native_wh": [
+          832,
+          480
+        ],
+        "input_to_f0_mae_0_255": 6.211967468261719,
+        "native_frame_deltas_mae_0_255": [
+          {
+            "from": 0,
+            "to": 1,
+            "mae": 1.7930471897125244
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "mae": 1.3199936151504517
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "mae": 1.064889669418335
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "mae": 1.344214916229248
+          },
+          {
+            "from": 4,
+            "to": 5,
+            "mae": 1.3917826414108276
+          },
+          {
+            "from": 5,
+            "to": 6,
+            "mae": 1.2107806205749512
+          },
+          {
+            "from": 6,
+            "to": 7,
+            "mae": 0.9425497651100159
+          },
+          {
+            "from": 7,
+            "to": 8,
+            "mae": 0.9992312788963318
+          }
+        ],
+        "metric_is_quality_pass": false
+      },
+      "visual_inspection": "pending",
+      "full_video_watched": false
+    },
+    {
+      "model": "camclonemaster",
+      "case_id": "simple03_woman_slow_expression",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple03_woman_slow_expression/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "native_sha256": "2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d",
+      "actual_stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "actual_stage2_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/native_last.png",
+      "actual_effective_condition_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple03_woman_slow_expression/native_v3_right_w2c_corrected/actual_model_first_frame.png",
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/first_condition_f0_to_f8.jpg",
+      "native_first_nine_pngs": [
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/00.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/01.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/02.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/03.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/04.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/05.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/06.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/07.png",
+        "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/prefix_by_native_sha/2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d/08.png"
+      ],
+      "metrics": {
+        "actual_effective_condition_wh": [
+          832,
+          480
+        ],
+        "native_wh": [
+          832,
+          480
+        ],
+        "input_to_f0_mae_0_255": 6.16254997253418,
+        "native_frame_deltas_mae_0_255": [
+          {
+            "from": 0,
+            "to": 1,
+            "mae": 1.4090828895568848
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "mae": 1.8427717685699463
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "mae": 1.4437350034713745
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "mae": 1.2032743692398071
+          },
+          {
+            "from": 4,
+            "to": 5,
+            "mae": 1.4449243545532227
+          },
+          {
+            "from": 5,
+            "to": 6,
+            "mae": 1.712621808052063
+          },
+          {
+            "from": 6,
+            "to": 7,
+            "mae": 1.6245884895324707
+          },
+          {
+            "from": 7,
+            "to": 8,
+            "mae": 1.3736886978149414
           }
         ],
         "metric_is_quality_pass": false

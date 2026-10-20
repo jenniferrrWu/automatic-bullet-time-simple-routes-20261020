@@ -1,5 +1,5 @@
 {
-  "status": "conditions_passed_to_native_pipeline",
+  "status": "native_pipeline_returned",
   "model": "CamCloneMaster-Step9500",
   "actual_pipeline_module": "/public/wufeier/bullet_time_pipeline/third_party/three_stage_v4_20260928/camclonemaster/diffsynth/pipelines/wan_video_i2v.py",
   "native_v2v_mode": "v2v",
@@ -43,5 +43,6 @@
   "latent_pinning": false,
   "postdecode_frame_replacement": false,
   "first_and_last_frame_native_interface": false,
-  "camera_reference_semantics": "repeated endpoint is zero-relative-motion proxy, not calibrated absolute pose"
+  "camera_reference_semantics": "repeated endpoint is zero-relative-motion proxy, not calibrated absolute pose",
+  "returned_frames": 81
 }

@@ -3,7 +3,7 @@
   "stage": 3,
   "route": "route_a",
   "model": "CamCloneMaster",
-  "status": "running",
+  "status": "generated_pending_visual_review",
   "sampling": "official native first-frame image condition; no latent pin or postdecode replacement",
   "source_post_action_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
   "source_video_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
@@ -68,8 +68,34 @@
   "model_weights_changed": false,
   "sampling_intervention": false,
   "postdecode_frame_replacement": false,
-  "runtime_success": null,
+  "runtime_success": true,
   "single_stage_quality": "pending_manual_review",
   "seam_quality": "pending_manual_review",
-  "strict_task_pass": null
+  "strict_task_pass": null,
+  "returncode": 0,
+  "elapsed_s": 2234.84,
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+  "native_video_sha256": "ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78",
+  "native_output_probe": {
+    "width": 832,
+    "height": 480,
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "2.700000",
+    "nb_frames": "81",
+    "nb_read_frames": "81"
+  },
+  "native_first_frame_comparison": {
+    "actual_model_input": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/actual_model_first_frame.png",
+    "original_stage2_endpoint": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/native_last.png",
+    "native_output_f0": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/native_first_frame.png",
+    "mae_rgb_0_255": 6.211967481303419,
+    "psnr_db": 31.63894978636876,
+    "exact_decoded_rgb_equal": false,
+    "pixel_difference_is_measured_not_a_substitute_for_manual_pose_identity_view_scene_review": true
+  },
+  "seam_first_frame_contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/stage2_to_stage3_native_first_comparison.jpg",
+  "hard_first_frame_constraint_status": "native soft conditioning; strict effectiveness pending manual acceptance",
+  "strict_first_frame_pixel_equal": false,
+  "first_frame_constraint_effectiveness": "pending_manual_review"
 }

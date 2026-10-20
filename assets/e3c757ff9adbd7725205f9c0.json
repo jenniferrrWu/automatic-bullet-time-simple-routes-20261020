@@ -1,8 +1,8 @@
 {
-  "checked_unix": 1792484169.7596526,
-  "status": "incomplete_or_failed_checks",
+  "checked_unix": 1792485929.0893636,
+  "status": "passed_execution_integrity",
   "planned_native_jobs": 24,
-  "successful_native_jobs_checked": 21,
+  "successful_native_jobs_checked": 24,
   "native_jobs": [
     {
       "route": "route_a",
@@ -223,8 +223,25 @@
       "stage": 3,
       "case_id": "simple01_woman_talking_plants",
       "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/camclonemaster/stage3/simple01_woman_talking_plants.json",
-      "native_video": null,
-      "runtime_succeeded": false
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple01_woman_talking_plants/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "upstream_native_path_matches_current": true,
+      "endpoint_path_matches_current": true,
+      "endpoint_hash_matches_current": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "native_conditions_returned_81": true,
+      "native_i2v_condition_present": true,
+      "no_custom_sampling_pin": true,
+      "independent_camera_and_content_video_present": true,
+      "quality_pass_inferred": false
     },
     {
       "route": "route_a",
@@ -232,8 +249,25 @@
       "stage": 3,
       "case_id": "simple02_woman_presenting_chalkboard",
       "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard.json",
-      "native_video": null,
-      "runtime_succeeded": false
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "upstream_native_path_matches_current": true,
+      "endpoint_path_matches_current": true,
+      "endpoint_hash_matches_current": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "native_conditions_returned_81": true,
+      "native_i2v_condition_present": true,
+      "no_custom_sampling_pin": true,
+      "independent_camera_and_content_video_present": true,
+      "quality_pass_inferred": false
     },
     {
       "route": "route_a",
@@ -241,8 +275,25 @@
       "stage": 3,
       "case_id": "simple03_woman_slow_expression",
       "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/camclonemaster/stage3/simple03_woman_slow_expression.json",
-      "native_video": null,
-      "runtime_succeeded": false
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple03_woman_slow_expression/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "upstream_native_path_matches_current": true,
+      "endpoint_path_matches_current": true,
+      "endpoint_hash_matches_current": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "native_conditions_returned_81": true,
+      "native_i2v_condition_present": true,
+      "no_custom_sampling_pin": true,
+      "independent_camera_and_content_video_present": true,
+      "quality_pass_inferred": false
     },
     {
       "route": "route_b",
@@ -482,22 +533,9 @@
       "quality_pass_inferred": false
     }
   ],
-  "failed_checks": [
-    {
-      "job": "camclonemaster/simple01_woman_talking_plants",
-      "check": "runtime_succeeded"
-    },
-    {
-      "job": "camclonemaster/simple02_woman_presenting_chalkboard",
-      "check": "runtime_succeeded"
-    },
-    {
-      "job": "camclonemaster/simple03_woman_slow_expression",
-      "check": "runtime_succeeded"
-    }
-  ],
-  "stitched_combinations_checked": 15,
-  "display_videos_checked": 30,
+  "failed_checks": [],
+  "stitched_combinations_checked": 18,
+  "display_videos_checked": 36,
   "display_checks": [
     {
       "key": "B_h3_fl2va_to_redirector",
@@ -611,6 +649,30 @@
       "key": "A_depthdirector_to_depthdirector",
       "case_id": "simple01_woman_talking_plants",
       "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_camclonemaster",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_camclonemaster",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
       "variant": "stitched_source_action_timing_details",
       "decoded_frames": 422,
       "sum_native_source_frame_counts": 422,
@@ -740,6 +802,30 @@
       "native_source_hashes_match_now": true
     },
     {
+      "key": "A_depthdirector_to_camclonemaster",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_camclonemaster",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
       "key": "B_h3_fl2va_to_redirector",
       "case_id": "simple03_woman_slow_expression",
       "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
@@ -851,6 +937,30 @@
       "key": "A_depthdirector_to_depthdirector",
       "case_id": "simple03_woman_slow_expression",
       "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_camclonemaster",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_camclonemaster",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_camclonemaster/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
       "variant": "stitched_source_action_timing_details",
       "decoded_frames": 400,
       "sum_native_source_frame_counts": 400,

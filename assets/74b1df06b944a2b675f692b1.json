@@ -1,5 +1,5 @@
 {
-  "updated_unix": 1792484228.7021978,
+  "updated_unix": 1792485943.0800266,
   "items": [
     {
       "group": "route_a_depthdirector_stage2",
@@ -441,9 +441,72 @@
       "observation": "f0接近输入；前几帧有脸部重建变化，后段有闭眼和表情动作。背景大体保留，但细节漂移及动作准确度待验收。",
       "single_stage_quality": "pending_human_acceptance",
       "seam_quality": "pending_human_acceptance"
+    },
+    {
+      "group": "route_a_camclonemaster_stage3",
+      "case_id": "simple01_woman_talking_plants",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple01_woman_talking_plants/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "native_sha256": "b917e67a9473c916fd688b69de7856719f5932a829180e420253e3c69261eb3f",
+      "sampled_frame_indices": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/route_a_camclonemaster_stage3_654766a4f46a.jpg",
+      "review_status": "sampled_frames_inspected",
+      "full_video_watched": false,
+      "reviewer": "primary agent",
+      "review_method": "five actual decoded native frames plus nativef0..f8 and seam contacts; no full playback",
+      "observation": "f0接近真实S2末图，后续有说话、微笑及末段双手竖拇指动作，背景大体保留。但人物头朝向较快趋正面，须核对是否擅自转头而丢失新视角动作一致性；不能只凭首帧相似判接续通过。",
+      "single_stage_quality": "pending_human_acceptance",
+      "seam_quality": "pending_human_acceptance"
+    },
+    {
+      "group": "route_a_camclonemaster_stage3",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "native_sha256": "ead2ebd2fef9403d81f5a190a17e8b465d95c08d9c455bb2aa7083d2dc6a2a78",
+      "sampled_frame_indices": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/route_a_camclonemaster_stage3_2bc6afb7e8b5.jpg",
+      "review_status": "sampled_frames_inspected",
+      "full_video_watched": false,
+      "reviewer": "primary agent",
+      "review_method": "five actual decoded native frames in contact sheet; no full temporal playback",
+      "observation": "五张原生时序帧显示f0延续侧向人物/粉纸，后续恢复抬手和摆手动作，黑板背景整体保留。f0–f8可见手从纸板后出现及局部重建；动作时序、手形和新视角保持待人工对照。",
+      "single_stage_quality": "pending_human_acceptance",
+      "seam_quality": "pending_human_acceptance"
+    },
+    {
+      "group": "route_a_camclonemaster_stage3",
+      "case_id": "simple03_woman_slow_expression",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple03_woman_slow_expression/native_v3_right_w2c_corrected/official_output/camclone_output_video_000.mp4",
+      "native_sha256": "2ae4cb93382db5fc2dbaa84995e3ea296e9d78209061255142e7023656f2029d",
+      "sampled_frame_indices": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/visual_review/route_a_camclonemaster_stage3_2bc6afb7e8b5.jpg",
+      "review_status": "sampled_frames_inspected",
+      "full_video_watched": false,
+      "reviewer": "primary agent",
+      "review_method": "five actual decoded native frames in contact sheet; no full temporal playback",
+      "observation": "五张原生时序帧显示f0接近输入，后续眨眼、眼神/表情轻微变化，背景整体稳定。f0–f8人物与背景大体贴合，有细节重建；源动作幅度小，尚不能据抽帧判完整动作恢复或机位物理静止。",
+      "single_stage_quality": "pending_human_acceptance",
+      "seam_quality": "pending_human_acceptance"
     }
   ],
-  "native_videos_sampled_and_inspected": 21,
+  "native_videos_sampled_and_inspected": 24,
   "all_frames_or_temporal_playback_reviewed": false,
   "human_confirmed_passes": 0
 }

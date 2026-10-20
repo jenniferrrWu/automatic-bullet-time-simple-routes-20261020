@@ -1,5 +1,5 @@
 {
-  "status": "conditions_passed_to_native_pipeline",
+  "status": "native_pipeline_returned",
   "model": "CamCloneMaster-Step9500",
   "actual_pipeline_module": "/public/wufeier/bullet_time_pipeline/third_party/three_stage_v4_20260928/camclonemaster/diffsynth/pipelines/wan_video_i2v.py",
   "native_v2v_mode": "v2v",
@@ -9,8 +9,8 @@
     832,
     3
   ],
-  "actual_model_first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/actual_model_first_frame.png",
-  "actual_model_first_frame_sha256": "caa37431ee9177f7a9dcb1aade887e5055719177e23036a907f54db60bd81d79",
+  "actual_model_first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple01_woman_talking_plants/native_v3_right_w2c_corrected/actual_model_first_frame.png",
+  "actual_model_first_frame_sha256": "b73996974cf9e338467da9609fdbae3333d7105ddc32a0196959dd57f727c530",
   "first_image_is_native_i2v_mask_vae_and_clip_condition": true,
   "first_image_is_hard_pixel_constraint": false,
   "content_video_shape": [
@@ -20,7 +20,7 @@
     480,
     832
   ],
-  "content_video_tensor_sha256": "bf577aa0220a117221a8c9949b20c27b267b485deedc1857c7982f6812e3e6ef",
+  "content_video_tensor_sha256": "3658d47a6efe79f6dc17797886b6ecfab8dc6a8d99d89ede8d4148269e977ade",
   "camera_reference_video_shape": [
     1,
     3,
@@ -28,7 +28,7 @@
     480,
     832
   ],
-  "camera_reference_tensor_sha256": "db818d0c9454a6c069e9756933754d4a149afd8b1c8d9a3505ae154af27f7957",
+  "camera_reference_tensor_sha256": "e870a970c8fe01179dd9dbee135030bfac327287c5f3553f8f6ecec26ca621ea",
   "camera_reference_is_independent_input": true,
   "seed_actual": 0,
   "steps_actual": 50,
@@ -43,5 +43,6 @@
   "latent_pinning": false,
   "postdecode_frame_replacement": false,
   "first_and_last_frame_native_interface": false,
-  "camera_reference_semantics": "repeated endpoint is zero-relative-motion proxy, not calibrated absolute pose"
+  "camera_reference_semantics": "repeated endpoint is zero-relative-motion proxy, not calibrated absolute pose",
+  "returned_frames": 81
 }
