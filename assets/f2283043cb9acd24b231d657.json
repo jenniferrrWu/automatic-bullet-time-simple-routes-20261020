@@ -1,0 +1,47 @@
+{
+  "status": "conditions_passed_to_native_pipeline",
+  "model": "CamCloneMaster-Step9500",
+  "actual_pipeline_module": "/public/wufeier/bullet_time_pipeline/third_party/three_stage_v4_20260928/camclonemaster/diffsynth/pipelines/wan_video_i2v.py",
+  "native_v2v_mode": "v2v",
+  "first_image_shape": [
+    1,
+    480,
+    832,
+    3
+  ],
+  "actual_model_first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard/native_v3_right_w2c_corrected/actual_model_first_frame.png",
+  "actual_model_first_frame_sha256": "caa37431ee9177f7a9dcb1aade887e5055719177e23036a907f54db60bd81d79",
+  "first_image_is_native_i2v_mask_vae_and_clip_condition": true,
+  "first_image_is_hard_pixel_constraint": false,
+  "content_video_shape": [
+    1,
+    3,
+    81,
+    480,
+    832
+  ],
+  "content_video_tensor_sha256": "bf577aa0220a117221a8c9949b20c27b267b485deedc1857c7982f6812e3e6ef",
+  "camera_reference_video_shape": [
+    1,
+    3,
+    81,
+    480,
+    832
+  ],
+  "camera_reference_tensor_sha256": "db818d0c9454a6c069e9756933754d4a149afd8b1c8d9a3505ae154af27f7957",
+  "camera_reference_is_independent_input": true,
+  "seed_actual": 0,
+  "steps_actual": 50,
+  "actual_negative_prompt": "色调艳丽, 过曝, 细节模糊不清, 字幕, 风格, 作品, 画作, 画面, 整体发灰, 最差质量, 低质量, JPEG压缩残留, 丑陋的, 残缺的, 多余的手指, 画得不好的手部, 画得不好的脸部, 畸形的, 毁容的, 形态畸形的肢体, 手指融合, 杂乱的背景, 三条腿, 背景人很多, 倒着走, moving camera, changing background, camera rotation",
+  "official_negative_prompt_before_adapter": "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走",
+  "negative_prompt_removed_global_static_terms": [
+    "静态",
+    "静止",
+    "静止不动的画面"
+  ],
+  "sampling_intervention": false,
+  "latent_pinning": false,
+  "postdecode_frame_replacement": false,
+  "first_and_last_frame_native_interface": false,
+  "camera_reference_semantics": "repeated endpoint is zero-relative-motion proxy, not calibrated absolute pose"
+}

@@ -1,0 +1,1830 @@
+{
+  "checked_unix": 1792484169.7596526,
+  "status": "incomplete_or_failed_checks",
+  "planned_native_jobs": 24,
+  "successful_native_jobs_checked": 21,
+  "native_jobs": [
+    {
+      "route": "route_a",
+      "model_key": "depthdirector",
+      "stage": 2,
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "36ea8f30603c141b98b4275bd6ba8ff089a2ffdac7ea16fd98a2156efd6f7eb4",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "initial_image_is_source_tstar": true,
+      "native_first_latent_constraint_executed": true,
+      "audit_is_observation_of_native_constraint_not_custom_pin": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "depthdirector",
+      "stage": 2,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "d954719b0247586f1d9045425a970043961561c09607998f6a5c061ea31a4baf",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "initial_image_is_source_tstar": true,
+      "native_first_latent_constraint_executed": true,
+      "audit_is_observation_of_native_constraint_not_custom_pin": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "depthdirector",
+      "stage": 2,
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "a4ca030005304f934695026512ab8f2b1cd12f3b2f2f15d8e965ec43dcd4a886",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "initial_image_is_source_tstar": true,
+      "native_first_latent_constraint_executed": true,
+      "audit_is_observation_of_native_constraint_not_custom_pin": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "depthdirector",
+      "stage": 3,
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "1e397fe6d2f5a5d72489d14dee3e94e521f1a8dcc861fd9668e3246766df6ea9",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "upstream_native_path_matches_current": true,
+      "endpoint_path_matches_current": true,
+      "endpoint_hash_matches_current": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "native_first_latent_constraint_executed": true,
+      "audit_is_observation_of_native_constraint_not_custom_pin": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "depthdirector",
+      "stage": 3,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "4a8ae4c2d99e33bfff03d1815bc52577a4b54dc891ee9c7c31d9ab8f42157162",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "upstream_native_path_matches_current": true,
+      "endpoint_path_matches_current": true,
+      "endpoint_hash_matches_current": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "native_first_latent_constraint_executed": true,
+      "audit_is_observation_of_native_constraint_not_custom_pin": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "depthdirector",
+      "stage": 3,
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "e7f3525deb2c3b7f0b2d199a9f2d91e03c06b58d52de476e4cc85332dbae7029",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "upstream_native_path_matches_current": true,
+      "endpoint_path_matches_current": true,
+      "endpoint_hash_matches_current": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "native_first_latent_constraint_executed": true,
+      "audit_is_observation_of_native_constraint_not_custom_pin": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "trimotion",
+      "stage": 3,
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/trimotion/stage3/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple01_woman_talking_plants/native_v4_right_w2c_corrected/official_output/native_pose.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "4a5af0b491521d63c92247c345489536e9cb33b8094032f524bd3803fbd7d433",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "upstream_native_path_matches_current": true,
+      "endpoint_path_matches_current": true,
+      "endpoint_hash_matches_current": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "native_conditions_returned_81": true,
+      "native_i2v_condition_present": true,
+      "no_custom_sampling_pin": true,
+      "full81_content_tensor_and_indices": true,
+      "native_encode_image_executed": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "trimotion",
+      "stage": 3,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/trimotion/stage3/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple02_woman_presenting_chalkboard/native_v4_right_w2c_corrected/official_output/native_pose.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "e1e1587dd0e6a57c752f876f1bfcfae3bcab394c68cbd39be7852fed4bef6fd3",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "upstream_native_path_matches_current": true,
+      "endpoint_path_matches_current": true,
+      "endpoint_hash_matches_current": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "native_conditions_returned_81": true,
+      "native_i2v_condition_present": true,
+      "no_custom_sampling_pin": true,
+      "full81_content_tensor_and_indices": true,
+      "native_encode_image_executed": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "trimotion",
+      "stage": 3,
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/trimotion/stage3/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple03_woman_slow_expression/native_v4_right_w2c_corrected/official_output/native_pose.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "41789472686653a87826641d0f72471761bddf11c080eec700b1e940ba797365",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "camera_revision_is_final_right_w2c": true,
+      "upstream_native_path_matches_current": true,
+      "endpoint_path_matches_current": true,
+      "endpoint_hash_matches_current": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "native_conditions_returned_81": true,
+      "native_i2v_condition_present": true,
+      "no_custom_sampling_pin": true,
+      "full81_content_tensor_and_indices": true,
+      "native_encode_image_executed": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "camclonemaster",
+      "stage": 3,
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/camclonemaster/stage3/simple01_woman_talking_plants.json",
+      "native_video": null,
+      "runtime_succeeded": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "camclonemaster",
+      "stage": 3,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/camclonemaster/stage3/simple02_woman_presenting_chalkboard.json",
+      "native_video": null,
+      "runtime_succeeded": false
+    },
+    {
+      "route": "route_a",
+      "model_key": "camclonemaster",
+      "stage": 3,
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/camclonemaster/stage3/simple03_woman_slow_expression.json",
+      "native_video": null,
+      "runtime_succeeded": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "redirector",
+      "stage": 3,
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/redirector/stage3/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple01_woman_talking_plants/attempt01/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "a6b5afc76ade674c00849edd997f8d3d946300730e4392b716a1eb07d1fb747f",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "first_image_not_claimed_consumed": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "redirector",
+      "stage": 3,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/redirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple02_woman_presenting_chalkboard/attempt01/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "35bc8c7a56ca237f2220401e481d28c5c62a533b6b185d972f47eaaf25bc8ae7",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "first_image_not_claimed_consumed": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "redirector",
+      "stage": 3,
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/redirector/stage3/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/redirector/stage3/simple03_woman_slow_expression/attempt01/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "7efe78087aaa69d7f78a09967a34caa9bef0c83be9b864d507da430a68848f25",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "source_motion_path_matches_full_source": true,
+      "source_motion_hash_matches_full_source": true,
+      "first_image_not_claimed_consumed": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "h3_fl2va",
+      "stage": 2,
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/h3_fl2va/stage2/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/route_b/h3_fl2va/stage2/simple01_woman_talking_plants/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "f9fc795a481043ff004a98df6e948215c868600895af537589af1b5d4fdcb9fb",
+      "native_decoded_frames": 124,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 124,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "initial_image_is_source_tstar": true,
+      "terminal_image_is_true_generated_stage3_first": true,
+      "future_stage3_path_and_sha_match": true,
+      "orbit_control_is_prompt_only": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "h3_fl2va",
+      "stage": 2,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/h3_fl2va/stage2/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/route_b/h3_fl2va/stage2/simple02_woman_presenting_chalkboard/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "0b661ff19da5299655ce5099a895a3d5b137e6c826b70d3022add48995faf3d7",
+      "native_decoded_frames": 124,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 124,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "initial_image_is_source_tstar": true,
+      "terminal_image_is_true_generated_stage3_first": true,
+      "future_stage3_path_and_sha_match": true,
+      "orbit_control_is_prompt_only": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "h3_fl2va",
+      "stage": 2,
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/h3_fl2va/stage2/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/route_b/h3_fl2va/stage2/simple03_woman_slow_expression/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "5f049bc3488566ec42db550e00336219dc0e2eb133def9115ef3b54d5265f6b6",
+      "native_decoded_frames": 124,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 124,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "initial_image_is_source_tstar": true,
+      "terminal_image_is_true_generated_stage3_first": true,
+      "future_stage3_path_and_sha_match": true,
+      "orbit_control_is_prompt_only": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "hunyuan_interpolation",
+      "stage": 2,
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/hunyuan_interpolation/stage2/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/hunyuan_interpolation/stage2/simple01_woman_talking_plants/attempt01/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "8fac6c840daab350a47cfc85e7bf220964fd61f4823d761ae83738a4342237e0",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "initial_image_is_source_tstar": true,
+      "terminal_image_is_true_generated_stage3_first": true,
+      "future_stage3_path_and_sha_match": true,
+      "orbit_control_is_prompt_only": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "hunyuan_interpolation",
+      "stage": 2,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/hunyuan_interpolation/stage2/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/hunyuan_interpolation/stage2/simple02_woman_presenting_chalkboard/attempt01/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "d07e893b4a4392f4b8a4c6635afe0097536346a73aba03f0113c9417588ce04c",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "initial_image_is_source_tstar": true,
+      "terminal_image_is_true_generated_stage3_first": true,
+      "future_stage3_path_and_sha_match": true,
+      "orbit_control_is_prompt_only": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "hunyuan_interpolation",
+      "stage": 2,
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/hunyuan_interpolation/stage2/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/hunyuan_interpolation/stage2/simple03_woman_slow_expression/attempt01/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "18baf97a8afc5507437dbed72448bb56539c7ee6b4397ffbd32dfcf9ef02c4c9",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "initial_image_is_source_tstar": true,
+      "terminal_image_is_true_generated_stage3_first": true,
+      "future_stage3_path_and_sha_match": true,
+      "orbit_control_is_prompt_only": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "vace_firstlast",
+      "stage": 2,
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/vace_firstlast/stage2/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/vace_firstlast/stage2/simple01_woman_talking_plants/native_v1/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "c9fcff49d8d8799ca98a0d088ef15cca5114491d2aefdbaa8efc80bb719b7526",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "initial_image_is_source_tstar": true,
+      "terminal_image_is_true_generated_stage3_first": true,
+      "future_stage3_path_and_sha_match": true,
+      "orbit_control_is_prompt_only": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "vace_firstlast",
+      "stage": 2,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/vace_firstlast/stage2/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/vace_firstlast/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "5b8f13792f3a04eb8a9837fa25ca4039c246b59e42df04d7279b179b3e481de0",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "initial_image_is_source_tstar": true,
+      "terminal_image_is_true_generated_stage3_first": true,
+      "future_stage3_path_and_sha_match": true,
+      "orbit_control_is_prompt_only": true,
+      "quality_pass_inferred": false
+    },
+    {
+      "route": "route_b",
+      "model_key": "vace_firstlast",
+      "stage": 2,
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_b/vace_firstlast/stage2/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_b/vace_firstlast/stage2/simple03_woman_slow_expression/native_v1/native.mp4",
+      "runtime_succeeded": true,
+      "native_sha256": "81d68870a2fa018d6b36f13ca5cd0950fc43477b403e3c8914820011ccba1332",
+      "native_decoded_frames": 81,
+      "native_sha_matches_record": true,
+      "expected_decoded_frames": 81,
+      "native_frame_count_matches": true,
+      "no_postdecode_frame_replacement_declared": true,
+      "initial_image_is_source_tstar": true,
+      "terminal_image_is_true_generated_stage3_first": true,
+      "future_stage3_path_and_sha_match": true,
+      "orbit_control_is_prompt_only": true,
+      "quality_pass_inferred": false
+    }
+  ],
+  "failed_checks": [
+    {
+      "job": "camclonemaster/simple01_woman_talking_plants",
+      "check": "runtime_succeeded"
+    },
+    {
+      "job": "camclonemaster/simple02_woman_presenting_chalkboard",
+      "check": "runtime_succeeded"
+    },
+    {
+      "job": "camclonemaster/simple03_woman_slow_expression",
+      "check": "runtime_succeeded"
+    }
+  ],
+  "stitched_combinations_checked": 15,
+  "display_videos_checked": 30,
+  "display_checks": [
+    {
+      "key": "B_h3_fl2va_to_redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 465,
+      "sum_native_source_frame_counts": 465,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_h3_fl2va_to_redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 465,
+      "sum_native_source_frame_counts": 465,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_hunyuan_interpolation_to_redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_hunyuan_interpolation_to_redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_vace_firstlast_to_redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_vace_firstlast_to_redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_trimotion",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_trimotion",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple01_woman_talking_plants/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 422,
+      "sum_native_source_frame_counts": 422,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_h3_fl2va_to_redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 356,
+      "sum_native_source_frame_counts": 356,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_h3_fl2va_to_redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 356,
+      "sum_native_source_frame_counts": 356,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_hunyuan_interpolation_to_redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_hunyuan_interpolation_to_redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_vace_firstlast_to_redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_vace_firstlast_to_redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_trimotion",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_trimotion",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_depthdirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple02_woman_presenting_chalkboard/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_depthdirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 313,
+      "sum_native_source_frame_counts": 313,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_h3_fl2va_to_redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 443,
+      "sum_native_source_frame_counts": 443,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_h3_fl2va_to_redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_h3_fl2va_to_redirector/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 443,
+      "sum_native_source_frame_counts": 443,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_hunyuan_interpolation_to_redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_hunyuan_interpolation_to_redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_hunyuan_interpolation_to_redirector/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_vace_firstlast_to_redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "B_vace_firstlast_to_redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/B_vace_firstlast_to_redirector/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_trimotion",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_trimotion",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_trimotion/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_depthdirector",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple03_woman_slow_expression/stitched_vfr_no_seam_edit.mp4",
+      "variant": "stitched_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    },
+    {
+      "key": "A_depthdirector_to_depthdirector",
+      "case_id": "simple03_woman_slow_expression",
+      "video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/seams/A_depthdirector_to_depthdirector/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "variant": "stitched_source_action_timing_details",
+      "decoded_frames": 400,
+      "sum_native_source_frame_counts": 400,
+      "all_source_frames_retained": true,
+      "upstream_native_binding_verified": true,
+      "no_boundary_frame_deletion_declared": true,
+      "native_source_hashes_match_now": true
+    }
+  ],
+  "historical_saved_calls_checked": 240,
+  "historical_saved_call_checks": [
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/bullettime_source_camera_anchor_v2/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/bullettime_source_camera_anchor_v2/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/bullettime_source_camera_anchor_v2/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/bullet/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/stp_experimental_anchor/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/stp_experimental_anchor/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/stp_experimental_anchor/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/recam_full50_endpoint_anchor_v2/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/recam_full50_endpoint_anchor_v2/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/recam_full50_endpoint_anchor_v2/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/recam/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/worldinworld_endpoint_anchor_v2/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/worldinworld_endpoint_anchor_v2/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/worldinworld_endpoint_anchor_v2/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/world/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/depthdirector/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/depthdirector/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/depthdirector/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/depthdirector/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/redirector_endpoint_anchor_v2/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/redirector_endpoint_anchor_v2/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/redirector_endpoint_anchor_v2/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/redirector/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/gen3c_joint_endpoint/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/gen3c_joint_endpoint/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/gen3c_joint_endpoint/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/gen3c/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/dimensionx_joint_endpoint/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/dimensionx_joint_endpoint/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/dimensionx_joint_endpoint/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/dimensionx/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trajectorycrafter_fixedview_anchor_v2/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trajectorycrafter_fixedview_anchor_v2/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trajectorycrafter_fixedview_anchor_v2/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trajectorycrafter/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/vista4d_experimental_anchor/stage3/case11_man_contemporary_dance_usp04.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/vista4d_experimental_anchor/stage3/case13_woman_rooftop_dance_usp04.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/vista4d_experimental_anchor/stage3/case04_person_water_jump_usp04.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/vista/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trimotion/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trimotion/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trimotion/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/trimotion/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/omnicamera_full50_anchor/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/omnicamera_full50_anchor/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/omnicamera_full50_anchor/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/omnicamera/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/wan/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/wan/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/wan/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/wan/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/hunyuan_scheduler_factory_anchor_v2_20261014/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/hunyuan_scheduler_factory_anchor_v2_20261014/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/hunyuan_scheduler_factory_anchor_v2_20261014/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/hunyuan/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/records/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/records/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/records/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/joy/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/camclonemaster/stage3/case04_person_water_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/camclonemaster/stage3/case11_man_contemporary_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/camclonemaster/stage3/case13_woman_rooftop_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case01_person_modern_dance_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case02_person_rock_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case03_person_snow_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case05_person_yacht_jump.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case06_dog_collie_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case07_dog_courtyard_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case08_dog_field_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case09_dog_sunny_run.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case10_cat_pounce.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case12_woman_home_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case14_man_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    },
+    {
+      "record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/camclonemaster/stage3/case15_woman_studio_dance.json",
+      "sha_matches_preexisting_audit": true
+    }
+  ],
+  "seam_binding_rejections": [],
+  "quality_passes_confirmed": 0,
+  "native_videos_modified": false,
+  "meaning": "Execution integrity and input binding only. This does not certify rigid freezing, action accuracy, calibrated camera angle or seamlessness."
+}

@@ -1,7 +1,7 @@
 {
   "representation": "JSON display of exact original NPY values; model consumed the original NPY retained on server",
   "source_sha256": "e37164c2421bbb03d265d9319743b11789bf38afc346af99e0b82305ea890340",
-  "source_file": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple03_woman_slow_expression/native_v2_dedicated_gpu/fixed_relative_camera_pose.npy",
+  "source_file": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/trimotion/stage3/simple03_woman_slow_expression/native_v4_right_w2c_corrected/fixed_relative_camera_pose.npy",
   "dtype": "float32",
   "shape": [
     21,
