@@ -11,14 +11,14 @@
     "no_training": true,
     "no_postdecode_frame_replacement": true,
     "old_results_retained": true,
-    "status": "audit_and_source_preparation",
-    "generated_outputs": 0,
+    "status": "active_task_specification_execution_counts_in_progress_json",
     "stage2_input_first_frame": "actual Stage1 final frame at t*; must be consumed as Stage2 initial-frame condition",
     "stage3_input_first_frame": "actual selected Stage2 native final decoded frame; must be consumed as Stage3 initial-frame condition, not merely an appearance reference",
     "stage3_motion_input": "entire corresponding source Stage3 segment including t* frame0 through defined source end; no silent81-frame truncation",
     "appearance_reference_alone_satisfies_first_frame_constraint": false,
     "first_frame_effectiveness": "independently compare original native generated f0 against actual effective first-frame image and inspect pose,identity,viewpoint,scene; input argument presence alone is insufficient",
-    "native_support_vs_experimental_adapters_separate": true
+    "native_support_vs_experimental_adapters_separate": true,
+    "execution_state_source": "progress.json and execution_matrix.csv"
   },
   "scope": "3 simple cases only",
   "models": [
@@ -29,7 +29,7 @@
       "priority": "retest_adapter_decode_bug",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -45,7 +45,7 @@
       "priority": "native_contract_unsupported",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -61,7 +61,7 @@
       "priority": "native_contract_unsupported",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -77,7 +77,7 @@
       "priority": "native_retest_without_custom_pin",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -93,7 +93,7 @@
       "priority": "native_primary_retest",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "three_simple_cases_generated_in_selected_route_pending_quality_acceptance",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -109,7 +109,7 @@
       "priority": "first_frame_argument_ignored",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "three_simple_cases_generated_in_selected_route_pending_quality_acceptance",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -125,7 +125,7 @@
       "priority": "native_preprocessed_retest",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 4,
@@ -141,7 +141,7 @@
       "priority": "native_motion_interface_unsupported",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -157,7 +157,7 @@
       "priority": "native_preprocessed_retest_length_limit",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -173,7 +173,7 @@
       "priority": "native_contract_unsupported",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -189,7 +189,7 @@
       "priority": "native_primary_retest",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "three_simple_cases_generated_in_selected_route_pending_quality_acceptance",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -205,7 +205,7 @@
       "priority": "public_joint_interface_unsupported",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -221,7 +221,7 @@
       "priority": "native_firstlast_prompt_only_retest",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "three_simple_cases_generated_in_selected_route_pending_quality_acceptance",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -237,7 +237,7 @@
       "priority": "native_firstlast_prompt_only_retest",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "three_simple_cases_generated_in_selected_route_pending_quality_acceptance",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 0,
@@ -253,7 +253,7 @@
       "priority": "native_firstframe_contract_unsupported",
       "scope": "仅3简单新case；旧输出保留",
       "not_due_to_old_visual_quality": true,
-      "new_generation_status": "not_executed_by_interface_auditor",
+      "new_generation_status": "not_selected_for_this_three_case_native_joint_or_bridge_round",
       "old_full_source_coverage": {
         "attempts": 15,
         "full_original_indices_provided": 4,
@@ -307,5 +307,15 @@
   "no_training": true,
   "postdecode_replacement": false,
   "old_verified_inputs_scope_warning": "旧240条verified_inputs只表示当时定义的有限动作窗口已供给，不等于本轮完整原片t*至原片末帧条件满足；旧审核与原生视频保留。此处225条不含CamClone15条，见独立CamClone审计。",
-  "full_source_coverage_file": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/audit/full_source_coverage_20261020.json"
+  "full_source_coverage_file": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/audit/full_source_coverage_20261020.json",
+  "execution_overlay_updated_at": "2026-10-20T16:51:20+08:00",
+  "execution_state_source": "../progress.json",
+  "current_round_summary": {
+    "native_succeeded": 24,
+    "planned_native": 24,
+    "stitched_pairs": 18,
+    "strict_h3_stage3_unsupported": 3,
+    "quality_status": "pending_human_acceptance"
+  },
+  "status_definition": "Per-model historical problems retained; completed selected reruns do not imply old-smoke bug was overwritten or repaired in historical outputs."
 }
