@@ -2,7 +2,7 @@
 (function(){
 'use strict';
 const bound=new WeakSet(),states=new WeakMap(),queue=[],blobCache=new Map();
-const DOWNLOADS=4,DOWNLOAD_TIMEOUT=30000,MAX_ATTEMPTS=3,CACHE_BYTES=64*1024*1024;
+const DOWNLOADS=4,DOWNLOAD_TIMEOUT=12000,MAX_ATTEMPTS=4,CACHE_BYTES=64*1024*1024;
 let activeDownloads=0,cacheBytes=0,playAllActive=false,updateTimer=0;
 let posterIndex={},posterPromise=null,posterAt=0,posterReady=false;
 function elements(root,selector){const a=[];if(root?.matches?.(selector))a.push(root);if(root?.querySelectorAll)a.push(...root.querySelectorAll(selector));return a;}
@@ -40,23 +40,25 @@ async function download(job){
  try{
   if(!valid(job)){finish(job,false);return;}
   const cached=blobCache.get(url);if(cached){finish(job,attachBlob(job,cached));return;}
-  for(let attempt=1;attempt<=MAX_ATTEMPTS;attempt++){
+  const attempt=(job.attempt||0)+1;job.attempt=attempt;
+  s.attempts=attempt;s.phase='downloading';status(video,attempt===1?'正在下载轻量预览…':'正在重试下载（'+attempt+'/'+MAX_ATTEMPTS+'）…');updateGroup();
+  const controller=new AbortController();job.controller=controller;let timedOut=false;
+  const timer=setTimeout(()=>{timedOut=true;controller.abort();},DOWNLOAD_TIMEOUT);
+  try{
+   let requestURL=url;
+   if(attempt>1){const fresh=new URL(url,document.baseURI||location.href);fresh.searchParams.set('_abt_retry',attempt+'-'+Date.now().toString(36));requestURL=fresh.href;}
+   const response=await fetch(requestURL,{cache:attempt>1?'reload':'force-cache',signal:controller.signal});if(!response.ok)throw new Error('HTTP '+response.status);
+   const blob=await response.blob();if(!blob.size)throw new Error('empty preview');
+   const expected=Number(video.dataset.bytes)||0;if(expected&&blob.size!==expected)throw new Error('incomplete preview '+blob.size+'/'+expected);
+   cacheBlob(url,blob);finish(job,attachBlob(job,blob));return;
+  }catch(e){
    if(!valid(job)){finish(job,false);return;}
-   s.attempts=attempt;s.phase='downloading';status(video,attempt===1?'正在下载轻量预览…':'正在重试下载（'+attempt+'/'+MAX_ATTEMPTS+'）…');updateGroup();
-   const controller=new AbortController();job.controller=controller;let timedOut=false;
-   const timer=setTimeout(()=>{timedOut=true;controller.abort();},DOWNLOAD_TIMEOUT);
-   try{
-    const response=await fetch(url,{cache:'force-cache',signal:controller.signal});if(!response.ok)throw new Error('HTTP '+response.status);
-    const blob=await response.blob();if(!blob.size)throw new Error('empty preview');
-    const expected=Number(video.dataset.bytes)||0;if(expected&&blob.size!==expected)throw new Error('incomplete preview '+blob.size+'/'+expected);
-    cacheBlob(url,blob);finish(job,attachBlob(job,blob));return;
-   }catch(e){
-    if(!valid(job)){finish(job,false);return;}
-    s.error=timedOut?'download timeout':String(e.message||e);
-    if(attempt===MAX_ATTEMPTS){s.phase='download-error';status(video,'预览下载失败；点“全部播放”可仅重试未就绪项。');finish(job,false);return;}
-    await new Promise(resolve=>setTimeout(resolve,attempt*700));
-   }finally{clearTimeout(timer);job.controller=null;}
-  }
+   s.error=timedOut?'download timeout':String(e.message||e);
+   if(attempt>=MAX_ATTEMPTS){s.phase='download-error';status(video,'预览下载失败；点“全部播放”可仅重试未就绪项。');finish(job,false);return;}
+   // A stalled request must release its slot before retrying behind other previews.
+   s.phase='retry-wait';status(video,'下载暂缓，先加载其余预览…');
+   setTimeout(()=>{if(!job.finished&&valid(job)){s.phase='queued';queue.push(job);updateGroup();pump();}else finish(job,false);},attempt*700);
+  }finally{clearTimeout(timer);job.controller=null;}
  }catch(e){if(valid(job)){s.phase='download-error';s.error=String(e.message||e);status(video,'预览下载失败；可点“全部播放”重试。');}finish(job,false);}
  finally{activeDownloads--;updateGroup();pump();}
 }
