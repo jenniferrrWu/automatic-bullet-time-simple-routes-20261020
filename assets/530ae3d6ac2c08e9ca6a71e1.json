@@ -1,0 +1,22 @@
+{
+  "status": "running",
+  "pin_count": 0,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "7bca55bcf011e8ac49685adaca867ba9e8240bf539d6a166b2d1aca2e3cae486",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "official_endpoint_preprocessing_wh": [
+    1280,
+    704
+  ],
+  "endpoint_pixel_sha256": "dc655167b8516dfb5f2e605bd4a9a63036c5e7ba62eac5de68c6c710057a15f5",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt03_w2c_fix/preprocess/effective_endpoint.png"
+}

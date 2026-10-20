@@ -1,0 +1,226 @@
+﻿model,case_id,scope,generation_status,full_original_post_covered,full_original_post_consumed_by_generation,coverage_status,source_total_frames_ffprobe,required_original_frame_range_inclusive,required_original_frames_count,distinct_original_frames_provided,missing_original_frames_count,omitted_tail_frames,input_indices_repeated,actual_condition_index_field
+BulletTime,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,source_post_frames
+BulletTime,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,source_post_frames
+BulletTime,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,source_post_frames
+BulletTime,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_original_frame_range
+BulletTime,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+BulletTime,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_original_frame_range
+BulletTime,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_original_frame_range
+BulletTime,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,77,3,3,False,source_original_frame_range
+BulletTime,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+BulletTime,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_original_frame_range
+BulletTime,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_original_frame_range
+BulletTime,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_original_frame_range
+BulletTime,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_original_frame_range
+BulletTime,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_original_frame_range
+BulletTime,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_original_frame_range
+SpaceTimePilot,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,source_post_frames
+SpaceTimePilot,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,source_post_frames
+SpaceTimePilot,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,source_post_frames
+SpaceTimePilot,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_original_frame_range
+SpaceTimePilot,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+SpaceTimePilot,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_original_frame_range
+SpaceTimePilot,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_original_frame_range
+SpaceTimePilot,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,77,3,3,False,source_original_frame_range
+SpaceTimePilot,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+SpaceTimePilot,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_original_frame_range
+SpaceTimePilot,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_original_frame_range
+SpaceTimePilot,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_original_frame_range
+SpaceTimePilot,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_original_frame_range
+SpaceTimePilot,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_original_frame_range
+SpaceTimePilot,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_original_frame_range
+ReCamMaster,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,source_post_frames
+ReCamMaster,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,source_post_frames
+ReCamMaster,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,source_post_frames
+ReCamMaster,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_original_frame_range
+ReCamMaster,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+ReCamMaster,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_original_frame_range
+ReCamMaster,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_original_frame_range
+ReCamMaster,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,77,3,3,False,source_original_frame_range
+ReCamMaster,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+ReCamMaster,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_original_frame_range
+ReCamMaster,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_original_frame_range
+ReCamMaster,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_original_frame_range
+ReCamMaster,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_original_frame_range
+ReCamMaster,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_original_frame_range
+ReCamMaster,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_original_frame_range
+WorldInWorld,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,70,16,16,False,source_post_frames
+WorldInWorld,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,84,772,772,False,source_post_frames
+WorldInWorld,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,158,403,403,False,source_post_frames
+WorldInWorld,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,37,466,446,False,actual_condition_source_original_frame_indices
+WorldInWorld,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,21,21,2,False,actual_condition_source_original_frame_indices
+WorldInWorld,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,37,79,46,False,actual_condition_source_original_frame_indices
+WorldInWorld,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,53,52,26,False,actual_condition_source_original_frame_indices
+WorldInWorld,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,53,27,0,False,actual_condition_source_original_frame_indices
+WorldInWorld,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,21,30,12,False,actual_condition_source_original_frame_indices
+WorldInWorld,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,37,48,15,False,actual_condition_source_original_frame_indices
+WorldInWorld,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,37,109,76,False,actual_condition_source_original_frame_indices
+WorldInWorld,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,37,99,79,False,actual_condition_source_original_frame_indices
+WorldInWorld,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,37,231,211,False,actual_condition_source_original_frame_indices
+WorldInWorld,case14_man_studio_dance,remaining12,unsupported_short_source,False,False,not_executed,266,"[258, 265]",8,0,8,8,False,not_executed
+WorldInWorld,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,37,500,480,False,actual_condition_source_original_frame_indices
+DepthDirector,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,source_post_frames
+DepthDirector,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,source_post_frames
+DepthDirector,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,source_post_frames
+DepthDirector,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_original_frame_range
+DepthDirector,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+DepthDirector,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_original_frame_range
+DepthDirector,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_original_frame_range
+DepthDirector,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,77,3,3,False,source_original_frame_range
+DepthDirector,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+DepthDirector,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_original_frame_range
+DepthDirector,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_original_frame_range
+DepthDirector,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_original_frame_range
+DepthDirector,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_original_frame_range
+DepthDirector,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_original_frame_range
+DepthDirector,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_original_frame_range
+ReDirector,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,source_post_frames_including_anchor
+ReDirector,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,source_post_frames_including_anchor
+ReDirector,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,source_post_frames_including_anchor
+ReDirector,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_original_frame_range
+ReDirector,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+ReDirector,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_original_frame_range
+ReDirector,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_original_frame_range
+ReDirector,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,77,3,3,False,source_original_frame_range
+ReDirector,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+ReDirector,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_original_frame_range
+ReDirector,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_original_frame_range
+ReDirector,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_original_frame_range
+ReDirector,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_original_frame_range
+ReDirector,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_original_frame_range
+ReDirector,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_original_frame_range
+GEN3C,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,True,source_post_frames + conditioning_source_local_frame_indices
+GEN3C,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,True,source_post_frames + conditioning_source_local_frame_indices
+GEN3C,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,True,source_post_frames + conditioning_source_local_frame_indices
+GEN3C,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case02_person_rock_jump,remaining12,generated_pending_visual_review,True,True,full_original_source_indices_provided,48,"[6, 47]",42,42,0,0,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case06_dog_collie_run,remaining12,generated_pending_visual_review,True,True,full_original_source_indices_provided,306,"[226, 305]",80,80,0,0,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,True,True,full_original_source_indices_provided,302,"[251, 301]",51,51,0,0,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case14_man_studio_dance,remaining12,generated_pending_visual_review,True,True,full_original_source_indices_provided,266,"[258, 265]",8,8,0,0,True,source_original_frame_range + conditioning_source_local_frame_indices
+GEN3C,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,True,source_original_frame_range + conditioning_source_local_frame_indices
+DimensionX,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,49,37,37,False,source_post_frames
+DimensionX,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,49,807,807,False,source_post_frames
+DimensionX,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,49,512,512,False,source_post_frames
+DimensionX,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,49,454,454,False,source_original_frame_range
+DimensionX,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+DimensionX,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,49,67,67,False,source_original_frame_range
+DimensionX,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,49,56,56,False,source_original_frame_range
+DimensionX,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,49,31,31,False,source_original_frame_range
+DimensionX,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+DimensionX,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,49,36,36,False,source_original_frame_range
+DimensionX,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,49,97,97,False,source_original_frame_range
+DimensionX,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,49,87,87,False,source_original_frame_range
+DimensionX,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,49,219,219,False,source_original_frame_range
+DimensionX,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_original_frame_range
+DimensionX,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,49,488,488,False,source_original_frame_range
+TrajectoryCrafter,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,49,37,37,False,source_post_frames
+TrajectoryCrafter,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,49,807,807,False,source_post_frames
+TrajectoryCrafter,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,49,512,512,False,source_post_frames
+TrajectoryCrafter,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,49,454,454,False,source_original_frame_range
+TrajectoryCrafter,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+TrajectoryCrafter,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,49,67,67,False,source_original_frame_range
+TrajectoryCrafter,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,49,56,56,False,source_original_frame_range
+TrajectoryCrafter,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,49,31,31,False,source_original_frame_range
+TrajectoryCrafter,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+TrajectoryCrafter,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,49,36,36,False,source_original_frame_range
+TrajectoryCrafter,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,49,97,97,False,source_original_frame_range
+TrajectoryCrafter,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,49,87,87,False,source_original_frame_range
+TrajectoryCrafter,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,49,219,219,False,source_original_frame_range
+TrajectoryCrafter,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_original_frame_range
+TrajectoryCrafter,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,49,488,488,False,source_original_frame_range
+Vista4D,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,49,37,37,False,upper_bound_from_recorded_contiguous_tstar_source_video_frame_count
+Vista4D,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,49,807,807,False,upper_bound_from_recorded_contiguous_tstar_source_video_frame_count
+Vista4D,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,49,512,512,False,upper_bound_from_recorded_contiguous_tstar_source_video_frame_count
+Vista4D,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,49,454,454,False,actual_condition_source_original_frame_indices
+Vista4D,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,actual_condition_source_original_frame_indices
+Vista4D,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,49,67,67,False,actual_condition_source_original_frame_indices
+Vista4D,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,49,56,56,False,actual_condition_source_original_frame_indices
+Vista4D,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,49,31,31,False,actual_condition_source_original_frame_indices
+Vista4D,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,actual_condition_source_original_frame_indices
+Vista4D,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,49,36,36,False,actual_condition_source_original_frame_indices
+Vista4D,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,49,97,97,False,actual_condition_source_original_frame_indices
+Vista4D,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,49,87,87,False,actual_condition_source_original_frame_indices
+Vista4D,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,49,219,219,False,actual_condition_source_original_frame_indices
+Vista4D,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,actual_condition_source_original_frame_indices
+Vista4D,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,49,488,488,False,actual_condition_source_original_frame_indices
+TriMotion,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,upper_bound_from_recorded_contiguous_tstar_source_video_frame_count
+TriMotion,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,upper_bound_from_recorded_contiguous_tstar_source_video_frame_count
+TriMotion,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,upper_bound_from_recorded_contiguous_tstar_source_video_frame_count
+TriMotion,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_original_frame_range
+TriMotion,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+TriMotion,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_original_frame_range
+TriMotion,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_original_frame_range
+TriMotion,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,77,3,3,False,source_original_frame_range
+TriMotion,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+TriMotion,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_original_frame_range
+TriMotion,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_original_frame_range
+TriMotion,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_original_frame_range
+TriMotion,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_original_frame_range
+TriMotion,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_original_frame_range
+TriMotion,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_original_frame_range
+OmniCamera,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,source_post_frames
+OmniCamera,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,source_post_frames
+OmniCamera,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,source_post_frames
+OmniCamera,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_frame_indices_zero_based
+OmniCamera,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_frame_indices_zero_based
+OmniCamera,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_frame_indices_zero_based
+OmniCamera,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_frame_indices_zero_based
+OmniCamera,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,77,3,3,False,source_frame_indices_zero_based
+OmniCamera,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_frame_indices_zero_based
+OmniCamera,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_frame_indices_zero_based
+OmniCamera,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_frame_indices_zero_based
+OmniCamera,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_frame_indices_zero_based
+OmniCamera,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_frame_indices_zero_based
+OmniCamera,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_frame_indices_zero_based
+OmniCamera,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_frame_indices_zero_based
+Wan VACE,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,source_post_frames_including_anchor
+Wan VACE,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,source_post_frames_including_anchor
+Wan VACE,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,source_post_frames_including_anchor
+Wan VACE,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_original_frame_range
+Wan VACE,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+Wan VACE,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_original_frame_range
+Wan VACE,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_original_frame_range
+Wan VACE,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,77,3,3,False,source_original_frame_range
+Wan VACE,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+Wan VACE,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_original_frame_range
+Wan VACE,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_original_frame_range
+Wan VACE,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_original_frame_range
+Wan VACE,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_original_frame_range
+Wan VACE,case14_man_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[258, 265]",8,5,3,3,False,source_original_frame_range
+Wan VACE,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_original_frame_range
+Hunyuan OmniWeaving,case11_man_contemporary_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,source_post_frames_including_anchor
+Hunyuan OmniWeaving,case13_woman_rooftop_dance,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,source_post_frames_including_anchor
+Hunyuan OmniWeaving,case04_person_water_jump,smoke,generated_pending_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,source_post_frames_including_anchor
+Hunyuan OmniWeaving,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_original_frame_range
+Hunyuan OmniWeaving,case02_person_rock_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,48,"[6, 47]",42,41,1,1,False,source_original_frame_range
+Hunyuan OmniWeaving,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_original_frame_range
+Hunyuan OmniWeaving,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_original_frame_range
+Hunyuan OmniWeaving,case06_dog_collie_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,306,"[226, 305]",80,77,3,3,False,source_original_frame_range
+Hunyuan OmniWeaving,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,302,"[251, 301]",51,49,2,2,False,source_original_frame_range
+Hunyuan OmniWeaving,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_original_frame_range
+Hunyuan OmniWeaving,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_original_frame_range
+Hunyuan OmniWeaving,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_original_frame_range
+Hunyuan OmniWeaving,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_original_frame_range
+Hunyuan OmniWeaving,case14_man_studio_dance,remaining12,unsupported_short_source,False,False,not_executed,266,"[258, 265]",8,0,8,8,False,not_executed
+Hunyuan OmniWeaving,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_original_frame_range
+JoyAI Video Edit,case11_man_contemporary_dance,smoke,needs_visual_review,False,False,incomplete_original_source_indices,322,"[236, 321]",86,81,5,5,False,upper_bound_from_recorded_contiguous_tstar_source_video_frame_count
+JoyAI Video Edit,case13_woman_rooftop_dance,smoke,needs_visual_review,False,False,incomplete_original_source_indices,1092,"[236, 1091]",856,81,775,775,False,upper_bound_from_recorded_contiguous_tstar_source_video_frame_count
+JoyAI Video Edit,case04_person_water_jump,smoke,needs_visual_review,False,False,incomplete_original_source_indices,1086,"[525, 1085]",561,81,480,480,False,upper_bound_from_recorded_contiguous_tstar_source_video_frame_count
+JoyAI Video Edit,case01_person_modern_dance_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,567,"[64, 566]",503,81,422,422,False,source_frame_indices_zero_based
+JoyAI Video Edit,case02_person_rock_jump,remaining12,generated_pending_visual_review,True,True,full_original_source_indices_provided,48,"[6, 47]",42,42,0,0,False,source_frame_indices_zero_based
+JoyAI Video Edit,case03_person_snow_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,167,"[51, 166]",116,81,35,35,False,source_frame_indices_zero_based
+JoyAI Video Edit,case05_person_yacht_jump,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,163,"[58, 162]",105,81,24,24,False,source_frame_indices_zero_based
+JoyAI Video Edit,case06_dog_collie_run,remaining12,generated_pending_visual_review,True,True,full_original_source_indices_provided,306,"[226, 305]",80,80,0,0,False,source_frame_indices_zero_based
+JoyAI Video Edit,case07_dog_courtyard_run,remaining12,generated_pending_visual_review,True,True,full_original_source_indices_provided,302,"[251, 301]",51,51,0,0,False,source_frame_indices_zero_based
+JoyAI Video Edit,case08_dog_field_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,480,"[395, 479]",85,81,4,4,False,source_frame_indices_zero_based
+JoyAI Video Edit,case09_dog_sunny_run,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,318,"[172, 317]",146,81,65,65,False,source_frame_indices_zero_based
+JoyAI Video Edit,case10_cat_pounce,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,266,"[130, 265]",136,81,55,55,False,source_frame_indices_zero_based
+JoyAI Video Edit,case12_woman_home_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,560,"[292, 559]",268,81,187,187,False,source_frame_indices_zero_based
+JoyAI Video Edit,case14_man_studio_dance,remaining12,generated_pending_visual_review,True,True,full_original_source_indices_provided,266,"[258, 265]",8,8,0,0,False,source_frame_indices_zero_based
+JoyAI Video Edit,case15_woman_studio_dance,remaining12,generated_pending_visual_review,False,False,incomplete_original_source_indices,662,"[125, 661]",537,81,456,456,False,source_frame_indices_zero_based

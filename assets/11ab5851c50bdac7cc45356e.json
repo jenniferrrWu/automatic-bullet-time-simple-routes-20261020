@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-20T11:44:11.277217",
+  "cases": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "raw": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/raw/8048249.mp4",
+      "raw_sha256": "454b3d7629212733451e33da62b13daa9272f3851fc9378ab4c2b5567b584902",
+      "t_star": 259,
+      "original_end": 339,
+      "post_frames": 81,
+      "all81_source_decoded_RGB_frame_hashes_match": true,
+      "no_repetition_or_tail_drop": true,
+      "source_fps": "25/1",
+      "contact_sheet_reviewed": true
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "raw": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/raw/3252127.mp4",
+      "raw_sha256": "fe4d027830e244fcbfd87306fd13d19aa75390f641e946eafe7ff6cca25b2201",
+      "t_star": 150,
+      "original_end": 230,
+      "post_frames": 81,
+      "all81_source_decoded_RGB_frame_hashes_match": true,
+      "no_repetition_or_tail_drop": true,
+      "source_fps": "25/1",
+      "contact_sheet_reviewed": true
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "raw": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/raw/8135870.mp4",
+      "raw_sha256": "1c3cf42c423689bc91c6971b94b3dc5007994610fa8e74ae27e0783fbaef66e1",
+      "t_star": 237,
+      "original_end": 317,
+      "post_frames": 81,
+      "all81_source_decoded_RGB_frame_hashes_match": true,
+      "no_repetition_or_tail_drop": true,
+      "source_fps": "25/1",
+      "contact_sheet_reviewed": true
+    }
+  ],
+  "training_performed": false
+}

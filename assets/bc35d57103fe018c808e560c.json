@@ -1,0 +1,311 @@
+{
+  "updated_at": "2026-10-20T11:42:21.041228+08:00",
+  "contract": {
+    "batch": "stage23_simple_routes_20261020",
+    "source_selection": "3 real people; fixed or nearly fixed original camera, simple background, large half-body subject, slow small-range motion",
+    "stage2_target_right_orbit_degrees": 30,
+    "source_small_motion_does_not_reduce_generated_orbit": true,
+    "stage3_a_image": "actual native final frame of selected Stage2 output, supplied as Stage3 initial-frame image plus appearance conditioning where supported",
+    "stage3_a_video": "real source motion segment including t* as frame0 and following frames in order",
+    "route_b": "generate new-view Stage3 from real source segment first; use its actual native frame0 as future Stage2 terminal constraint, source t* as Stage2 initial constraint",
+    "no_training": true,
+    "no_postdecode_frame_replacement": true,
+    "old_results_retained": true,
+    "status": "audit_and_source_preparation",
+    "generated_outputs": 0,
+    "stage2_input_first_frame": "actual Stage1 final frame at t*; must be consumed as Stage2 initial-frame condition",
+    "stage3_input_first_frame": "actual selected Stage2 native final decoded frame; must be consumed as Stage3 initial-frame condition, not merely an appearance reference",
+    "stage3_motion_input": "entire corresponding source Stage3 segment including t* frame0 through defined source end; no silent81-frame truncation",
+    "appearance_reference_alone_satisfies_first_frame_constraint": false,
+    "first_frame_effectiveness": "independently compare original native generated f0 against actual effective first-frame image and inspect pose,identity,viewpoint,scene; input argument presence alone is insufficient",
+    "native_support_vs_experimental_adapters_separate": true
+  },
+  "scope": "3 simple cases only",
+  "models": [
+    {
+      "model": "BulletTime",
+      "reason": "旧3条smoke pin在原生decode会移除的padding latent0；余12修为真正decode offset但仍是实验；不得将旧3条称首帧已约束",
+      "required_action": "保留原生V2V基准；任何联合pin试验单列，重跑3条padding错误smoke；不能据此宣称严格原生A",
+      "priority": "retest_adapter_decode_bug",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "SpaceTimePilot",
+      "reason": "15条有采样pin计数但不能改称原生I2V；旧源动作仅最多81帧；部分Stage2 negative含静止冲突词已在remaining12过滤",
+      "required_action": "重跑清晰冻结prompt的原生单阶段对照，严格A列接口不支持；实验单列",
+      "priority": "native_contract_unsupported",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "ReCamMaster",
+      "reason": "公开Wan版本与论文内部基模不同，不能将差片归因于论文方法；15条实验首latent锚点不等于官方图视频联合",
+      "required_action": "保留原生重拍用于B先生成S3诊断；严格A接口不支持",
+      "priority": "native_contract_unsupported",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "WorldInWorld",
+      "reason": "旧版experimental CPU K/V卸载曾失真；后有效版本有native图条件但旧首帧强约束是实验；截帧/输出只消费源前部须标",
+      "required_action": "原生edit_recam关闭实验pin重测；输入整段仍须核chunk消费至真实尾帧",
+      "priority": "native_retest_without_custom_pin",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 1
+      }
+    },
+    {
+      "model": "DepthDirector",
+      "reason": "data_file_keys缺input_image会静默不载图；旧stage3已修。旧固定81帧+官方15fps与源时长不一致，不能称完整后段恢复",
+      "required_action": "优先严格A：原生fused首图+整段动作，关闭任何自定义pin；保存有效输入RGB、逐步首latent/decode证据及原生输出f0比较",
+      "priority": "native_primary_retest",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "ReDirector",
+      "reason": "旧全部official_first_frame_parameter_consumed=false，历史表称已输入末帧易误导；不能列严格A首图接续通过",
+      "required_action": "B反向先重拍S3可用，原生f0作为将来S2尾图；标反向重拍诊断，不冒充严格A图+视频",
+      "priority": "first_frame_argument_ignored",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "GEN3C",
+      "reason": "旧GEN3C无prompt版实际disable_prompt_encoder；新版gen3c_prompt才有冻结文本；旧S3 81→121输入重复映射并非完整源后段",
+      "required_action": "优先保留原生image+temporal warp接口对照；关闭实验pin，逐帧范围/时间映射记录完整，不称原生纯video参数联合",
+      "priority": "native_preprocessed_retest",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 4,
+        "incomplete": 11,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "DimensionX",
+      "reason": "旧表source_motion_provided=true只代表VAE编码，不能称原生动作视频条件；旧case11/13初版人工t*曾错误后修",
+      "required_action": "S2单阶段可再测；严格S3列不能同时原生图+动作视频，不因旧片质量淘汰",
+      "priority": "native_motion_interface_unsupported",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "TrajectoryCrafter",
+      "reason": "当前旧wrapper最多49真实源动作帧，原生动作后段不完整；旧anchor_idx只选源内帧并不等于独立S2末图",
+      "required_action": "原生video/mask/reference关闭实验pin重测；完整源段超过原生窗口必须显式分块或列长度不支持，禁静默截尾",
+      "priority": "native_preprocessed_retest_length_limit",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "Vista4D",
+      "reason": "旧已输入末图是实验pin，不能算nativeI2V；smoke只有pin次数，remaining12另记录decode delta",
+      "required_action": "原生视频重拍可做B探索；严格A图+动作视频列接口不支持",
+      "priority": "native_contract_unsupported",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "TriMotion",
+      "reason": "不得把相机ref_video当人物动作；mode=i2v会清零source_latents，严格S3必须v2v；旧只81帧并额外自定义pin",
+      "required_action": "原生v2v+first_frame+恒定pose、不加pin，保留完整源后段；原生首帧效果实际比较",
+      "priority": "native_primary_retest",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "OmniCamera",
+      "reason": "旧contract verified_inputs并不意味着官方联合支持；必须标experimental_joint；恒定identity不等于视觉30°已标定",
+      "required_action": "独立列原生Image/S2与原生Video/B重拍；严格A当前public接口不支持，实验joint另列",
+      "priority": "public_joint_interface_unsupported",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "Wan VACE",
+      "reason": "旧S3只把末图放src_ref_images且另采样pin，不能称官方首帧约束；动作source与首frame masked条件需明确兼容设计",
+      "required_action": "B优先native firstlastframe桥接；首尾mask黑、中间白，无pin、无decoded回填；相机仅prompt单列",
+      "priority": "native_firstlast_prompt_only_retest",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    },
+    {
+      "model": "Hunyuan OmniWeaving",
+      "reason": "旧14成功1短源不支持；三smoke+12都另用了实验scheduler pin；不应将tiv2v参考图称原生首帧图",
+      "required_action": "B使用原生interpolation双端，无pin；A原生tiv2v仅参考图诊断明确不满足首帧严格条件",
+      "priority": "native_firstlast_prompt_only_retest",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 0,
+        "incomplete": 15,
+        "unknown": 0,
+        "not_executed": 1
+      }
+    },
+    {
+      "model": "JoyAI Video Edit",
+      "reason": "旧丢帧transport版本和修复版分开；81帧旧只片段，reference alone不满足首帧条件，旧pin为实验",
+      "required_action": "原生RV2V完整帧流只作prompt相机/软参考诊断；严格A不支持，勿以差片直接淘汰能力",
+      "priority": "native_firstframe_contract_unsupported",
+      "scope": "仅3简单新case；旧输出保留",
+      "not_due_to_old_visual_quality": true,
+      "new_generation_status": "not_executed_by_interface_auditor",
+      "old_full_source_coverage": {
+        "attempts": 15,
+        "full_original_indices_provided": 4,
+        "incomplete": 11,
+        "unknown": 0,
+        "not_executed": 0
+      }
+    }
+  ],
+  "api": [
+    {
+      "model": "Seedance 2.5",
+      "current_adapter": "scripts/run_seedance_smoke_20261016.py:165",
+      "actual_payload": "text + image_url(role:first_frame),480p；未发送动作视频",
+      "stage3_contract": "unsupported_in_current_i2v_call",
+      "generation_status": "旧首个真人任务遭接口审核拒绝；本轮未新调用",
+      "camera": "prompt_only",
+      "first_frame": "API first_frame角色，原生效果未出片验证",
+      "full_image_plus_video_capability": "未用官方同时图视频模式核实；不能据品牌名推断支持",
+      "source": "https://www.volcengine.com/docs/82379/1366799"
+    },
+    {
+      "model": "Kling 3.0",
+      "current_adapter": "scripts/run_kling_smoke_20261016.py:27",
+      "actual_payload": "/image-to-video/kling-3.0 首图+prompt；未发送动作视频",
+      "stage3_contract": "unsupported_in_current_i2v_call",
+      "generation_status": "旧首条余额不足未受理；本轮未新付费调用",
+      "camera": "prompt_only",
+      "first_frame": "I2V首图；原生输出尚无",
+      "full_image_plus_video_capability": "其他Omni视频编辑接口需要独立核查，未核实，不与I2V测试混算",
+      "source": "https://klingai.com/document-api/api/video/3-0-omni/image-to-video"
+    }
+  ],
+  "reason_policy": "重测因接口歧义、实验/原生混算、时序覆盖缺失；不因旧片画质单独淘汰",
+  "native_route_a_priority": [
+    "DepthDirector",
+    "TriMotion(原生soft首图需验收)",
+    "WorldInWorld(原生I2V+edit_recam需验收)",
+    "GEN3C(预处理时序warp)",
+    "TrajectoryCrafter(完整源时长适配)"
+  ],
+  "route_b_bridge_native": [
+    "Hunyuan OmniWeaving interpolation",
+    "Wan VACE firstlastframe(masked video)"
+  ],
+  "native_firstlast_not_proven": [
+    "DepthDirector fused5B ignores end_image",
+    "OmniCamera fused5B first-only",
+    "GEN3C independent end-image unverified"
+  ],
+  "no_training": true,
+  "postdecode_replacement": false,
+  "old_verified_inputs_scope_warning": "旧240条verified_inputs只表示当时定义的有限动作窗口已供给，不等于本轮完整原片t*至原片末帧条件满足；旧审核与原生视频保留。此处225条不含CamClone15条，见独立CamClone审计。",
+  "full_source_coverage_file": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/audit/full_source_coverage_20261020.json"
+}
