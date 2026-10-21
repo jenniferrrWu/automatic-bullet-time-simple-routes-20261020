@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-21T15:14:36.642528+08:00",
-  "file_count": 921,
-  "content_bytes": 822878118,
+  "created_at": "2026-10-21T15:21:41.774474+08:00",
+  "file_count": 922,
+  "content_bytes": 822878121,
   "native_outputs_modified": false,
   "all_html_dependencies_bundled": true,
   "auxiliary_files": [
@@ -2440,6 +2440,11 @@
       "sha256": "656397f499511a2172a677659859218b4abb865f8de0e8ce8d7a23d68549e6cf"
     },
     {
+      "path": "alignment/assets/posters_index.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
       "path": "alignment/assets/review_media.css",
       "bytes": 949,
       "sha256": "660a8bcbdb66772d606c4cd8883ac7bfeed6c02cf8a8111456fd75e6de9c7fd2"
@@ -3065,6 +3070,11 @@
       "sha256": "656397f499511a2172a677659859218b4abb865f8de0e8ce8d7a23d68549e6cf"
     },
     {
+      "path": "expansion/assets/posters_index.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
       "path": "expansion/assets/review_media.css",
       "bytes": 949,
       "sha256": "660a8bcbdb66772d606c4cd8883ac7bfeed6c02cf8a8111456fd75e6de9c7fd2"
@@ -3093,11 +3103,6 @@
       "path": "expansion/assets/784816942b7cc77d38066a51.md",
       "bytes": 5534,
       "sha256": "784816942b7cc77d38066a51cc6bc51b48b608a03400c02773d0f5d277796c07"
-    },
-    {
-      "path": "expansion/assets/posters_index.json",
-      "bytes": 3,
-      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
     },
     {
       "path": "expansion/assets/7bca55bcf011e8ac49685ada_w640.jpg",
