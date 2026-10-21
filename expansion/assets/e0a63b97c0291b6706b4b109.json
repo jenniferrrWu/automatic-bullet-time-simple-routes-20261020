@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "972c07fc16bb5a77fab6d35fa6a19d67e1cad08b3a30d75fa0dd385d2d1247e2",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "official_endpoint_preprocessing_wh": [
+    1280,
+    704
+  ],
+  "endpoint_pixel_sha256": "8eaf691f75450e698b51dd60adc57d1cf39401376d482af72e7bc7244436cb80",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/recam_endpoint_native_v1/preprocess/effective_endpoint.png",
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}

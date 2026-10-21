@@ -1,5 +1,5 @@
 {
-  "started_unix": 1792550721.0858955,
+  "started_unix": 1792552804.2168977,
   "url": "http://127.0.0.1:8040/results/stage23_simple_routes_20261020/site/index.html",
   "model_quality_review": false,
   "test_environment": "server-side headless Chromium; does not certify playback on every client computer/network",
@@ -7,14 +7,14 @@
   "http_failures": [],
   "samples": [
     {
-      "at": 1792550725.8813765,
+      "at": 1792552808.8633778,
       "visible": 30,
-      "downloaded": 29,
-      "ready": 24,
-      "active_downloads": 1
+      "downloaded": 30,
+      "ready": 27,
+      "active_downloads": 0
     },
     {
-      "at": 1792550727.9084022,
+      "at": 1792552810.8843746,
       "visible": 30,
       "downloaded": 30,
       "ready": 30,
@@ -26,7 +26,7 @@
     "stalled": [],
     "requests": []
   },
-  "tested_html_sha256": "6c175978d213ff8b50523ef132bb2828a3a218896e1544f92b9d4565d958d52e",
+  "tested_html_sha256": "ac3b9b2c73e6c2de62221351257139cb7d7b27f6fc9b84771b4c488d6234ddea",
   "stage_layout": [
     {
       "stage": "2",
@@ -95,7 +95,7 @@
   "row_state_reload_persisted": true,
   "separate_load_and_play_buttons": 0,
   "before_play": {
-    "at": "2026-10-21T02:45:27.909Z",
+    "at": "2026-10-21T03:20:10.885Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -824,8 +824,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 128,
-      "time": 1.7512,
+      "frames": 132,
+      "time": 1.755,
       "error": null
     },
     {
@@ -845,7 +845,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7243,
+      "time": 1.7441,
       "error": null
     },
     {
@@ -865,7 +865,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7242,
+      "time": 1.7237,
       "error": null
     },
     {
@@ -885,7 +885,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7242,
+      "time": 1.7233,
       "error": null
     },
     {
@@ -895,7 +895,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7199,
+      "time": 1.7233,
       "error": null
     },
     {
@@ -905,7 +905,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7198,
+      "time": 1.7203,
       "error": null
     },
     {
@@ -945,7 +945,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9778,
+      "time": 4.9759,
       "error": null
     },
     {
@@ -955,7 +955,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9764,
+      "time": 4.9743,
       "error": null
     },
     {
@@ -965,7 +965,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9755,
+      "time": 4.9743,
       "error": null
     },
     {
@@ -975,7 +975,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9755,
+      "time": 4.974,
       "error": null
     },
     {
@@ -985,7 +985,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9754,
+      "time": 4.974,
       "error": null
     },
     {
@@ -995,7 +995,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9754,
+      "time": 4.974,
       "error": null
     },
     {
@@ -1005,7 +1005,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7107,
+      "time": 1.7098,
       "error": null
     },
     {
@@ -1015,7 +1015,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7106,
+      "time": 1.7097,
       "error": null
     },
     {
@@ -1025,7 +1025,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7105,
+      "time": 1.7093,
       "error": null
     },
     {
@@ -1035,7 +1035,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9753,
+      "time": 4.9719,
       "error": null
     },
     {
@@ -1055,7 +1055,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9753,
+      "time": 4.9717,
       "error": null
     },
     {
@@ -1075,7 +1075,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9753,
+      "time": 4.9716,
       "error": null
     },
     {
@@ -1095,7 +1095,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2096,
+      "time": 2.2077,
       "error": null
     },
     {
@@ -1125,7 +1125,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2093,
+      "time": 2.208,
       "error": null
     },
     {
@@ -1155,7 +1155,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2088,
+      "time": 2.2078,
       "error": null
     },
     {
@@ -1185,7 +1185,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2088,
+      "time": 2.2052,
       "error": null
     },
     {
@@ -1205,7 +1205,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2088,
+      "time": 2.2052,
       "error": null
     },
     {
@@ -1224,8 +1224,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 152,
-      "time": 2.2819,
+      "frames": 149,
+      "time": 2.2052,
       "error": null
     },
     {
@@ -1245,7 +1245,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.975,
+      "time": 4.9716,
       "error": null
     },
     {
@@ -1275,7 +1275,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.975,
+      "time": 4.9715,
       "error": null
     },
     {
@@ -1305,7 +1305,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.975,
+      "time": 4.9714,
       "error": null
     },
     {
@@ -1338,7 +1338,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9859,
+      "time": 2.989,
       "error": null
     },
     {
@@ -1358,7 +1358,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9652,
+      "time": 2.9764,
       "error": null
     },
     {
@@ -1378,7 +1378,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9651,
+      "time": 2.9618,
       "error": null
     },
     {
@@ -1398,7 +1398,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.965,
+      "time": 2.9617,
       "error": null
     },
     {
@@ -1408,7 +1408,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9647,
+      "time": 2.9616,
       "error": null
     },
     {
@@ -1418,7 +1418,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9646,
+      "time": 2.9613,
       "error": null
     },
     {
@@ -1428,7 +1428,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 51,
-      "time": 2.9615,
+      "time": 2.9611,
       "error": null
     },
     {
@@ -1438,7 +1438,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 51,
-      "time": 2.961,
+      "time": 2.9568,
       "error": null
     },
     {
@@ -1448,7 +1448,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 51,
-      "time": 2.9581,
+      "time": 2.9566,
       "error": null
     },
     {
@@ -1458,7 +1458,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9554,
+      "time": 2.9538,
       "error": null
     },
     {
@@ -1468,7 +1468,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9541,
+      "time": 2.9521,
       "error": null
     },
     {
@@ -1478,7 +1478,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9532,
+      "time": 2.9521,
       "error": null
     },
     {
@@ -1488,7 +1488,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9531,
+      "time": 2.9519,
       "error": null
     },
     {
@@ -1498,7 +1498,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9531,
+      "time": 2.9519,
       "error": null
     },
     {
@@ -1508,7 +1508,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9531,
+      "time": 2.9519,
       "error": null
     },
     {
@@ -1518,7 +1518,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.953,
+      "time": 2.9516,
       "error": null
     },
     {
@@ -1528,7 +1528,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.953,
+      "time": 2.9514,
       "error": null
     },
     {
@@ -1538,7 +1538,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9529,
+      "time": 2.9499,
       "error": null
     },
     {
@@ -1548,7 +1548,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9529,
+      "time": 2.9497,
       "error": null
     },
     {
@@ -1568,7 +1568,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9529,
+      "time": 2.9495,
       "error": null
     },
     {
@@ -1588,7 +1588,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9529,
+      "time": 2.9495,
       "error": null
     },
     {
@@ -1608,7 +1608,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1872,
+      "time": 0.1856,
       "error": null
     },
     {
@@ -1638,7 +1638,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1869,
+      "time": 0.1859,
       "error": null
     },
     {
@@ -1668,7 +1668,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1864,
+      "time": 0.1857,
       "error": null
     },
     {
@@ -1698,7 +1698,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1864,
+      "time": 0.1831,
       "error": null
     },
     {
@@ -1718,7 +1718,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1864,
+      "time": 0.1831,
       "error": null
     },
     {
@@ -1737,8 +1737,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 92,
-      "time": 0.2595,
+      "frames": 89,
+      "time": 0.1832,
       "error": null
     },
     {
@@ -1758,7 +1758,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9527,
+      "time": 2.9495,
       "error": null
     },
     {
@@ -1788,7 +1788,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9527,
+      "time": 2.9495,
       "error": null
     },
     {
@@ -1818,7 +1818,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9527,
+      "time": 2.9494,
       "error": null
     },
     {
@@ -1849,8 +1849,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 128,
-      "time": 1.7512,
+      "frames": 132,
+      "time": 1.755,
       "error": null
     },
     {
@@ -1870,7 +1870,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7243,
+      "time": 1.7441,
       "error": null
     },
     {
@@ -1890,7 +1890,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7242,
+      "time": 1.7237,
       "error": null
     },
     {
@@ -1910,7 +1910,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7242,
+      "time": 1.7233,
       "error": null
     },
     {
@@ -1920,7 +1920,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7199,
+      "time": 1.7233,
       "error": null
     },
     {
@@ -1930,7 +1930,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7198,
+      "time": 1.7203,
       "error": null
     },
     {
@@ -1970,7 +1970,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9778,
+      "time": 4.9759,
       "error": null
     },
     {
@@ -1980,7 +1980,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9764,
+      "time": 4.9743,
       "error": null
     },
     {
@@ -1990,7 +1990,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9755,
+      "time": 4.9743,
       "error": null
     },
     {
@@ -2000,7 +2000,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9755,
+      "time": 4.974,
       "error": null
     },
     {
@@ -2010,7 +2010,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9754,
+      "time": 4.974,
       "error": null
     },
     {
@@ -2020,7 +2020,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9754,
+      "time": 4.974,
       "error": null
     },
     {
@@ -2030,7 +2030,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7107,
+      "time": 1.7098,
       "error": null
     },
     {
@@ -2040,7 +2040,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7106,
+      "time": 1.7097,
       "error": null
     },
     {
@@ -2050,7 +2050,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7105,
+      "time": 1.7093,
       "error": null
     },
     {
@@ -2060,7 +2060,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9753,
+      "time": 4.9719,
       "error": null
     },
     {
@@ -2080,7 +2080,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9753,
+      "time": 4.9717,
       "error": null
     },
     {
@@ -2100,7 +2100,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9753,
+      "time": 4.9716,
       "error": null
     },
     {
@@ -2120,7 +2120,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2096,
+      "time": 2.2077,
       "error": null
     },
     {
@@ -2150,7 +2150,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2093,
+      "time": 2.208,
       "error": null
     },
     {
@@ -2180,7 +2180,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2088,
+      "time": 2.2078,
       "error": null
     },
     {
@@ -2210,7 +2210,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2088,
+      "time": 2.2052,
       "error": null
     },
     {
@@ -2230,7 +2230,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2088,
+      "time": 2.2052,
       "error": null
     },
     {
@@ -2249,8 +2249,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 152,
-      "time": 2.2819,
+      "frames": 149,
+      "time": 2.2052,
       "error": null
     },
     {
@@ -2270,7 +2270,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.975,
+      "time": 4.9716,
       "error": null
     },
     {
@@ -2300,7 +2300,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.975,
+      "time": 4.9715,
       "error": null
     },
     {
@@ -2330,7 +2330,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.975,
+      "time": 4.9714,
       "error": null
     },
     {
@@ -2355,7 +2355,7 @@
     }
   ],
   "after_play": {
-    "at": "2026-10-21T02:45:33.039Z",
+    "at": "2026-10-21T03:20:16.013Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -2370,7 +2370,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7682,
+        "currentTime": 1.779,
         "error": "",
         "mediaError": null,
         "source": "assets/e3de47030dbb9be522334fc8_preview.mp4"
@@ -2398,7 +2398,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7414,
+        "currentTime": 1.7683,
         "error": "",
         "mediaError": null,
         "source": "assets/089f3e34f430c1ae2df1b94d_preview.mp4"
@@ -2426,7 +2426,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7412,
+        "currentTime": 1.7479,
         "error": "",
         "mediaError": null,
         "source": "assets/d7a2ac79328535ade25e3821_preview.mp4"
@@ -2454,7 +2454,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7413,
+        "currentTime": 1.7475,
         "error": "",
         "mediaError": null,
         "source": "assets/e594d2043fdc1936a5cb4bed_preview.mp4"
@@ -2468,7 +2468,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.737,
+        "currentTime": 1.7475,
         "error": "",
         "mediaError": null,
         "source": "assets/311afa455a21ea4ee334a85a_preview.mp4"
@@ -2482,7 +2482,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7369,
+        "currentTime": 1.7444,
         "error": "",
         "mediaError": null,
         "source": "assets/383094c45955d394398a2125_preview.mp4"
@@ -2538,7 +2538,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9949,
+        "currentTime": 5.0001,
         "error": "",
         "mediaError": null,
         "source": "assets/42593da20fbe6beeb4d76cb0_preview.mp4"
@@ -2552,7 +2552,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9935,
+        "currentTime": 4.9985,
         "error": "",
         "mediaError": null,
         "source": "assets/17f101d150b1b47adc144197_preview.mp4"
@@ -2566,7 +2566,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9927,
+        "currentTime": 4.9984,
         "error": "",
         "mediaError": null,
         "source": "assets/65999af1517f2262e7f980fa_preview.mp4"
@@ -2580,7 +2580,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9926,
+        "currentTime": 4.9982,
         "error": "",
         "mediaError": null,
         "source": "assets/3963cd1227a362598c60bb1f_preview.mp4"
@@ -2594,7 +2594,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9926,
+        "currentTime": 4.9982,
         "error": "",
         "mediaError": null,
         "source": "assets/d453335f9fa2505c97f572ed_preview.mp4"
@@ -2608,7 +2608,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9925,
+        "currentTime": 4.9982,
         "error": "",
         "mediaError": null,
         "source": "assets/8ec34148f1d6d26752e782f2_preview.mp4"
@@ -2622,7 +2622,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7278,
+        "currentTime": 1.734,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -2636,7 +2636,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7277,
+        "currentTime": 1.7339,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -2650,7 +2650,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7277,
+        "currentTime": 1.7335,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
@@ -2664,7 +2664,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9924,
+        "currentTime": 4.9961,
         "error": "",
         "mediaError": null,
         "source": "assets/1e397fe6d2f5a5d72489d14d_preview.mp4"
@@ -2692,7 +2692,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9924,
+        "currentTime": 4.9959,
         "error": "",
         "mediaError": null,
         "source": "assets/4a8ae4c2d99e33bfff03d181_preview.mp4"
@@ -2720,7 +2720,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9924,
+        "currentTime": 4.9959,
         "error": "",
         "mediaError": null,
         "source": "assets/e7f3525deb2c3b7f0b2d199a_preview.mp4"
@@ -2748,7 +2748,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2268,
+        "currentTime": 2.2319,
         "error": "",
         "mediaError": null,
         "source": "assets/b917e67a9473c916fd688b69_preview.mp4"
@@ -2790,7 +2790,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2264,
+        "currentTime": 2.2322,
         "error": "",
         "mediaError": null,
         "source": "assets/ead2ebd2fef9403d81f5a190_preview.mp4"
@@ -2832,7 +2832,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.226,
+        "currentTime": 2.232,
         "error": "",
         "mediaError": null,
         "source": "assets/2ae4cb93382db5fc2dbaa849_preview.mp4"
@@ -2874,7 +2874,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.226,
+        "currentTime": 2.2294,
         "error": "",
         "mediaError": null,
         "source": "assets/4a5af0b491521d63c92247c3_preview.mp4"
@@ -2902,7 +2902,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.226,
+        "currentTime": 2.2294,
         "error": "",
         "mediaError": null,
         "source": "assets/e1e1587dd0e6a57c752f876f_preview.mp4"
@@ -2930,7 +2930,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2991,
+        "currentTime": 2.2295,
         "error": "",
         "mediaError": null,
         "source": "assets/41789472686653a87826641d_preview.mp4"
@@ -2958,7 +2958,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9922,
+        "currentTime": 4.9958,
         "error": "",
         "mediaError": null,
         "source": "assets/fbbc5e7b72c809f56e64d3ba_preview.mp4"
@@ -3000,7 +3000,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9922,
+        "currentTime": 4.9958,
         "error": "",
         "mediaError": null,
         "source": "assets/afa51bb25d317a91163c8ea1_preview.mp4"
@@ -3042,7 +3042,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 4.9923,
+        "currentTime": 4.9957,
         "error": "",
         "mediaError": null,
         "source": "assets/c2769e9944a465cb03af2123_preview.mp4"
@@ -3081,7 +3081,7 @@
   "simultaneous_playing_count": 30,
   "decoding_advanced_count": 30,
   "collapsed_state": {
-    "at": "2026-10-21T02:45:38.696Z",
+    "at": "2026-10-21T03:20:21.653Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -3348,7 +3348,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.775,
+        "currentTime": 0.7483,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -3362,7 +3362,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.775,
+        "currentTime": 0.7483,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -3376,7 +3376,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.7749,
+        "currentTime": 0.7483,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
@@ -3807,5 +3807,5 @@
   "csv_score_export_roundtrip": true,
   "queue_fairness_fault_check": true,
   "status": "passed",
-  "finished_unix": 1792550738.8508253
+  "finished_unix": 1792552821.8051455
 }

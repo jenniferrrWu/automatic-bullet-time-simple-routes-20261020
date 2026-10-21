@@ -1,0 +1,192 @@
+{
+  "case_id": "simple02_woman_presenting_chalkboard",
+  "execution_status": "succeeded",
+  "source_hashes": [
+    "4cba7865c6282856c1d5bb13a80e5da8e4bbc603ac2795e526baac3057d55e35",
+    "311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836",
+    "08ed118ba61375d62df1c729529cfdc46a601855b1e3963f93b26b569f47e6ac"
+  ],
+  "stage2_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple02_woman_presenting_chalkboard.json",
+  "stage3_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+  "stage1_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/stage1_source_to_tstar_lossless.mp4",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+  "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/recam_endpoint_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "native_stitched_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/simple02_woman_presenting_chalkboard/stitched_native_timing.mp4",
+  "stitched_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/simple02_woman_presenting_chalkboard/stitched_source_action_timing.mp4",
+  "stage1_frames": 151,
+  "stage2_frames": 81,
+  "stage3_frames": 81,
+  "native_stitched_details": {
+    "parts": [
+      "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/stage1_source_to_tstar_lossless.mp4",
+      "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/recam_endpoint_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+    ],
+    "source_hashes": [
+      "4cba7865c6282856c1d5bb13a80e5da8e4bbc603ac2795e526baac3057d55e35",
+      "311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836",
+      "08ed118ba61375d62df1c729529cfdc46a601855b1e3963f93b26b569f47e6ac"
+    ],
+    "source_frame_counts": [
+      151,
+      81,
+      81
+    ],
+    "stitched_frame_count": 313,
+    "all_source_frames_retained": true,
+    "each_stage_native_time_rate_retained": true,
+    "stage3_display_action_fps": null,
+    "stage3_pts_only_retimed": false,
+    "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+    "no_output_frame_replacement": true,
+    "no_blending": true,
+    "no_interpolation": true,
+    "no_boundary_frame_deletion": true,
+    "purpose": "manual seam inspection only, not a seamlessness pass"
+  },
+  "source_timing_stitched_details": {
+    "parts": [
+      "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/stage1_source_to_tstar_lossless.mp4",
+      "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/recam_endpoint_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+    ],
+    "source_hashes": [
+      "4cba7865c6282856c1d5bb13a80e5da8e4bbc603ac2795e526baac3057d55e35",
+      "311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836",
+      "08ed118ba61375d62df1c729529cfdc46a601855b1e3963f93b26b569f47e6ac"
+    ],
+    "source_frame_counts": [
+      151,
+      81,
+      81
+    ],
+    "stitched_frame_count": 313,
+    "all_source_frames_retained": true,
+    "each_stage_native_time_rate_retained": false,
+    "stage3_display_action_fps": "25/1",
+    "stage3_pts_only_retimed": true,
+    "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+    "no_output_frame_replacement": true,
+    "no_blending": true,
+    "no_interpolation": true,
+    "no_boundary_frame_deletion": true,
+    "purpose": "manual seam inspection only, not a seamlessness pass"
+  },
+  "source_post_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
+  "complete_source_action_81_frames_provided": true,
+  "native_source_condition_frames": 81,
+  "exact_recam_endpoint_consumed": true,
+  "native_first_frame_latent_constraint_audit": {
+    "status": "completed",
+    "pin_count": 50,
+    "mode": "official native fused I2V first-time-latent constraint",
+    "endpoint_file_sha256": "4bb97263af9b32cf75a15456b5f38187080faf4cf31a5f8af5d228261b5910bd",
+    "official_weights_unchanged": true,
+    "official_repo_edited": false,
+    "postdecode_frame_replacement": false,
+    "official_endpoint_preprocessing_wh": [
+      1280,
+      704
+    ],
+    "endpoint_pixel_sha256": "f168264bf311394c685aeb63ce640b4c4827746c9dfc1572492a8bd0887cf182",
+    "endpoint_latent_shape": [
+      1,
+      48,
+      1,
+      44,
+      80
+    ],
+    "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/recam_endpoint_native_v1/preprocess/effective_endpoint.png",
+    "final_latent_max_abs_delta": 0.0,
+    "final_sigma": 0.0
+  },
+  "seam12_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/simple02_woman_presenting_chalkboard/seam12.jpg",
+  "seam23_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/simple02_woman_presenting_chalkboard/seam23.jpg",
+  "boundaries_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/simple02_woman_presenting_chalkboard/boundaries.jpg",
+  "stage2_temporal": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/simple02_woman_presenting_chalkboard/stage2_temporal.jpg",
+  "stage3_temporal": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/simple02_woman_presenting_chalkboard/stage3_temporal.jpg",
+  "stage3_prefix": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/simple02_woman_presenting_chalkboard/stage3_prefix.jpg",
+  "source_temporal": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/simple02_woman_presenting_chalkboard/source_action_temporal.jpg",
+  "seam12_effective_first_metrics": {
+    "left_png": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/effective_first.png",
+    "right_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836/first.png",
+    "left_wh": [
+      832,
+      480
+    ],
+    "right_wh": [
+      832,
+      480
+    ],
+    "metric_is_quality_verdict": false,
+    "direct_rgb_comparable": true,
+    "mae_0_255": 3.525964877136752,
+    "max_abs_0_255": 46.0,
+    "psnr_db": 35.804244902994306,
+    "pixel_equal": false
+  },
+  "seam23_effective_first_metrics": {
+    "left_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/recam_endpoint_native_v1/preprocess/effective_endpoint.png",
+    "right_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/08ed118ba61375d62df1c729529cfdc46a601855b1e3963f93b26b569f47e6ac/first.png",
+    "left_wh": [
+      1280,
+      704
+    ],
+    "right_wh": [
+      1280,
+      704
+    ],
+    "metric_is_quality_verdict": false,
+    "direct_rgb_comparable": true,
+    "mae_0_255": 1.426318729285038,
+    "max_abs_0_255": 16.0,
+    "psnr_db": 43.48650250241366,
+    "pixel_equal": false
+  },
+  "single_stage_quality": "pending_manual_acceptance",
+  "seam_quality": "pending_manual_acceptance",
+  "no_training": true,
+  "postdecode_frame_replacement": false,
+  "no_custom_latent_pinning": true,
+  "all_stage_frames_retained": true,
+  "stage3_output_timing_note": "Native15fps output retained separately. Default stitched display changes only Stage3 PTS to original source fps; no frame insertion/deletion/blending.",
+  "independent_native_decode": {
+    "stage1": {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/stage1_source_to_tstar_lossless.mp4",
+      "native_sha256": "4cba7865c6282856c1d5bb13a80e5da8e4bbc603ac2795e526baac3057d55e35",
+      "frames": 151,
+      "fps": 25.0,
+      "first_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/4cba7865c6282856c1d5bb13a80e5da8e4bbc603ac2795e526baac3057d55e35/first.png",
+      "last_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/4cba7865c6282856c1d5bb13a80e5da8e4bbc603ac2795e526baac3057d55e35/last.png",
+      "first_rgb_sha256": "42bc4c54815b76db630e33482b7e104268e1d50aa66034a7328b0f503765af23",
+      "last_rgb_sha256": "a3827d9475e66f4f2ee2fbe6a6944c6717e6ac1d2616a582bac2b2dcbd3cc55e",
+      "independently_decoded": true,
+      "decoder": "system ffmpeg PNG rgb24; same YUV->RGB implementation used for source PNG; OpenCV decoder color differences are not seam evidence"
+    },
+    "stage2": {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836",
+      "frames": 81,
+      "fps": 25.0,
+      "first_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836/first.png",
+      "last_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836/last.png",
+      "first_rgb_sha256": "f57a8e9cb47c4612d53f80877a7c67ed97b364bad20d7ee877f5c17fc950bf6c",
+      "last_rgb_sha256": "c4bcdce2c63f197f0c0dd8523d33a44943084213156f07948ed5dbcfa6ddc86d",
+      "independently_decoded": true,
+      "decoder": "system ffmpeg PNG rgb24; same YUV->RGB implementation used for source PNG; OpenCV decoder color differences are not seam evidence"
+    },
+    "stage3": {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/recam_endpoint_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "08ed118ba61375d62df1c729529cfdc46a601855b1e3963f93b26b569f47e6ac",
+      "frames": 81,
+      "fps": 15.0,
+      "first_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/08ed118ba61375d62df1c729529cfdc46a601855b1e3963f93b26b569f47e6ac/first.png",
+      "last_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/08ed118ba61375d62df1c729529cfdc46a601855b1e3963f93b26b569f47e6ac/last.png",
+      "first_rgb_sha256": "36e1497794a39204b3dd5a67579621ce980ce1566a709594a2e3edb64545062a",
+      "last_rgb_sha256": "ac7f89f88a2c191272539c16dcf2550e470ec3eaf1c1ca1fbf646f985650de7a",
+      "independently_decoded": true,
+      "decoder": "system ffmpeg PNG rgb24; same YUV->RGB implementation used for source PNG; OpenCV decoder color differences are not seam evidence"
+    }
+  },
+  "camera_visual_pose_calibrated": false
+}
