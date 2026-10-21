@@ -1,5 +1,5 @@
 {
-  "started_unix": 1792547556.1297123,
+  "started_unix": 1792550048.853747,
   "url": "http://127.0.0.1:8040/results/stage23_simple_routes_20261020/site/index.html",
   "model_quality_review": false,
   "test_environment": "server-side headless Chromium; does not certify playback on every client computer/network",
@@ -7,14 +7,14 @@
   "http_failures": [],
   "samples": [
     {
-      "at": 1792547557.4430494,
+      "at": 1792550050.4464796,
       "visible": 30,
       "downloaded": 29,
       "ready": 24,
       "active_downloads": 1
     },
     {
-      "at": 1792547559.4700696,
+      "at": 1792550052.4738715,
       "visible": 30,
       "downloaded": 30,
       "ready": 30,
@@ -26,59 +26,44 @@
     "stalled": [],
     "requests": []
   },
-  "tested_html_sha256": "b4bd68b8d8550f49fcf59830fb1ef878bdc14067af8639380c26102879b43586",
+  "tested_html_sha256": "c41c15299d5cfe8b64a4ef2bb7ea4bbff4a2f3ca4da5c5f7916eb561a5e17a81",
+  "stage_layout": [
+    {
+      "stage": "2",
+      "inputCases": [
+        "simple01_woman_talking_plants",
+        "simple02_woman_presenting_chalkboard",
+        "simple03_woman_slow_expression"
+      ],
+      "modelRows": 5,
+      "resultCells": 15,
+      "inputBeforeResults": true,
+      "commonVideos": 0
+    },
+    {
+      "stage": "3",
+      "inputCases": [
+        "simple01_woman_talking_plants",
+        "simple02_woman_presenting_chalkboard",
+        "simple03_woman_slow_expression"
+      ],
+      "modelRows": 4,
+      "resultCells": 12,
+      "inputBeforeResults": true,
+      "commonVideos": 3
+    }
+  ],
+  "shared_input_layout_check_passed": true,
   "separate_load_and_play_buttons": 0,
   "before_play": {
-    "at": "2026-10-21T01:52:39.471Z",
+    "at": "2026-10-21T02:34:12.475Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
     "playAllActive": false,
     "videos": [
       {
-        "label": "完整源动作 simple01_woman_talking_plants",
-        "hidden": false,
-        "phase": "ready",
-        "downloaded": true,
-        "attempts": 1,
-        "readyState": 4,
-        "networkState": 1,
-        "paused": true,
-        "currentTime": 0,
-        "error": "",
-        "mediaError": null,
-        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
-      },
-      {
-        "label": "完整源动作 simple02_woman_presenting_chalkboard",
-        "hidden": false,
-        "phase": "ready",
-        "downloaded": true,
-        "attempts": 1,
-        "readyState": 4,
-        "networkState": 1,
-        "paused": true,
-        "currentTime": 0,
-        "error": "",
-        "mediaError": null,
-        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
-      },
-      {
-        "label": "完整源动作 simple03_woman_slow_expression",
-        "hidden": false,
-        "phase": "ready",
-        "downloaded": true,
-        "attempts": 1,
-        "readyState": 4,
-        "networkState": 1,
-        "paused": true,
-        "currentTime": 0,
-        "error": "",
-        "mediaError": null,
-        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
-      },
-      {
-        "label": "SpaceTimePilot route_a Stage2 simple01_woman_talking_plants",
+        "label": "SpaceTimePilot Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -106,7 +91,7 @@
         "source": "assets/b080bd654f61c417dc7216ed_preview.mp4"
       },
       {
-        "label": "SpaceTimePilot route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "SpaceTimePilot Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -134,7 +119,7 @@
         "source": "assets/d63eac7146211205b84d68d2_preview.mp4"
       },
       {
-        "label": "SpaceTimePilot route_a Stage2 simple03_woman_slow_expression",
+        "label": "SpaceTimePilot Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -162,7 +147,7 @@
         "source": "assets/5d63f21b4a9124c836cd2aa1_preview.mp4"
       },
       {
-        "label": "ReCamMaster route_a Stage2 simple01_woman_talking_plants",
+        "label": "ReCamMaster Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -176,7 +161,7 @@
         "source": "assets/e594d2043fdc1936a5cb4bed_preview.mp4"
       },
       {
-        "label": "ReCamMaster route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "ReCamMaster Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -190,7 +175,7 @@
         "source": "assets/311afa455a21ea4ee334a85a_preview.mp4"
       },
       {
-        "label": "ReCamMaster route_a Stage2 simple03_woman_slow_expression",
+        "label": "ReCamMaster Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -204,7 +189,7 @@
         "source": "assets/383094c45955d394398a2125_preview.mp4"
       },
       {
-        "label": "WorldInWorld route_a Stage2 simple01_woman_talking_plants",
+        "label": "WorldInWorld Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -218,7 +203,7 @@
         "source": "assets/c1be5e930db1e3de9772b6a8_preview.mp4"
       },
       {
-        "label": "WorldInWorld route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "WorldInWorld Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -232,7 +217,7 @@
         "source": "assets/7758083056c2e7c6962219c7_preview.mp4"
       },
       {
-        "label": "WorldInWorld route_a Stage2 simple03_woman_slow_expression",
+        "label": "WorldInWorld Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -246,7 +231,7 @@
         "source": "assets/8a81c38e2655c07e5548c400_preview.mp4"
       },
       {
-        "label": "ReDirector route_a Stage2 simple01_woman_talking_plants",
+        "label": "ReDirector Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -260,7 +245,7 @@
         "source": "assets/42593da20fbe6beeb4d76cb0_preview.mp4"
       },
       {
-        "label": "ReDirector route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "ReDirector Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -274,7 +259,7 @@
         "source": "assets/17f101d150b1b47adc144197_preview.mp4"
       },
       {
-        "label": "ReDirector route_a Stage2 simple03_woman_slow_expression",
+        "label": "ReDirector Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -288,7 +273,7 @@
         "source": "assets/65999af1517f2262e7f980fa_preview.mp4"
       },
       {
-        "label": "GEN3C route_a Stage2 simple01_woman_talking_plants",
+        "label": "GEN3C Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -302,7 +287,7 @@
         "source": "assets/3963cd1227a362598c60bb1f_preview.mp4"
       },
       {
-        "label": "GEN3C route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "GEN3C Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -316,7 +301,7 @@
         "source": "assets/d453335f9fa2505c97f572ed_preview.mp4"
       },
       {
-        "label": "GEN3C route_a Stage2 simple03_woman_slow_expression",
+        "label": "GEN3C Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -330,7 +315,49 @@
         "source": "assets/8ec34148f1d6d26752e782f2_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage3 simple01_woman_talking_plants",
+        "label": "统一动作参考 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
+      },
+      {
+        "label": "统一动作参考 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
+      },
+      {
+        "label": "统一动作参考 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "DepthDirector Stage3 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -358,7 +385,7 @@
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "DepthDirector Stage3 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -386,7 +413,7 @@
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage3 simple03_woman_slow_expression",
+        "label": "DepthDirector Stage3 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -414,7 +441,7 @@
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
-        "label": "CamCloneMaster route_a Stage3 simple01_woman_talking_plants",
+        "label": "CamCloneMaster Stage3 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -456,7 +483,7 @@
         "source": "assets/09a109280f28d7db22d67a04_preview.mp4"
       },
       {
-        "label": "CamCloneMaster route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "CamCloneMaster Stage3 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -498,7 +525,7 @@
         "source": "assets/e7cee4d6c0702fe7813c3b79_preview.mp4"
       },
       {
-        "label": "CamCloneMaster route_a Stage3 simple03_woman_slow_expression",
+        "label": "CamCloneMaster Stage3 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -540,7 +567,7 @@
         "source": "assets/f41a54458b3229c951cd56e9_preview.mp4"
       },
       {
-        "label": "TriMotion route_a Stage3 simple01_woman_talking_plants",
+        "label": "TriMotion Stage3 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -568,7 +595,7 @@
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
       },
       {
-        "label": "TriMotion route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "TriMotion Stage3 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -596,7 +623,7 @@
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
       },
       {
-        "label": "TriMotion route_a Stage3 simple03_woman_slow_expression",
+        "label": "TriMotion Stage3 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -624,7 +651,7 @@
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
-        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple01_woman_talking_plants",
+        "label": "MiniMax H3 · Ref2VA 图视频联合 Stage3 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -666,7 +693,7 @@
         "source": "assets/d1e4b2a5cd2ca96ae0b5dfe3_preview.mp4"
       },
       {
-        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "MiniMax H3 · Ref2VA 图视频联合 Stage3 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -708,7 +735,7 @@
         "source": "assets/2d70f8a0fedf9ab44dfaced0_preview.mp4"
       },
       {
-        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple03_woman_slow_expression",
+        "label": "MiniMax H3 · Ref2VA 图视频联合 Stage3 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -759,17 +786,17 @@
       "readyState": 4,
       "width": 384,
       "frames": 132,
-      "time": 1.7572,
+      "time": 1.762,
       "error": null
     },
     {
       "i": 1,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 1.7469,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -778,22 +805,32 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.7311,
+      "frames": 132,
+      "time": 1.7561,
       "error": null
     },
     {
       "i": 3,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 1.7299,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 4,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 128,
+      "time": 1.7512,
+      "error": null
+    },
+    {
+      "i": 5,
       "hidden": true,
       "paused": true,
       "readyState": 0,
@@ -803,23 +840,13 @@
       "error": null
     },
     {
-      "i": 5,
+      "i": 6,
       "hidden": false,
       "paused": false,
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7311,
-      "error": null
-    },
-    {
-      "i": 6,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "time": 1.7355,
       "error": null
     },
     {
@@ -829,17 +856,17 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.73,
+      "time": 1.7354,
       "error": null
     },
     {
       "i": 8,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 1.7341,
       "error": null
     },
     {
@@ -848,8 +875,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.73,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -858,8 +885,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.7258,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -868,8 +895,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.724,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -878,8 +905,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 4.8125,
+      "frames": 79,
+      "time": 4.9994,
       "error": null
     },
     {
@@ -888,8 +915,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 4.8125,
+      "frames": 79,
+      "time": 4.9993,
       "error": null
     },
     {
@@ -898,8 +925,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 4.8125,
+      "frames": 79,
+      "time": 4.9988,
       "error": null
     },
     {
@@ -908,8 +935,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 79,
-      "time": 4.9888,
+      "frames": 121,
+      "time": 4.9966,
       "error": null
     },
     {
@@ -918,8 +945,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 79,
-      "time": 4.9873,
+      "frames": 121,
+      "time": 4.9965,
       "error": null
     },
     {
@@ -928,8 +955,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 79,
-      "time": 4.9869,
+      "frames": 121,
+      "time": 4.9962,
       "error": null
     },
     {
@@ -938,8 +965,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 121,
-      "time": 4.9868,
+      "frames": 126,
+      "time": 1.7302,
       "error": null
     },
     {
@@ -948,8 +975,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 121,
-      "time": 4.9868,
+      "frames": 126,
+      "time": 1.7304,
       "error": null
     },
     {
@@ -958,8 +985,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 121,
-      "time": 4.9868,
+      "frames": 126,
+      "time": 1.7299,
       "error": null
     },
     {
@@ -969,7 +996,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9868,
+      "time": 4.9956,
       "error": null
     },
     {
@@ -989,7 +1016,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9869,
+      "time": 4.9956,
       "error": null
     },
     {
@@ -1009,7 +1036,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9868,
+      "time": 4.9948,
       "error": null
     },
     {
@@ -1029,7 +1056,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -1059,7 +1086,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -1089,7 +1116,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -1119,7 +1146,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -1139,7 +1166,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -1159,7 +1186,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 152,
-      "time": 2.2846,
+      "time": 2.3088,
       "error": null
     },
     {
@@ -1179,7 +1206,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9867,
+      "time": 4.994,
       "error": null
     },
     {
@@ -1209,7 +1236,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9867,
+      "time": 4.994,
       "error": null
     },
     {
@@ -1239,7 +1266,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9857,
+      "time": 4.9932,
       "error": null
     },
     {
@@ -1272,17 +1299,17 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9913,
+      "time": 2.9979,
       "error": null
     },
     {
       "i": 1,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.9793,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -1292,47 +1319,47 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9748,
+      "time": 2.9907,
       "error": null
     },
     {
       "i": 3,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 76,
-      "time": 2.9748,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 4,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
-      "error": null
-    },
-    {
-      "i": 5,
       "hidden": false,
       "paused": false,
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9739,
+      "time": 2.9895,
       "error": null
     },
     {
-      "i": 6,
+      "i": 5,
       "hidden": true,
       "paused": true,
       "readyState": 0,
       "width": 0,
       "frames": 0,
       "time": 0,
+      "error": null
+    },
+    {
+      "i": 6,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9828,
       "error": null
     },
     {
@@ -1342,17 +1369,17 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9727,
+      "time": 2.9815,
       "error": null
     },
     {
       "i": 8,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9795,
       "error": null
     },
     {
@@ -1361,8 +1388,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9717,
+      "frames": 51,
+      "time": 2.9794,
       "error": null
     },
     {
@@ -1371,8 +1398,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9689,
+      "frames": 51,
+      "time": 2.9792,
       "error": null
     },
     {
@@ -1381,8 +1408,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9677,
+      "frames": 51,
+      "time": 2.9793,
       "error": null
     },
     {
@@ -1391,8 +1418,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 51,
-      "time": 2.9677,
+      "frames": 49,
+      "time": 2.9788,
       "error": null
     },
     {
@@ -1401,8 +1428,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 51,
-      "time": 2.9676,
+      "frames": 49,
+      "time": 2.9786,
       "error": null
     },
     {
@@ -1411,8 +1438,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 51,
-      "time": 2.9672,
+      "frames": 49,
+      "time": 2.9782,
       "error": null
     },
     {
@@ -1421,8 +1448,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9667,
+      "frames": 73,
+      "time": 2.9759,
       "error": null
     },
     {
@@ -1431,8 +1458,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9651,
+      "frames": 73,
+      "time": 2.9758,
       "error": null
     },
     {
@@ -1441,8 +1468,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9647,
+      "frames": 73,
+      "time": 2.9756,
       "error": null
     },
     {
@@ -1451,8 +1478,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 73,
-      "time": 2.9647,
+      "frames": 76,
+      "time": 2.9751,
       "error": null
     },
     {
@@ -1461,8 +1488,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 73,
-      "time": 2.9647,
+      "frames": 76,
+      "time": 2.9752,
       "error": null
     },
     {
@@ -1471,8 +1498,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 73,
-      "time": 2.9647,
+      "frames": 76,
+      "time": 2.975,
       "error": null
     },
     {
@@ -1482,7 +1509,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9647,
+      "time": 2.9749,
       "error": null
     },
     {
@@ -1502,7 +1529,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9647,
+      "time": 2.9749,
       "error": null
     },
     {
@@ -1522,7 +1549,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9647,
+      "time": 2.9741,
       "error": null
     },
     {
@@ -1542,7 +1569,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1983,
+      "time": 0.2103,
       "error": null
     },
     {
@@ -1572,7 +1599,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1982,
+      "time": 0.2103,
       "error": null
     },
     {
@@ -1602,7 +1629,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1982,
+      "time": 0.2103,
       "error": null
     },
     {
@@ -1632,7 +1659,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1982,
+      "time": 0.2103,
       "error": null
     },
     {
@@ -1652,7 +1679,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.1982,
+      "time": 0.2102,
       "error": null
     },
     {
@@ -1672,7 +1699,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 92,
-      "time": 0.2625,
+      "time": 0.2882,
       "error": null
     },
     {
@@ -1692,7 +1719,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9645,
+      "time": 2.9734,
       "error": null
     },
     {
@@ -1722,7 +1749,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9645,
+      "time": 2.9734,
       "error": null
     },
     {
@@ -1752,7 +1779,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9636,
+      "time": 2.9726,
       "error": null
     },
     {
@@ -1784,17 +1811,17 @@
       "readyState": 4,
       "width": 384,
       "frames": 132,
-      "time": 1.7572,
+      "time": 1.762,
       "error": null
     },
     {
       "i": 1,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 1.7469,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -1803,22 +1830,32 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.7311,
+      "frames": 132,
+      "time": 1.7561,
       "error": null
     },
     {
       "i": 3,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 126,
-      "time": 1.7299,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 4,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 128,
+      "time": 1.7512,
+      "error": null
+    },
+    {
+      "i": 5,
       "hidden": true,
       "paused": true,
       "readyState": 0,
@@ -1828,23 +1865,13 @@
       "error": null
     },
     {
-      "i": 5,
+      "i": 6,
       "hidden": false,
       "paused": false,
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7311,
-      "error": null
-    },
-    {
-      "i": 6,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "time": 1.7355,
       "error": null
     },
     {
@@ -1854,17 +1881,17 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.73,
+      "time": 1.7354,
       "error": null
     },
     {
       "i": 8,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 126,
+      "time": 1.7341,
       "error": null
     },
     {
@@ -1873,8 +1900,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.73,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -1883,8 +1910,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.7258,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -1893,8 +1920,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.724,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -1903,8 +1930,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 4.8125,
+      "frames": 79,
+      "time": 4.9994,
       "error": null
     },
     {
@@ -1913,8 +1940,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 4.8125,
+      "frames": 79,
+      "time": 4.9993,
       "error": null
     },
     {
@@ -1923,8 +1950,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 4.8125,
+      "frames": 79,
+      "time": 4.9988,
       "error": null
     },
     {
@@ -1933,8 +1960,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 79,
-      "time": 4.9888,
+      "frames": 121,
+      "time": 4.9966,
       "error": null
     },
     {
@@ -1943,8 +1970,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 79,
-      "time": 4.9873,
+      "frames": 121,
+      "time": 4.9965,
       "error": null
     },
     {
@@ -1953,8 +1980,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 79,
-      "time": 4.9869,
+      "frames": 121,
+      "time": 4.9962,
       "error": null
     },
     {
@@ -1963,8 +1990,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 121,
-      "time": 4.9868,
+      "frames": 126,
+      "time": 1.7302,
       "error": null
     },
     {
@@ -1973,8 +2000,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 121,
-      "time": 4.9868,
+      "frames": 126,
+      "time": 1.7304,
       "error": null
     },
     {
@@ -1983,8 +2010,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 121,
-      "time": 4.9868,
+      "frames": 126,
+      "time": 1.7299,
       "error": null
     },
     {
@@ -1994,7 +2021,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9868,
+      "time": 4.9956,
       "error": null
     },
     {
@@ -2014,7 +2041,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9869,
+      "time": 4.9956,
       "error": null
     },
     {
@@ -2034,7 +2061,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9868,
+      "time": 4.9948,
       "error": null
     },
     {
@@ -2054,7 +2081,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -2084,7 +2111,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -2114,7 +2141,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -2144,7 +2171,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -2164,7 +2191,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2204,
+      "time": 2.2309,
       "error": null
     },
     {
@@ -2184,7 +2211,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 152,
-      "time": 2.2846,
+      "time": 2.3088,
       "error": null
     },
     {
@@ -2204,7 +2231,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9867,
+      "time": 4.994,
       "error": null
     },
     {
@@ -2234,7 +2261,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9867,
+      "time": 4.994,
       "error": null
     },
     {
@@ -2264,7 +2291,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9857,
+      "time": 4.9932,
       "error": null
     },
     {
@@ -2289,14 +2316,14 @@
     }
   ],
   "after_play": {
-    "at": "2026-10-21T01:52:44.607Z",
+    "at": "2026-10-21T02:34:17.630Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
     "playAllActive": true,
     "videos": [
       {
-        "label": "完整源动作 simple01_woman_talking_plants",
+        "label": "SpaceTimePilot Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2304,49 +2331,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.779,
-        "error": "",
-        "mediaError": null,
-        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
-      },
-      {
-        "label": "完整源动作 simple02_woman_presenting_chalkboard",
-        "hidden": false,
-        "phase": "playing",
-        "downloaded": true,
-        "attempts": 1,
-        "readyState": 4,
-        "networkState": 1,
-        "paused": false,
-        "currentTime": 1.7687,
-        "error": "",
-        "mediaError": null,
-        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
-      },
-      {
-        "label": "完整源动作 simple03_woman_slow_expression",
-        "hidden": false,
-        "phase": "playing",
-        "downloaded": true,
-        "attempts": 1,
-        "readyState": 4,
-        "networkState": 1,
-        "paused": false,
-        "currentTime": 1.753,
-        "error": "",
-        "mediaError": null,
-        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
-      },
-      {
-        "label": "SpaceTimePilot route_a Stage2 simple01_woman_talking_plants",
-        "hidden": false,
-        "phase": "playing",
-        "downloaded": true,
-        "attempts": 1,
-        "readyState": 4,
-        "networkState": 1,
-        "paused": false,
-        "currentTime": 1.7518,
+        "currentTime": 1.7819,
         "error": "",
         "mediaError": null,
         "source": "assets/e3de47030dbb9be522334fc8_preview.mp4"
@@ -2366,7 +2351,7 @@
         "source": "assets/b080bd654f61c417dc7216ed_preview.mp4"
       },
       {
-        "label": "SpaceTimePilot route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "SpaceTimePilot Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2374,7 +2359,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.753,
+        "currentTime": 1.7761,
         "error": "",
         "mediaError": null,
         "source": "assets/089f3e34f430c1ae2df1b94d_preview.mp4"
@@ -2394,7 +2379,7 @@
         "source": "assets/d63eac7146211205b84d68d2_preview.mp4"
       },
       {
-        "label": "SpaceTimePilot route_a Stage2 simple03_woman_slow_expression",
+        "label": "SpaceTimePilot Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2402,7 +2387,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7519,
+        "currentTime": 1.7713,
         "error": "",
         "mediaError": null,
         "source": "assets/d7a2ac79328535ade25e3821_preview.mp4"
@@ -2422,7 +2407,7 @@
         "source": "assets/5d63f21b4a9124c836cd2aa1_preview.mp4"
       },
       {
-        "label": "ReCamMaster route_a Stage2 simple01_woman_talking_plants",
+        "label": "ReCamMaster Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2430,13 +2415,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7519,
+        "currentTime": 1.7555,
         "error": "",
         "mediaError": null,
         "source": "assets/e594d2043fdc1936a5cb4bed_preview.mp4"
       },
       {
-        "label": "ReCamMaster route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "ReCamMaster Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2444,13 +2429,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7477,
+        "currentTime": 1.7554,
         "error": "",
         "mediaError": null,
         "source": "assets/311afa455a21ea4ee334a85a_preview.mp4"
       },
       {
-        "label": "ReCamMaster route_a Stage2 simple03_woman_slow_expression",
+        "label": "ReCamMaster Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2458,55 +2443,55 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7459,
+        "currentTime": 1.7542,
         "error": "",
         "mediaError": null,
         "source": "assets/383094c45955d394398a2125_preview.mp4"
       },
       {
-        "label": "WorldInWorld route_a Stage2 simple01_woman_talking_plants",
+        "label": "WorldInWorld Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
         "attempts": 1,
-        "readyState": 1,
+        "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0,
+        "currentTime": 0.0067,
         "error": "",
         "mediaError": null,
         "source": "assets/c1be5e930db1e3de9772b6a8_preview.mp4"
       },
       {
-        "label": "WorldInWorld route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "WorldInWorld Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
         "attempts": 1,
-        "readyState": 1,
+        "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0,
+        "currentTime": 0.0067,
         "error": "",
         "mediaError": null,
         "source": "assets/7758083056c2e7c6962219c7_preview.mp4"
       },
       {
-        "label": "WorldInWorld route_a Stage2 simple03_woman_slow_expression",
+        "label": "WorldInWorld Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
         "attempts": 1,
-        "readyState": 1,
+        "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0,
+        "currentTime": 0.0067,
         "error": "",
         "mediaError": null,
         "source": "assets/8a81c38e2655c07e5548c400_preview.mp4"
       },
       {
-        "label": "ReDirector route_a Stage2 simple01_woman_talking_plants",
+        "label": "ReDirector Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2514,13 +2499,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0108,
+        "currentTime": 5.0195,
         "error": "",
         "mediaError": null,
         "source": "assets/42593da20fbe6beeb4d76cb0_preview.mp4"
       },
       {
-        "label": "ReDirector route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "ReDirector Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2528,13 +2513,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0092,
+        "currentTime": 5.0193,
         "error": "",
         "mediaError": null,
         "source": "assets/17f101d150b1b47adc144197_preview.mp4"
       },
       {
-        "label": "ReDirector route_a Stage2 simple03_woman_slow_expression",
+        "label": "ReDirector Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2542,13 +2527,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0088,
+        "currentTime": 5.0189,
         "error": "",
         "mediaError": null,
         "source": "assets/65999af1517f2262e7f980fa_preview.mp4"
       },
       {
-        "label": "GEN3C route_a Stage2 simple01_woman_talking_plants",
+        "label": "GEN3C Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2556,13 +2541,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0088,
+        "currentTime": 5.0166,
         "error": "",
         "mediaError": null,
         "source": "assets/3963cd1227a362598c60bb1f_preview.mp4"
       },
       {
-        "label": "GEN3C route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "GEN3C Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2570,13 +2555,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0088,
+        "currentTime": 5.0165,
         "error": "",
         "mediaError": null,
         "source": "assets/d453335f9fa2505c97f572ed_preview.mp4"
       },
       {
-        "label": "GEN3C route_a Stage2 simple03_woman_slow_expression",
+        "label": "GEN3C Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2584,13 +2569,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0088,
+        "currentTime": 5.0163,
         "error": "",
         "mediaError": null,
         "source": "assets/8ec34148f1d6d26752e782f2_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage3 simple01_woman_talking_plants",
+        "label": "统一动作参考 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2598,7 +2583,49 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0088,
+        "currentTime": 1.7502,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
+      },
+      {
+        "label": "统一动作参考 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 1.7505,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
+      },
+      {
+        "label": "统一动作参考 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 1.75,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "DepthDirector Stage3 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.0157,
         "error": "",
         "mediaError": null,
         "source": "assets/1e397fe6d2f5a5d72489d14d_preview.mp4"
@@ -2618,7 +2645,7 @@
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "DepthDirector Stage3 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2626,7 +2653,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0089,
+        "currentTime": 5.0156,
         "error": "",
         "mediaError": null,
         "source": "assets/4a8ae4c2d99e33bfff03d181_preview.mp4"
@@ -2646,7 +2673,7 @@
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage3 simple03_woman_slow_expression",
+        "label": "DepthDirector Stage3 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2654,7 +2681,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0088,
+        "currentTime": 5.0149,
         "error": "",
         "mediaError": null,
         "source": "assets/e7f3525deb2c3b7f0b2d199a_preview.mp4"
@@ -2674,7 +2701,7 @@
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
-        "label": "CamCloneMaster route_a Stage3 simple01_woman_talking_plants",
+        "label": "CamCloneMaster Stage3 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2682,7 +2709,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2424,
+        "currentTime": 2.251,
         "error": "",
         "mediaError": null,
         "source": "assets/b917e67a9473c916fd688b69_preview.mp4"
@@ -2716,7 +2743,7 @@
         "source": "assets/09a109280f28d7db22d67a04_preview.mp4"
       },
       {
-        "label": "CamCloneMaster route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "CamCloneMaster Stage3 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2724,7 +2751,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2425,
+        "currentTime": 2.251,
         "error": "",
         "mediaError": null,
         "source": "assets/ead2ebd2fef9403d81f5a190_preview.mp4"
@@ -2758,7 +2785,7 @@
         "source": "assets/e7cee4d6c0702fe7813c3b79_preview.mp4"
       },
       {
-        "label": "CamCloneMaster route_a Stage3 simple03_woman_slow_expression",
+        "label": "CamCloneMaster Stage3 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2766,7 +2793,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2425,
+        "currentTime": 2.2511,
         "error": "",
         "mediaError": null,
         "source": "assets/2ae4cb93382db5fc2dbaa849_preview.mp4"
@@ -2800,7 +2827,7 @@
         "source": "assets/f41a54458b3229c951cd56e9_preview.mp4"
       },
       {
-        "label": "TriMotion route_a Stage3 simple01_woman_talking_plants",
+        "label": "TriMotion Stage3 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2808,7 +2835,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2425,
+        "currentTime": 2.2511,
         "error": "",
         "mediaError": null,
         "source": "assets/4a5af0b491521d63c92247c3_preview.mp4"
@@ -2828,7 +2855,7 @@
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
       },
       {
-        "label": "TriMotion route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "TriMotion Stage3 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2836,7 +2863,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2425,
+        "currentTime": 2.251,
         "error": "",
         "mediaError": null,
         "source": "assets/e1e1587dd0e6a57c752f876f_preview.mp4"
@@ -2856,7 +2883,7 @@
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
       },
       {
-        "label": "TriMotion route_a Stage3 simple03_woman_slow_expression",
+        "label": "TriMotion Stage3 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2864,7 +2891,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.3068,
+        "currentTime": 2.3289,
         "error": "",
         "mediaError": null,
         "source": "assets/41789472686653a87826641d_preview.mp4"
@@ -2884,7 +2911,7 @@
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
-        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple01_woman_talking_plants",
+        "label": "MiniMax H3 · Ref2VA 图视频联合 Stage3 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2892,7 +2919,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0088,
+        "currentTime": 5.0142,
         "error": "",
         "mediaError": null,
         "source": "assets/fbbc5e7b72c809f56e64d3ba_preview.mp4"
@@ -2926,7 +2953,7 @@
         "source": "assets/d1e4b2a5cd2ca96ae0b5dfe3_preview.mp4"
       },
       {
-        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "MiniMax H3 · Ref2VA 图视频联合 Stage3 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2934,7 +2961,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0089,
+        "currentTime": 5.0142,
         "error": "",
         "mediaError": null,
         "source": "assets/afa51bb25d317a91163c8ea1_preview.mp4"
@@ -2968,7 +2995,7 @@
         "source": "assets/2d70f8a0fedf9ab44dfaced0_preview.mp4"
       },
       {
-        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple03_woman_slow_expression",
+        "label": "MiniMax H3 · Ref2VA 图视频联合 Stage3 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -2976,7 +3003,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.008,
+        "currentTime": 5.0134,
         "error": "",
         "mediaError": null,
         "source": "assets/c2769e9944a465cb03af2123_preview.mp4"
@@ -3015,56 +3042,14 @@
   "simultaneous_playing_count": 30,
   "decoding_advanced_count": 30,
   "collapsed_state": {
-    "at": "2026-10-21T01:52:48.791Z",
+    "at": "2026-10-21T02:34:23.325Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
     "playAllActive": true,
     "videos": [
       {
-        "label": "完整源动作 simple01_woman_talking_plants",
-        "hidden": false,
-        "phase": "playing",
-        "downloaded": true,
-        "attempts": 1,
-        "readyState": 4,
-        "networkState": 1,
-        "paused": false,
-        "currentTime": 2.7053,
-        "error": "",
-        "mediaError": null,
-        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
-      },
-      {
-        "label": "完整源动作 simple02_woman_presenting_chalkboard",
-        "hidden": false,
-        "phase": "playing",
-        "downloaded": true,
-        "attempts": 1,
-        "readyState": 4,
-        "networkState": 1,
-        "paused": false,
-        "currentTime": 2.6961,
-        "error": "",
-        "mediaError": null,
-        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
-      },
-      {
-        "label": "完整源动作 simple03_woman_slow_expression",
-        "hidden": false,
-        "phase": "playing",
-        "downloaded": true,
-        "attempts": 1,
-        "readyState": 4,
-        "networkState": 1,
-        "paused": false,
-        "currentTime": 2.6671,
-        "error": "",
-        "mediaError": null,
-        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
-      },
-      {
-        "label": "SpaceTimePilot route_a Stage2 simple01_woman_talking_plants",
+        "label": "SpaceTimePilot Stage2 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3092,7 +3077,7 @@
         "source": "assets/b080bd654f61c417dc7216ed_preview.mp4"
       },
       {
-        "label": "SpaceTimePilot route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "SpaceTimePilot Stage2 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3120,7 +3105,7 @@
         "source": "assets/d63eac7146211205b84d68d2_preview.mp4"
       },
       {
-        "label": "SpaceTimePilot route_a Stage2 simple03_woman_slow_expression",
+        "label": "SpaceTimePilot Stage2 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3148,7 +3133,7 @@
         "source": "assets/5d63f21b4a9124c836cd2aa1_preview.mp4"
       },
       {
-        "label": "ReCamMaster route_a Stage2 simple01_woman_talking_plants",
+        "label": "ReCamMaster Stage2 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3162,7 +3147,7 @@
         "source": "assets/e594d2043fdc1936a5cb4bed_preview.mp4"
       },
       {
-        "label": "ReCamMaster route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "ReCamMaster Stage2 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3176,7 +3161,7 @@
         "source": "assets/311afa455a21ea4ee334a85a_preview.mp4"
       },
       {
-        "label": "ReCamMaster route_a Stage2 simple03_woman_slow_expression",
+        "label": "ReCamMaster Stage2 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3190,7 +3175,7 @@
         "source": "assets/383094c45955d394398a2125_preview.mp4"
       },
       {
-        "label": "WorldInWorld route_a Stage2 simple01_woman_talking_plants",
+        "label": "WorldInWorld Stage2 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3204,7 +3189,7 @@
         "source": "assets/c1be5e930db1e3de9772b6a8_preview.mp4"
       },
       {
-        "label": "WorldInWorld route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "WorldInWorld Stage2 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3218,7 +3203,7 @@
         "source": "assets/7758083056c2e7c6962219c7_preview.mp4"
       },
       {
-        "label": "WorldInWorld route_a Stage2 simple03_woman_slow_expression",
+        "label": "WorldInWorld Stage2 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3232,7 +3217,7 @@
         "source": "assets/8a81c38e2655c07e5548c400_preview.mp4"
       },
       {
-        "label": "ReDirector route_a Stage2 simple01_woman_talking_plants",
+        "label": "ReDirector Stage2 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3246,7 +3231,7 @@
         "source": "assets/42593da20fbe6beeb4d76cb0_preview.mp4"
       },
       {
-        "label": "ReDirector route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "ReDirector Stage2 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3260,7 +3245,7 @@
         "source": "assets/17f101d150b1b47adc144197_preview.mp4"
       },
       {
-        "label": "ReDirector route_a Stage2 simple03_woman_slow_expression",
+        "label": "ReDirector Stage2 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3274,7 +3259,7 @@
         "source": "assets/65999af1517f2262e7f980fa_preview.mp4"
       },
       {
-        "label": "GEN3C route_a Stage2 simple01_woman_talking_plants",
+        "label": "GEN3C Stage2 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3288,7 +3273,7 @@
         "source": "assets/3963cd1227a362598c60bb1f_preview.mp4"
       },
       {
-        "label": "GEN3C route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "GEN3C Stage2 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3302,7 +3287,7 @@
         "source": "assets/d453335f9fa2505c97f572ed_preview.mp4"
       },
       {
-        "label": "GEN3C route_a Stage2 simple03_woman_slow_expression",
+        "label": "GEN3C Stage2 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3316,7 +3301,49 @@
         "source": "assets/8ec34148f1d6d26752e782f2_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage3 simple01_woman_talking_plants",
+        "label": "统一动作参考 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 0.7766,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
+      },
+      {
+        "label": "统一动作参考 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 0.7766,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
+      },
+      {
+        "label": "统一动作参考 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 0.7766,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "DepthDirector Stage3 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3344,7 +3371,7 @@
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "DepthDirector Stage3 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3372,7 +3399,7 @@
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage3 simple03_woman_slow_expression",
+        "label": "DepthDirector Stage3 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3400,7 +3427,7 @@
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
-        "label": "CamCloneMaster route_a Stage3 simple01_woman_talking_plants",
+        "label": "CamCloneMaster Stage3 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3442,7 +3469,7 @@
         "source": "assets/09a109280f28d7db22d67a04_preview.mp4"
       },
       {
-        "label": "CamCloneMaster route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "CamCloneMaster Stage3 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3484,7 +3511,7 @@
         "source": "assets/e7cee4d6c0702fe7813c3b79_preview.mp4"
       },
       {
-        "label": "CamCloneMaster route_a Stage3 simple03_woman_slow_expression",
+        "label": "CamCloneMaster Stage3 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3526,7 +3553,7 @@
         "source": "assets/f41a54458b3229c951cd56e9_preview.mp4"
       },
       {
-        "label": "TriMotion route_a Stage3 simple01_woman_talking_plants",
+        "label": "TriMotion Stage3 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3554,7 +3581,7 @@
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
       },
       {
-        "label": "TriMotion route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "TriMotion Stage3 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3582,7 +3609,7 @@
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
       },
       {
-        "label": "TriMotion route_a Stage3 simple03_woman_slow_expression",
+        "label": "TriMotion Stage3 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3610,7 +3637,7 @@
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
-        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple01_woman_talking_plants",
+        "label": "MiniMax H3 · Ref2VA 图视频联合 Stage3 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3652,7 +3679,7 @@
         "source": "assets/d1e4b2a5cd2ca96ae0b5dfe3_preview.mp4"
       },
       {
-        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple02_woman_presenting_chalkboard",
+        "label": "MiniMax H3 · Ref2VA 图视频联合 Stage3 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3694,7 +3721,7 @@
         "source": "assets/2d70f8a0fedf9ab44dfaced0_preview.mp4"
       },
       {
-        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple03_woman_slow_expression",
+        "label": "MiniMax H3 · Ref2VA 图视频联合 Stage3 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -3741,5 +3768,5 @@
   "csv_score_export_roundtrip": true,
   "queue_fairness_fault_check": true,
   "status": "passed",
-  "finished_unix": 1792547568.952841
+  "finished_unix": 1792550063.4944787
 }
