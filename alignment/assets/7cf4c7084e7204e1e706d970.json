@@ -231,8 +231,8 @@
               "frames": 81
             }
           },
-          "single_stage_quality": "pending_manual_acceptance",
-          "seam_quality": "pending_manual_acceptance"
+          "single_stage_quality": "user_rejected_unusable",
+          "seam_quality": "not_passed"
         },
         "endpoint_estimated": {
           "consumed_source_motion": {
@@ -379,8 +379,8 @@
               "frames": 81
             }
           },
-          "single_stage_quality": "pending_manual_acceptance",
-          "seam_quality": "pending_manual_acceptance"
+          "single_stage_quality": "user_rejected_unusable",
+          "seam_quality": "not_passed"
         }
       },
       "comparison": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/audit/simple01_woman_talking_plants/native_comparison.jpg",
@@ -418,12 +418,12 @@
       "full_source_action_hash_unchanged": true,
       "postdecode_frame_replacement": false,
       "geometry_estimate_not_ground_truth": true,
-      "single_stage_quality": "pending_manual_acceptance",
-      "seam_quality": "pending_manual_acceptance",
+      "single_stage_quality": "user_rejected_unusable",
+      "seam_quality": "not_passed",
       "seam12_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/seams/simple01_woman_talking_plants/seam12.jpg",
       "assistant_visual_observation": "六个时点抽帧：修复前、画布对照、机位细化版均从侧向首帧较快回到正面；机位细化未解决主退化。",
       "assistant_review_method": "actual native frames0,1,8,20,40,80, plus true Stage1/2 and Stage2/3 boundaries; not continuous full-video human acceptance",
-      "human_acceptance": "pending"
+      "human_acceptance": "user_rejected_unusable"
     },
     {
       "stitched_source_action_timing_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/seams/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
@@ -656,8 +656,8 @@
               "frames": 81
             }
           },
-          "single_stage_quality": "pending_manual_acceptance",
-          "seam_quality": "pending_manual_acceptance"
+          "single_stage_quality": "user_rejected_unusable",
+          "seam_quality": "not_passed"
         },
         "endpoint_estimated": {
           "consumed_source_motion": {
@@ -804,8 +804,8 @@
               "frames": 81
             }
           },
-          "single_stage_quality": "pending_manual_acceptance",
-          "seam_quality": "pending_manual_acceptance"
+          "single_stage_quality": "user_rejected_unusable",
+          "seam_quality": "not_passed"
         }
       },
       "comparison": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/audit/simple02_woman_presenting_chalkboard/native_comparison.jpg",
@@ -843,12 +843,12 @@
       "full_source_action_hash_unchanged": true,
       "postdecode_frame_replacement": false,
       "geometry_estimate_not_ground_truth": true,
-      "single_stage_quality": "pending_manual_acceptance",
-      "seam_quality": "pending_manual_acceptance",
+      "single_stage_quality": "user_rejected_unusable",
+      "seam_quality": "not_passed",
       "seam12_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/seams/simple02_woman_presenting_chalkboard/seam12.jpg",
       "assistant_visual_observation": "特征稀疏，异常99.65°机位已在推理前拒绝；平移细化诊断版仍出现人物/道具额外缩小及位移，不能作为对齐成功。",
       "assistant_review_method": "actual native frames0,1,8,20,40,80, plus true Stage1/2 and Stage2/3 boundaries; not continuous full-video human acceptance",
-      "human_acceptance": "pending"
+      "human_acceptance": "user_rejected_unusable"
     },
     {
       "stitched_source_action_timing_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/seams/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
@@ -1081,8 +1081,8 @@
               "frames": 81
             }
           },
-          "single_stage_quality": "pending_manual_acceptance",
-          "seam_quality": "pending_manual_acceptance"
+          "single_stage_quality": "user_rejected_unusable",
+          "seam_quality": "not_passed"
         },
         "endpoint_estimated": {
           "consumed_source_motion": {
@@ -1229,8 +1229,8 @@
               "frames": 81
             }
           },
-          "single_stage_quality": "pending_manual_acceptance",
-          "seam_quality": "pending_manual_acceptance"
+          "single_stage_quality": "user_rejected_unusable",
+          "seam_quality": "not_passed"
         }
       },
       "comparison": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/audit/simple03_woman_slow_expression/native_comparison.jpg",
@@ -1268,12 +1268,12 @@
       "full_source_action_hash_unchanged": true,
       "postdecode_frame_replacement": false,
       "geometry_estimate_not_ground_truth": true,
-      "single_stage_quality": "pending_manual_acceptance",
-      "seam_quality": "pending_manual_acceptance",
+      "single_stage_quality": "user_rejected_unusable",
+      "seam_quality": "not_passed",
       "seam12_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/seams/simple03_woman_slow_expression/seam12.jpg",
       "assistant_visual_observation": "画布对照出现背景明显漂移；机位细化版较该对照保留了更多背景位置，但仍需检查人物视角和动作，未判质量通过。",
       "assistant_review_method": "actual native frames0,1,8,20,40,80, plus true Stage1/2 and Stage2/3 boundaries; not continuous full-video human acceptance",
-      "human_acceptance": "pending"
+      "human_acceptance": "user_rejected_unusable"
     }
   ],
   "cases": 3,
@@ -1289,5 +1289,8 @@
   },
   "verified_new_motion_frames_total": 486,
   "verified_native_first_latent_constraints": 6,
-  "postdecode_frame_replacement": false
+  "postdecode_frame_replacement": false,
+  "human_acceptance": "user_rejected_unusable",
+  "quality_status": "user_rejected_unusable",
+  "user_review": "audit/user_rejection.json"
 }
