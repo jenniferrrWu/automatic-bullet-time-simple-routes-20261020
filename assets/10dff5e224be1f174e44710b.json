@@ -1,0 +1,144 @@
+{
+  "updated_unix": 1792546685.9370468,
+  "inspected_native_videos": 15,
+  "inspected_prefixes": 15,
+  "human_confirmed_passes": 0,
+  "full_video_watched": false,
+  "items": [
+    {
+      "model_key": "stp",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "e3de47030dbb9be522334fc8810608e676dfd00db796256412d1b35e02b6d53f",
+      "observation": "首帧接近源图但人物尺度与背景构图已有偏差；时序抽帧可见嘴形、脸部和衣服细节变化，不能确认动作完全冻结。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "stp",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "089f3e34f430c1ae2df1b94dc5d295af41e7f29ce3f0d78ca943f334dabeff4e",
+      "observation": "粉色纸板在时序抽帧中明显变形并逐渐偏离手部位置，未达到物体冻结要求。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "stp",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "d7a2ac79328535ade25e382152a43cd95dc3416882204429f2e1038f2eab4e8f",
+      "observation": "人物表情大体接近，背景有明显视点变化；主体朝向与脸部细节也有变化，真实视差及30°角度仍待验收。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "recam",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "e594d2043fdc1936a5cb4bed86df508af786e3f47c8b7fe5c1130172fcaf219c",
+      "observation": "首帧与输入较近；背景和人物透视随时间变化，脸部、嘴形仍有细节漂移，冻结和真实绕拍需人工确认。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "recam",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836",
+      "observation": "纸板和主体形状相对稳定，视点有变化；不能仅凭这五张抽帧认定真实绕拍30°及全程姿态冻结。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "recam",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "383094c45955d394398a2125b5ba020661369b058749e750a9ed92e1d43d4d20",
+      "observation": "起始状态较近，背景出现侧向可见面变化，主体相对稳定；首帧接口仍只有冻结源视频内容，未证明严格首帧锁定。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "world",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "c1be5e930db1e3de9772b6a81b9f5be9891f931905788280e1ebae43cc46aba2",
+      "observation": "首帧较近，后续嘴形和脸部有变化；人物与背景视点发生变化，但动作完全冻结未确认。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "world",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "7758083056c2e7c6962219c76c4a08870395383ec1768922e0823c6204dd52c6",
+      "observation": "后段黑板左侧出现明显黑色缺口；人物和纸板外观仍需验收，不能判场景完整。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "world",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "8a81c38e2655c07e5548c400744879a7a54dd4cc7d200c68d1c5261ef9d392ea",
+      "observation": "首帧较近，主体整体姿态相对稳定；背景细节和可见结构随视点变化，几何一致性及绕拍方向/角度待人工确认。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "redirector",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "42593da20fbe6beeb4d76cb0bb1f3cc7978977f022754e01a8ed5a1e5cf97a2c",
+      "observation": "后段明显闭眼、嘴形与表情变化，不满足人物全部冻结。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "redirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "17f101d150b1b47adc1441978255a888bd0c6afa790ef018cf45a2a2ff52d599",
+      "observation": "主体及纸板随时间缩小，背景构图明显变化；是否围绕主体而非拉远/缩放仿效需要人工检查。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "redirector",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "65999af1517f2262e7f980fa930e025e48f919e56a6082ff9c3d0064ffe51aeb",
+      "observation": "后段明显闭眼并有脸部朝向/表情变化，冻结未达标。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "gen3c",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "3963cd1227a362598c60bb1febe5c5d3739d2be8b30b232fe694e0793aca4c9d",
+      "observation": "后段左侧出现额外人物，原主体移到右缘并最终大部分出画；场景与构图不稳定。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "gen3c",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "d453335f9fa2505c97f572ed0150878251dff4c942e45d6db014f4abfb8a3fea",
+      "observation": "纸板和人物形状相对稳定，有透视与位置变化；真实30°环绕及人物静止仍待验收。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "model_key": "gen3c",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "8ec34148f1d6d26752e782f272685024012de2751b07a71c88e81a0cb87059f0",
+      "observation": "主体逐渐向右缘移动，背景大幅横向变化；相机是否围绕主体、是否具有合理视差待人工验收。",
+      "review_method": "actual input plus native f0-f8 and five actual temporal frames inspected in contact sheets",
+      "full_video_watched": false,
+      "human_acceptance": "pending"
+    }
+  ]
+}

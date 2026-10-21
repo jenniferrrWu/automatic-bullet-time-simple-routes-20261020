@@ -1,5 +1,5 @@
 {
-  "started_unix": 1792497155.9801612,
+  "started_unix": 1792546847.6779895,
   "url": "http://127.0.0.1:8040/results/stage23_simple_routes_20261020/site/index.html",
   "model_quality_review": false,
   "test_environment": "server-side headless Chromium; does not certify playback on every client computer/network",
@@ -7,10 +7,17 @@
   "http_failures": [],
   "samples": [
     {
-      "at": 1792497157.2290657,
-      "visible": 15,
-      "downloaded": 15,
-      "ready": 15,
+      "at": 1792546849.0846848,
+      "visible": 27,
+      "downloaded": 25,
+      "ready": 21,
+      "active_downloads": 2
+    },
+    {
+      "at": 1792546851.115572,
+      "visible": 27,
+      "downloaded": 27,
+      "ready": 27,
       "active_downloads": 0
     }
   ],
@@ -19,10 +26,10 @@
     "stalled": [],
     "requests": []
   },
-  "tested_html_sha256": "d8320c9567a4aea03833ca244fbac24ab1b56de00bfb5e321dfe782442368695",
+  "tested_html_sha256": "7c7d314a20bc540dc4ac3ed284e4c9d03208ba4cb92d75efeb1bd059ceea6d06",
   "separate_load_and_play_buttons": 0,
   "before_play": {
-    "at": "2026-10-20T11:52:37.237Z",
+    "at": "2026-10-21T01:40:51.117Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -71,7 +78,7 @@
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage2 simple01_woman_talking_plants",
+        "label": "SpaceTimePilot route_a Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -82,7 +89,7 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/36ea8f30603c141b98b4275b_preview.mp4"
+        "source": "assets/e3de47030dbb9be522334fc8_preview.mp4"
       },
       {
         "label": "冻结内容输入 simple01_woman_talking_plants",
@@ -96,10 +103,10 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/40a71d0b7b12fe81f0e6bad8_preview.mp4"
+        "source": "assets/b080bd654f61c417dc7216ed_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "SpaceTimePilot route_a Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -110,7 +117,7 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/d954719b0247586f1d904542_preview.mp4"
+        "source": "assets/089f3e34f430c1ae2df1b94d_preview.mp4"
       },
       {
         "label": "冻结内容输入 simple02_woman_presenting_chalkboard",
@@ -124,10 +131,10 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/f61a72316d6670d26bb891e7_preview.mp4"
+        "source": "assets/d63eac7146211205b84d68d2_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage2 simple03_woman_slow_expression",
+        "label": "SpaceTimePilot route_a Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "ready",
         "downloaded": true,
@@ -138,7 +145,7 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/a4ca030005304f9346950265_preview.mp4"
+        "source": "assets/d7a2ac79328535ade25e3821_preview.mp4"
       },
       {
         "label": "冻结内容输入 simple03_woman_slow_expression",
@@ -152,7 +159,175 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/b0a2ea9fc8783e3cf2dac025_preview.mp4"
+        "source": "assets/5d63f21b4a9124c836cd2aa1_preview.mp4"
+      },
+      {
+        "label": "ReCamMaster route_a Stage2 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/e594d2043fdc1936a5cb4bed_preview.mp4"
+      },
+      {
+        "label": "ReCamMaster route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/311afa455a21ea4ee334a85a_preview.mp4"
+      },
+      {
+        "label": "ReCamMaster route_a Stage2 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/383094c45955d394398a2125_preview.mp4"
+      },
+      {
+        "label": "WorldInWorld route_a Stage2 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c1be5e930db1e3de9772b6a8_preview.mp4"
+      },
+      {
+        "label": "WorldInWorld route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/7758083056c2e7c6962219c7_preview.mp4"
+      },
+      {
+        "label": "WorldInWorld route_a Stage2 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/8a81c38e2655c07e5548c400_preview.mp4"
+      },
+      {
+        "label": "ReDirector route_a Stage2 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/42593da20fbe6beeb4d76cb0_preview.mp4"
+      },
+      {
+        "label": "ReDirector route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/17f101d150b1b47adc144197_preview.mp4"
+      },
+      {
+        "label": "ReDirector route_a Stage2 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/65999af1517f2262e7f980fa_preview.mp4"
+      },
+      {
+        "label": "GEN3C route_a Stage2 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/3963cd1227a362598c60bb1f_preview.mp4"
+      },
+      {
+        "label": "GEN3C route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/d453335f9fa2505c97f572ed_preview.mp4"
+      },
+      {
+        "label": "GEN3C route_a Stage2 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/8ec34148f1d6d26752e782f2_preview.mp4"
       },
       {
         "label": "DepthDirector route_a Stage3 simple01_woman_talking_plants",
@@ -457,8 +632,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9898,
+      "frames": 82,
+      "time": 3.0323,
       "error": null
     },
     {
@@ -467,8 +642,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9871,
+      "frames": 82,
+      "time": 3.0162,
       "error": null
     },
     {
@@ -477,8 +652,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 76,
-      "time": 2.9857,
+      "frames": 82,
+      "time": 3.0162,
       "error": null
     },
     {
@@ -487,8 +662,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9857,
+      "frames": 82,
+      "time": 3.0157,
       "error": null
     },
     {
@@ -507,8 +682,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9858,
+      "frames": 82,
+      "time": 3.0079,
       "error": null
     },
     {
@@ -527,8 +702,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9858,
+      "frames": 81,
+      "time": 3.0043,
       "error": null
     },
     {
@@ -547,18 +722,18 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9856,
+      "frames": 80,
+      "time": 3.0041,
       "error": null
     },
     {
       "i": 10,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 80,
+      "time": 3.0041,
       "error": null
     },
     {
@@ -567,18 +742,18 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9852,
+      "frames": 80,
+      "time": 3.0038,
       "error": null
     },
     {
       "i": 12,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 55,
+      "time": 3.0038,
       "error": null
     },
     {
@@ -587,18 +762,18 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 2.9849,
+      "frames": 55,
+      "time": 3.0038,
       "error": null
     },
     {
       "i": 14,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 55,
+      "time": 3.0038,
       "error": null
     },
     {
@@ -607,28 +782,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 92,
-      "time": 0.2541,
+      "frames": 51,
+      "time": 3.0021,
       "error": null
     },
     {
       "i": 16,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 49,
+      "time": 3.0016,
       "error": null
     },
     {
       "i": 17,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 49,
+      "time": 3.0016,
       "error": null
     },
     {
@@ -637,28 +812,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 92,
-      "time": 0.2541,
+      "frames": 73,
+      "time": 3.0006,
       "error": null
     },
     {
       "i": 19,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 3.0002,
       "error": null
     },
     {
       "i": 20,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 2.9998,
       "error": null
     },
     {
@@ -667,8 +842,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 89,
-      "time": 0.2508,
+      "frames": 48,
+      "time": 3.0476,
       "error": null
     },
     {
@@ -683,46 +858,36 @@
     },
     {
       "i": 23,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 48,
+      "time": 3.0476,
       "error": null
     },
     {
       "i": 24,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 85,
-      "time": 0.2429,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 25,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 48,
+      "time": 3.0475,
       "error": null
     },
     {
       "i": 26,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 85,
-      "time": 0.2424,
-      "error": null
-    },
-    {
-      "i": 27,
       "hidden": true,
       "paused": true,
       "readyState": 0,
@@ -732,17 +897,147 @@
       "error": null
     },
     {
-      "i": 28,
+      "i": 27,
       "hidden": false,
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 85,
-      "time": 0.2424,
+      "frames": 89,
+      "time": 0.2387,
+      "error": null
+    },
+    {
+      "i": 28,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 29,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 30,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 89,
+      "time": 0.2387,
+      "error": null
+    },
+    {
+      "i": 31,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 32,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 33,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 92,
+      "time": 0.2832,
+      "error": null
+    },
+    {
+      "i": 34,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 35,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 36,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 92,
+      "time": 0.2734,
+      "error": null
+    },
+    {
+      "i": 37,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 38,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 92,
+      "time": 0.2733,
+      "error": null
+    },
+    {
+      "i": 39,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 40,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 92,
+      "time": 0.2733,
+      "error": null
+    },
+    {
+      "i": 41,
       "hidden": true,
       "paused": true,
       "readyState": 0,
@@ -759,8 +1054,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.751,
+      "frames": 132,
+      "time": 1.7943,
       "error": null
     },
     {
@@ -769,8 +1064,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.7437,
+      "frames": 132,
+      "time": 1.7774,
       "error": null
     },
     {
@@ -779,8 +1074,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 126,
-      "time": 1.7434,
+      "frames": 132,
+      "time": 1.7774,
       "error": null
     },
     {
@@ -789,8 +1084,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 5.0033,
+      "frames": 132,
+      "time": 1.7751,
       "error": null
     },
     {
@@ -809,8 +1104,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 5.0035,
+      "frames": 132,
+      "time": 1.7598,
       "error": null
     },
     {
@@ -829,8 +1124,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 5.0037,
+      "frames": 132,
+      "time": 1.7597,
       "error": null
     },
     {
@@ -849,18 +1144,18 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 5.0037,
+      "frames": 132,
+      "time": 1.7597,
       "error": null
     },
     {
       "i": 10,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 132,
+      "time": 1.7598,
       "error": null
     },
     {
@@ -869,18 +1164,18 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 5.0034,
+      "frames": 132,
+      "time": 1.7596,
       "error": null
     },
     {
       "i": 12,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 85,
+      "time": 0.0124,
       "error": null
     },
     {
@@ -889,18 +1184,18 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 80,
-      "time": 5.0034,
+      "frames": 85,
+      "time": 0.0124,
       "error": null
     },
     {
       "i": 14,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 85,
+      "time": 0.0124,
       "error": null
     },
     {
@@ -909,28 +1204,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 152,
-      "time": 2.2728,
+      "frames": 82,
+      "time": 5.021,
       "error": null
     },
     {
       "i": 16,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 82,
+      "time": 5.0205,
       "error": null
     },
     {
       "i": 17,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 82,
+      "time": 5.0205,
       "error": null
     },
     {
@@ -939,28 +1234,28 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 152,
-      "time": 2.273,
+      "frames": 125,
+      "time": 5.0195,
       "error": null
     },
     {
       "i": 19,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 125,
+      "time": 5.0191,
       "error": null
     },
     {
       "i": 20,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 125,
+      "time": 5.0187,
       "error": null
     },
     {
@@ -969,8 +1264,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 152,
-      "time": 2.2699,
+      "frames": 78,
+      "time": 5.0665,
       "error": null
     },
     {
@@ -985,46 +1280,36 @@
     },
     {
       "i": 23,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 78,
+      "time": 5.0665,
       "error": null
     },
     {
       "i": 24,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 152,
-      "time": 2.2623,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
       "i": 25,
-      "hidden": true,
-      "paused": true,
-      "readyState": 0,
-      "width": 0,
-      "frames": 0,
-      "time": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 78,
+      "time": 5.0664,
       "error": null
     },
     {
       "i": 26,
-      "hidden": false,
-      "paused": false,
-      "readyState": 4,
-      "width": 384,
-      "frames": 152,
-      "time": 2.262,
-      "error": null
-    },
-    {
-      "i": 27,
       "hidden": true,
       "paused": true,
       "readyState": 0,
@@ -1034,13 +1319,23 @@
       "error": null
     },
     {
-      "i": 28,
+      "i": 27,
       "hidden": false,
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 152,
-      "time": 2.2621,
+      "frames": 156,
+      "time": 2.2576,
+      "error": null
+    },
+    {
+      "i": 28,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
       "error": null
     },
     {
@@ -1052,10 +1347,130 @@
       "frames": 0,
       "time": 0,
       "error": null
+    },
+    {
+      "i": 30,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 156,
+      "time": 2.2576,
+      "error": null
+    },
+    {
+      "i": 31,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 32,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 33,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 152,
+      "time": 2.3021,
+      "error": null
+    },
+    {
+      "i": 34,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 35,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 36,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 152,
+      "time": 2.2922,
+      "error": null
+    },
+    {
+      "i": 37,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 38,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 152,
+      "time": 2.2922,
+      "error": null
+    },
+    {
+      "i": 39,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 40,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 152,
+      "time": 2.2922,
+      "error": null
+    },
+    {
+      "i": 41,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
     }
   ],
   "after_play": {
-    "at": "2026-10-20T11:52:42.379Z",
+    "at": "2026-10-21T01:40:56.277Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -1070,7 +1485,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7652,
+        "currentTime": 1.8093,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -1084,7 +1499,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7581,
+        "currentTime": 1.7925,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -1098,13 +1513,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7577,
+        "currentTime": 1.7925,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage2 simple01_woman_talking_plants",
+        "label": "SpaceTimePilot route_a Stage2 simple01_woman_talking_plants",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -1112,10 +1527,10 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0175,
+        "currentTime": 1.7902,
         "error": "",
         "mediaError": null,
-        "source": "assets/36ea8f30603c141b98b4275b_preview.mp4"
+        "source": "assets/e3de47030dbb9be522334fc8_preview.mp4"
       },
       {
         "label": "冻结内容输入 simple01_woman_talking_plants",
@@ -1129,10 +1544,10 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/40a71d0b7b12fe81f0e6bad8_preview.mp4"
+        "source": "assets/b080bd654f61c417dc7216ed_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "SpaceTimePilot route_a Stage2 simple02_woman_presenting_chalkboard",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -1140,10 +1555,10 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0175,
+        "currentTime": 1.7749,
         "error": "",
         "mediaError": null,
-        "source": "assets/d954719b0247586f1d904542_preview.mp4"
+        "source": "assets/089f3e34f430c1ae2df1b94d_preview.mp4"
       },
       {
         "label": "冻结内容输入 simple02_woman_presenting_chalkboard",
@@ -1157,10 +1572,10 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/f61a72316d6670d26bb891e7_preview.mp4"
+        "source": "assets/d63eac7146211205b84d68d2_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage2 simple03_woman_slow_expression",
+        "label": "SpaceTimePilot route_a Stage2 simple03_woman_slow_expression",
         "hidden": false,
         "phase": "playing",
         "downloaded": true,
@@ -1168,10 +1583,10 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0175,
+        "currentTime": 1.7748,
         "error": "",
         "mediaError": null,
-        "source": "assets/a4ca030005304f9346950265_preview.mp4"
+        "source": "assets/d7a2ac79328535ade25e3821_preview.mp4"
       },
       {
         "label": "冻结内容输入 simple03_woman_slow_expression",
@@ -1185,7 +1600,175 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/b0a2ea9fc8783e3cf2dac025_preview.mp4"
+        "source": "assets/5d63f21b4a9124c836cd2aa1_preview.mp4"
+      },
+      {
+        "label": "ReCamMaster route_a Stage2 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 1.7748,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/e594d2043fdc1936a5cb4bed_preview.mp4"
+      },
+      {
+        "label": "ReCamMaster route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 1.7749,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/311afa455a21ea4ee334a85a_preview.mp4"
+      },
+      {
+        "label": "ReCamMaster route_a Stage2 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 1.7747,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/383094c45955d394398a2125_preview.mp4"
+      },
+      {
+        "label": "WorldInWorld route_a Stage2 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 0.0275,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c1be5e930db1e3de9772b6a8_preview.mp4"
+      },
+      {
+        "label": "WorldInWorld route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 0.0275,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/7758083056c2e7c6962219c7_preview.mp4"
+      },
+      {
+        "label": "WorldInWorld route_a Stage2 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 0.0275,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/8a81c38e2655c07e5548c400_preview.mp4"
+      },
+      {
+        "label": "ReDirector route_a Stage2 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.0361,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/42593da20fbe6beeb4d76cb0_preview.mp4"
+      },
+      {
+        "label": "ReDirector route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.0357,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/17f101d150b1b47adc144197_preview.mp4"
+      },
+      {
+        "label": "ReDirector route_a Stage2 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.0356,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/65999af1517f2262e7f980fa_preview.mp4"
+      },
+      {
+        "label": "GEN3C route_a Stage2 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.0347,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/3963cd1227a362598c60bb1f_preview.mp4"
+      },
+      {
+        "label": "GEN3C route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.0343,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/d453335f9fa2505c97f572ed_preview.mp4"
+      },
+      {
+        "label": "GEN3C route_a Stage2 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.0338,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/8ec34148f1d6d26752e782f2_preview.mp4"
       },
       {
         "label": "DepthDirector route_a Stage3 simple01_woman_talking_plants",
@@ -1196,7 +1779,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0174,
+        "currentTime": 5.0816,
         "error": "",
         "mediaError": null,
         "source": "assets/1e397fe6d2f5a5d72489d14d_preview.mp4"
@@ -1224,7 +1807,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0169,
+        "currentTime": 5.0816,
         "error": "",
         "mediaError": null,
         "source": "assets/4a8ae4c2d99e33bfff03d181_preview.mp4"
@@ -1252,7 +1835,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0166,
+        "currentTime": 5.0815,
         "error": "",
         "mediaError": null,
         "source": "assets/e7f3525deb2c3b7f0b2d199a_preview.mp4"
@@ -1280,7 +1863,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2858,
+        "currentTime": 2.2727,
         "error": "",
         "mediaError": null,
         "source": "assets/b917e67a9473c916fd688b69_preview.mp4"
@@ -1322,7 +1905,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2858,
+        "currentTime": 2.2727,
         "error": "",
         "mediaError": null,
         "source": "assets/ead2ebd2fef9403d81f5a190_preview.mp4"
@@ -1364,7 +1947,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2825,
+        "currentTime": 2.3173,
         "error": "",
         "mediaError": null,
         "source": "assets/2ae4cb93382db5fc2dbaa849_preview.mp4"
@@ -1406,7 +1989,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2746,
+        "currentTime": 2.3074,
         "error": "",
         "mediaError": null,
         "source": "assets/4a5af0b491521d63c92247c3_preview.mp4"
@@ -1434,7 +2017,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2742,
+        "currentTime": 2.3074,
         "error": "",
         "mediaError": null,
         "source": "assets/e1e1587dd0e6a57c752f876f_preview.mp4"
@@ -1462,7 +2045,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2742,
+        "currentTime": 2.3073,
         "error": "",
         "mediaError": null,
         "source": "assets/41789472686653a87826641d_preview.mp4"
@@ -1483,11 +2066,11 @@
       }
     ]
   },
-  "visible_video_count": 15,
-  "simultaneous_playing_count": 15,
-  "decoding_advanced_count": 15,
+  "visible_video_count": 27,
+  "simultaneous_playing_count": 27,
+  "decoding_advanced_count": 27,
   "collapsed_state": {
-    "at": "2026-10-20T11:52:45.106Z",
+    "at": "2026-10-21T01:40:59.020Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -1502,7 +2085,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.2364,
+        "currentTime": 1.296,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -1516,7 +2099,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.2273,
+        "currentTime": 1.2718,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -1530,13 +2113,13 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.2273,
+        "currentTime": 1.2717,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage2 simple01_woman_talking_plants",
+        "label": "SpaceTimePilot route_a Stage2 simple01_woman_talking_plants",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -1547,7 +2130,7 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/36ea8f30603c141b98b4275b_preview.mp4"
+        "source": "assets/e3de47030dbb9be522334fc8_preview.mp4"
       },
       {
         "label": "冻结内容输入 simple01_woman_talking_plants",
@@ -1561,10 +2144,10 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/40a71d0b7b12fe81f0e6bad8_preview.mp4"
+        "source": "assets/b080bd654f61c417dc7216ed_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage2 simple02_woman_presenting_chalkboard",
+        "label": "SpaceTimePilot route_a Stage2 simple02_woman_presenting_chalkboard",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -1575,7 +2158,7 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/d954719b0247586f1d904542_preview.mp4"
+        "source": "assets/089f3e34f430c1ae2df1b94d_preview.mp4"
       },
       {
         "label": "冻结内容输入 simple02_woman_presenting_chalkboard",
@@ -1589,10 +2172,10 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/f61a72316d6670d26bb891e7_preview.mp4"
+        "source": "assets/d63eac7146211205b84d68d2_preview.mp4"
       },
       {
-        "label": "DepthDirector route_a Stage2 simple03_woman_slow_expression",
+        "label": "SpaceTimePilot route_a Stage2 simple03_woman_slow_expression",
         "hidden": true,
         "phase": "idle",
         "downloaded": false,
@@ -1603,7 +2186,7 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/a4ca030005304f9346950265_preview.mp4"
+        "source": "assets/d7a2ac79328535ade25e3821_preview.mp4"
       },
       {
         "label": "冻结内容输入 simple03_woman_slow_expression",
@@ -1617,7 +2200,175 @@
         "currentTime": 0,
         "error": "",
         "mediaError": null,
-        "source": "assets/b0a2ea9fc8783e3cf2dac025_preview.mp4"
+        "source": "assets/5d63f21b4a9124c836cd2aa1_preview.mp4"
+      },
+      {
+        "label": "ReCamMaster route_a Stage2 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/e594d2043fdc1936a5cb4bed_preview.mp4"
+      },
+      {
+        "label": "ReCamMaster route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/311afa455a21ea4ee334a85a_preview.mp4"
+      },
+      {
+        "label": "ReCamMaster route_a Stage2 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/383094c45955d394398a2125_preview.mp4"
+      },
+      {
+        "label": "WorldInWorld route_a Stage2 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c1be5e930db1e3de9772b6a8_preview.mp4"
+      },
+      {
+        "label": "WorldInWorld route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/7758083056c2e7c6962219c7_preview.mp4"
+      },
+      {
+        "label": "WorldInWorld route_a Stage2 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/8a81c38e2655c07e5548c400_preview.mp4"
+      },
+      {
+        "label": "ReDirector route_a Stage2 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/42593da20fbe6beeb4d76cb0_preview.mp4"
+      },
+      {
+        "label": "ReDirector route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/17f101d150b1b47adc144197_preview.mp4"
+      },
+      {
+        "label": "ReDirector route_a Stage2 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/65999af1517f2262e7f980fa_preview.mp4"
+      },
+      {
+        "label": "GEN3C route_a Stage2 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/3963cd1227a362598c60bb1f_preview.mp4"
+      },
+      {
+        "label": "GEN3C route_a Stage2 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/d453335f9fa2505c97f572ed_preview.mp4"
+      },
+      {
+        "label": "GEN3C route_a Stage2 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/8ec34148f1d6d26752e782f2_preview.mp4"
       },
       {
         "label": "DepthDirector route_a Stage3 simple01_woman_talking_plants",
@@ -1919,5 +2670,5 @@
   "csv_score_export_roundtrip": true,
   "queue_fairness_fault_check": true,
   "status": "passed",
-  "finished_unix": 1792497165.2506788
+  "finished_unix": 1792546859.1768243
 }
