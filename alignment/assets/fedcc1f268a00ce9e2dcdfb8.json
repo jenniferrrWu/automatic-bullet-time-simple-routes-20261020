@@ -1,0 +1,37 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "54caa655d154fcc45251e02ef75d00edbbab3490fd48da0ccbdc5cac7c7d1c49",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "initial_noise": {
+    "sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+    "shape": [
+      1,
+      48,
+      21,
+      44,
+      80
+    ],
+    "dtype": "torch.bfloat16",
+    "seed_argument": null,
+    "rng_behavior_changed": false
+  },
+  "official_endpoint_preprocessing_wh": [
+    1280,
+    704
+  ],
+  "endpoint_pixel_sha256": "3e910f303cf6d29c73b44aa365b2988684abd6e0b3ccbf1915a576fa0e0c202c",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/endpoint_static_native_v1/preprocess/effective_endpoint.png",
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}

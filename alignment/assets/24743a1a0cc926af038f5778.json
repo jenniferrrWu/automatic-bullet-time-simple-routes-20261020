@@ -1,0 +1,258 @@
+{
+  "execution_status": "3_of_3_succeeded",
+  "quality_passes_confirmed": 0,
+  "new_native_outputs": 3,
+  "items": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/endpoint_static_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "frames": 81,
+      "native_sha256": "c78b4f4c5b0c54018332d94072dc8488cefe6ad06c0911fe83eb62013e591878",
+      "actual_endpoint_sha256": "972c07fc16bb5a77fab6d35fa6a19d67e1cad08b3a30d75fa0dd385d2d1247e2",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "actual_consumed_source_dump_sha256": "9e7d4b3b6e17dc2b7954945ccf694d0030849f459a3bcf5890fe15c65964dfbb",
+      "actual_consumed_source_dump_equals_baseline": true,
+      "complete81_action_frames_verified": true,
+      "same_noise_as_endpoint_swap": true,
+      "native_first_constraint_50steps_verified": true,
+      "geometry": "constant depth directly from real endpoint; no source-to-endpoint pose estimation",
+      "comparison": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/audit/simple01_woman_talking_plants_comparison.jpg",
+      "execution_status": "succeeded",
+      "quality_status": "not_passed_visual_diagnosis",
+      "postdecode_frame_replacement": false,
+      "stitched_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple01_woman_talking_plants/stitched_native_timing_no_seam_edit.mp4",
+      "stitched_details": {
+        "parts": [
+          "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple01_woman_talking_plants/stage1_source_to_tstar_lossless.mp4",
+          "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple01_woman_talking_plants/native_v1/native.mp4",
+          "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/endpoint_static_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+        ],
+        "source_hashes": [
+          "cec99b2117f1eacffc4fcf2013abd7acb46bd89d208864e53ffc18450c460fe8",
+          "e594d2043fdc1936a5cb4bed86df508af786e3f47c8b7fe5c1130172fcaf219c",
+          "c78b4f4c5b0c54018332d94072dc8488cefe6ad06c0911fe83eb62013e591878"
+        ],
+        "source_frame_counts": [
+          260,
+          81,
+          81
+        ],
+        "stitched_frame_count": 422,
+        "all_source_frames_retained": true,
+        "each_stage_native_time_rate_retained": true,
+        "stage3_display_action_fps": null,
+        "stage3_pts_only_retimed": false,
+        "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+        "no_output_frame_replacement": true,
+        "no_blending": true,
+        "no_interpolation": true,
+        "no_boundary_frame_deletion": true,
+        "purpose": "manual seam inspection only, not a seamlessness pass"
+      },
+      "stitched_source_action_timing_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple01_woman_talking_plants/stitched_source_action_timing_no_seam_edit.mp4",
+      "stitched_source_action_timing_details": {
+        "parts": [
+          "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple01_woman_talking_plants/stage1_source_to_tstar_lossless.mp4",
+          "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple01_woman_talking_plants/native_v1/native.mp4",
+          "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/endpoint_static_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+        ],
+        "source_hashes": [
+          "cec99b2117f1eacffc4fcf2013abd7acb46bd89d208864e53ffc18450c460fe8",
+          "e594d2043fdc1936a5cb4bed86df508af786e3f47c8b7fe5c1130172fcaf219c",
+          "c78b4f4c5b0c54018332d94072dc8488cefe6ad06c0911fe83eb62013e591878"
+        ],
+        "source_frame_counts": [
+          260,
+          81,
+          81
+        ],
+        "stitched_frame_count": 422,
+        "all_source_frames_retained": true,
+        "each_stage_native_time_rate_retained": false,
+        "stage3_display_action_fps": "25/1",
+        "stage3_pts_only_retimed": true,
+        "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+        "no_output_frame_replacement": true,
+        "no_blending": true,
+        "no_interpolation": true,
+        "no_boundary_frame_deletion": true,
+        "purpose": "manual seam inspection only, not a seamlessness pass"
+      },
+      "seam12_image": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple01_woman_talking_plants/seam12.jpg",
+      "seam23_image": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple01_woman_talking_plants/seam23.jpg",
+      "single_stage_quality": "not_passed_visual_diagnosis",
+      "seam_quality": "not_confirmed_pass",
+      "assistant_visual_observation": "f0/1/8/20/40/80抽帧：从侧向首图趋向正面的问题仍在，未恢复历史单段效果。",
+      "human_acceptance": "not_requested_as_fixed"
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/endpoint_static_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "frames": 81,
+      "native_sha256": "a3f3a38c8dda85d24dae1c5859ed1b570a68a0f6a1fd1bab7fb53d0f97506d93",
+      "actual_endpoint_sha256": "4bb97263af9b32cf75a15456b5f38187080faf4cf31a5f8af5d228261b5910bd",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "actual_consumed_source_dump_sha256": "60ac0da1c915ed0227a1290af7ee939c373fc8a656b49c9705c4f638298b93e8",
+      "actual_consumed_source_dump_equals_baseline": true,
+      "complete81_action_frames_verified": true,
+      "same_noise_as_endpoint_swap": true,
+      "native_first_constraint_50steps_verified": true,
+      "geometry": "constant depth directly from real endpoint; no source-to-endpoint pose estimation",
+      "comparison": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/audit/simple02_woman_presenting_chalkboard_comparison.jpg",
+      "execution_status": "succeeded",
+      "quality_status": "not_passed_visual_diagnosis",
+      "postdecode_frame_replacement": false,
+      "stitched_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple02_woman_presenting_chalkboard/stitched_native_timing_no_seam_edit.mp4",
+      "stitched_details": {
+        "parts": [
+          "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/stage1_source_to_tstar_lossless.mp4",
+          "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+          "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/endpoint_static_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+        ],
+        "source_hashes": [
+          "4cba7865c6282856c1d5bb13a80e5da8e4bbc603ac2795e526baac3057d55e35",
+          "311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836",
+          "a3f3a38c8dda85d24dae1c5859ed1b570a68a0f6a1fd1bab7fb53d0f97506d93"
+        ],
+        "source_frame_counts": [
+          151,
+          81,
+          81
+        ],
+        "stitched_frame_count": 313,
+        "all_source_frames_retained": true,
+        "each_stage_native_time_rate_retained": true,
+        "stage3_display_action_fps": null,
+        "stage3_pts_only_retimed": false,
+        "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+        "no_output_frame_replacement": true,
+        "no_blending": true,
+        "no_interpolation": true,
+        "no_boundary_frame_deletion": true,
+        "purpose": "manual seam inspection only, not a seamlessness pass"
+      },
+      "stitched_source_action_timing_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple02_woman_presenting_chalkboard/stitched_source_action_timing_no_seam_edit.mp4",
+      "stitched_source_action_timing_details": {
+        "parts": [
+          "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/stage1_source_to_tstar_lossless.mp4",
+          "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+          "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/endpoint_static_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+        ],
+        "source_hashes": [
+          "4cba7865c6282856c1d5bb13a80e5da8e4bbc603ac2795e526baac3057d55e35",
+          "311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836",
+          "a3f3a38c8dda85d24dae1c5859ed1b570a68a0f6a1fd1bab7fb53d0f97506d93"
+        ],
+        "source_frame_counts": [
+          151,
+          81,
+          81
+        ],
+        "stitched_frame_count": 313,
+        "all_source_frames_retained": true,
+        "each_stage_native_time_rate_retained": false,
+        "stage3_display_action_fps": "25/1",
+        "stage3_pts_only_retimed": true,
+        "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+        "no_output_frame_replacement": true,
+        "no_blending": true,
+        "no_interpolation": true,
+        "no_boundary_frame_deletion": true,
+        "purpose": "manual seam inspection only, not a seamlessness pass"
+      },
+      "seam12_image": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple02_woman_presenting_chalkboard/seam12.jpg",
+      "seam23_image": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple02_woman_presenting_chalkboard/seam23.jpg",
+      "single_stage_quality": "not_passed_visual_diagnosis",
+      "seam_quality": "not_confirmed_pass",
+      "assistant_visual_observation": "抽帧见人物和道具额外缩小、位移，固定末帧深度未解决接续退化。",
+      "human_acceptance": "not_requested_as_fixed"
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/endpoint_static_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "frames": 81,
+      "native_sha256": "7c7e01eadfd27c6f4174c71e7a59dc6e23695f994af285d2959127aca5f75596",
+      "actual_endpoint_sha256": "54caa655d154fcc45251e02ef75d00edbbab3490fd48da0ccbdc5cac7c7d1c49",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "actual_consumed_source_dump_sha256": "6ba8c91d3ca0bf3af6398d8149c1eeff5bf7293471c6dbfb373e61a6f2898502",
+      "actual_consumed_source_dump_equals_baseline": true,
+      "complete81_action_frames_verified": true,
+      "same_noise_as_endpoint_swap": true,
+      "native_first_constraint_50steps_verified": true,
+      "geometry": "constant depth directly from real endpoint; no source-to-endpoint pose estimation",
+      "comparison": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/audit/simple03_woman_slow_expression_comparison.jpg",
+      "execution_status": "succeeded",
+      "quality_status": "not_passed_visual_diagnosis",
+      "postdecode_frame_replacement": false,
+      "stitched_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple03_woman_slow_expression/stitched_native_timing_no_seam_edit.mp4",
+      "stitched_details": {
+        "parts": [
+          "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple03_woman_slow_expression/stage1_source_to_tstar_lossless.mp4",
+          "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple03_woman_slow_expression/native_v1/native.mp4",
+          "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/endpoint_static_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+        ],
+        "source_hashes": [
+          "081cfa91b1cb5de0fc4bbbec479d66b8e783081cfe177035b73e7934fc3b7105",
+          "383094c45955d394398a2125b5ba020661369b058749e750a9ed92e1d43d4d20",
+          "7c7e01eadfd27c6f4174c71e7a59dc6e23695f994af285d2959127aca5f75596"
+        ],
+        "source_frame_counts": [
+          238,
+          81,
+          81
+        ],
+        "stitched_frame_count": 400,
+        "all_source_frames_retained": true,
+        "each_stage_native_time_rate_retained": true,
+        "stage3_display_action_fps": null,
+        "stage3_pts_only_retimed": false,
+        "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+        "no_output_frame_replacement": true,
+        "no_blending": true,
+        "no_interpolation": true,
+        "no_boundary_frame_deletion": true,
+        "purpose": "manual seam inspection only, not a seamlessness pass"
+      },
+      "stitched_source_action_timing_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple03_woman_slow_expression/stitched_source_action_timing_no_seam_edit.mp4",
+      "stitched_source_action_timing_details": {
+        "parts": [
+          "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple03_woman_slow_expression/stage1_source_to_tstar_lossless.mp4",
+          "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple03_woman_slow_expression/native_v1/native.mp4",
+          "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/endpoint_static_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+        ],
+        "source_hashes": [
+          "081cfa91b1cb5de0fc4bbbec479d66b8e783081cfe177035b73e7934fc3b7105",
+          "383094c45955d394398a2125b5ba020661369b058749e750a9ed92e1d43d4d20",
+          "7c7e01eadfd27c6f4174c71e7a59dc6e23695f994af285d2959127aca5f75596"
+        ],
+        "source_frame_counts": [
+          238,
+          81,
+          81
+        ],
+        "stitched_frame_count": 400,
+        "all_source_frames_retained": true,
+        "each_stage_native_time_rate_retained": false,
+        "stage3_display_action_fps": "25/1",
+        "stage3_pts_only_retimed": true,
+        "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+        "no_output_frame_replacement": true,
+        "no_blending": true,
+        "no_interpolation": true,
+        "no_boundary_frame_deletion": true,
+        "purpose": "manual seam inspection only, not a seamlessness pass"
+      },
+      "seam12_image": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple03_woman_slow_expression/seam12.jpg",
+      "seam23_image": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_view_20261021/seams/simple03_woman_slow_expression/seam23.jpg",
+      "single_stage_quality": "not_passed_visual_diagnosis",
+      "seam_quality": "not_confirmed_pass",
+      "assistant_visual_observation": "后续主体视角仍变化，源片f20闭眼动作未恢复；未判质量通过。",
+      "human_acceptance": "not_requested_as_fixed"
+    }
+  ],
+  "quality_status": "not_passed_visual_diagnosis",
+  "visual_review_method": "Actually viewed native generated frames0,1,8,20,40,80 for all3, compared with source and previous native videos; viewed both native seam contact images; not continuous full-video human acceptance"
+}
