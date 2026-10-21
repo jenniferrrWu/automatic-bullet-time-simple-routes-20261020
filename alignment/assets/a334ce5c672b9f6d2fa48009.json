@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "4bb97263af9b32cf75a15456b5f38187080faf4cf31a5f8af5d228261b5910bd",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "official_endpoint_preprocessing_wh": [
+    1280,
+    704
+  ],
+  "endpoint_pixel_sha256": "f168264bf311394c685aeb63ce640b4c4827746c9dfc1572492a8bd0887cf182",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/canvas_nominal_v2_rays/preprocess/effective_endpoint.png",
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}
