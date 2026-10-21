@@ -1,0 +1,195 @@
+{
+  "case_id": "extra05_man_studio",
+  "execution_status": "succeeded",
+  "source_hashes": [
+    "ce1b6523a80804a4df69518c3569a2afc6d149897ebccfd2090e5c7dda887a73",
+    "76960d7262a1fbbf2f0a31b30eeb3198fc3c507da41e00fd5fc8f40344430cb6",
+    "75f6e49ead86d516f8012c42e163fec94a21af0b0b2b136e2a194b0761bace4a"
+  ],
+  "stage2_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/extra05_man_studio.json",
+  "stage3_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/route_a/depthdirector/stage3/extra05_man_studio.json",
+  "stage1_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/inputs/extra05_man_studio/stage1_source_to_tstar_lossless.mp4",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra05_man_studio/native_v1/native.mp4",
+  "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/extra05_man_studio/recam_endpoint_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "native_stitched_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/extra05_man_studio/stitched_native_timing.mp4",
+  "stitched_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/extra05_man_studio/stitched_source_action_timing.mp4",
+  "stage1_frames": 186,
+  "stage2_frames": 81,
+  "stage3_frames": 81,
+  "native_stitched_details": {
+    "parts": [
+      "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/inputs/extra05_man_studio/stage1_source_to_tstar_lossless.mp4",
+      "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra05_man_studio/native_v1/native.mp4",
+      "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/extra05_man_studio/recam_endpoint_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+    ],
+    "source_hashes": [
+      "ce1b6523a80804a4df69518c3569a2afc6d149897ebccfd2090e5c7dda887a73",
+      "76960d7262a1fbbf2f0a31b30eeb3198fc3c507da41e00fd5fc8f40344430cb6",
+      "75f6e49ead86d516f8012c42e163fec94a21af0b0b2b136e2a194b0761bace4a"
+    ],
+    "source_frame_counts": [
+      186,
+      81,
+      81
+    ],
+    "stitched_frame_count": 348,
+    "all_source_frames_retained": true,
+    "each_stage_native_time_rate_retained": true,
+    "stage3_display_action_fps": null,
+    "stage3_pts_only_retimed": false,
+    "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+    "no_output_frame_replacement": true,
+    "no_blending": true,
+    "no_interpolation": true,
+    "no_boundary_frame_deletion": true,
+    "purpose": "manual seam inspection only, not a seamlessness pass"
+  },
+  "source_timing_stitched_details": {
+    "parts": [
+      "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/inputs/extra05_man_studio/stage1_source_to_tstar_lossless.mp4",
+      "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra05_man_studio/native_v1/native.mp4",
+      "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/extra05_man_studio/recam_endpoint_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+    ],
+    "source_hashes": [
+      "ce1b6523a80804a4df69518c3569a2afc6d149897ebccfd2090e5c7dda887a73",
+      "76960d7262a1fbbf2f0a31b30eeb3198fc3c507da41e00fd5fc8f40344430cb6",
+      "75f6e49ead86d516f8012c42e163fec94a21af0b0b2b136e2a194b0761bace4a"
+    ],
+    "source_frame_counts": [
+      186,
+      81,
+      81
+    ],
+    "stitched_frame_count": 348,
+    "all_source_frames_retained": true,
+    "each_stage_native_time_rate_retained": false,
+    "stage3_display_action_fps": "25/1",
+    "stage3_pts_only_retimed": true,
+    "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+    "no_output_frame_replacement": true,
+    "no_blending": true,
+    "no_interpolation": true,
+    "no_boundary_frame_deletion": true,
+    "purpose": "manual seam inspection only, not a seamlessness pass"
+  },
+  "source_post_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/inputs/extra05_man_studio/source_post_tstar_to_end_lossless.mp4",
+  "complete_source_action_81_frames_provided": true,
+  "native_source_condition_frames": 81,
+  "source_frame_rate": "25/1",
+  "native_internal_condition_fps": 25.0,
+  "internal_condition_timing_note": "Official imageio may round container fps to2decimals; all81 real frames retained; native15fps output and source-fps stitched display separately preserved",
+  "exact_recam_endpoint_consumed": true,
+  "native_first_frame_latent_constraint_audit": {
+    "status": "completed",
+    "pin_count": 50,
+    "mode": "official native fused I2V first-time-latent constraint",
+    "endpoint_file_sha256": "e8da7e90ca18b1ca5baafdc7eb0b12185dabc3cab4885ea36b0d800e768e2334",
+    "official_weights_unchanged": true,
+    "official_repo_edited": false,
+    "postdecode_frame_replacement": false,
+    "official_endpoint_preprocessing_wh": [
+      1280,
+      704
+    ],
+    "endpoint_pixel_sha256": "c190ecea6060ef5509b9ef40fcd905cb8892571b76faf9dabf7c2b9aedc58711",
+    "endpoint_latent_shape": [
+      1,
+      48,
+      1,
+      44,
+      80
+    ],
+    "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/extra05_man_studio/recam_endpoint_native_v1/preprocess/effective_endpoint.png",
+    "final_latent_max_abs_delta": 0.0,
+    "final_sigma": 0.0
+  },
+  "seam12_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/extra05_man_studio/seam12.jpg",
+  "seam23_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/extra05_man_studio/seam23.jpg",
+  "boundaries_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/extra05_man_studio/boundaries.jpg",
+  "stage2_temporal": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/extra05_man_studio/stage2_temporal.jpg",
+  "stage3_temporal": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/extra05_man_studio/stage3_temporal.jpg",
+  "stage3_prefix": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/extra05_man_studio/stage3_prefix.jpg",
+  "source_temporal": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/extra05_man_studio/source_action_temporal.jpg",
+  "seam12_effective_first_metrics": {
+    "left_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra05_man_studio/native_v1/effective_first.png",
+    "right_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/76960d7262a1fbbf2f0a31b30eeb3198fc3c507da41e00fd5fc8f40344430cb6/first.png",
+    "left_wh": [
+      832,
+      480
+    ],
+    "right_wh": [
+      832,
+      480
+    ],
+    "metric_is_quality_verdict": false,
+    "direct_rgb_comparable": true,
+    "mae_0_255": 3.1370142227564104,
+    "max_abs_0_255": 66.0,
+    "psnr_db": 35.58760320256086,
+    "pixel_equal": false
+  },
+  "seam23_effective_first_metrics": {
+    "left_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/extra05_man_studio/recam_endpoint_native_v1/preprocess/effective_endpoint.png",
+    "right_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/75f6e49ead86d516f8012c42e163fec94a21af0b0b2b136e2a194b0761bace4a/first.png",
+    "left_wh": [
+      1280,
+      704
+    ],
+    "right_wh": [
+      1280,
+      704
+    ],
+    "metric_is_quality_verdict": false,
+    "direct_rgb_comparable": true,
+    "mae_0_255": 1.1545672792376893,
+    "max_abs_0_255": 20.0,
+    "psnr_db": 45.089365129994036,
+    "pixel_equal": false
+  },
+  "single_stage_quality": "pending_manual_acceptance",
+  "seam_quality": "pending_manual_acceptance",
+  "no_training": true,
+  "postdecode_frame_replacement": false,
+  "no_custom_latent_pinning": true,
+  "all_stage_frames_retained": true,
+  "stage3_output_timing_note": "Native15fps output retained separately. Default stitched display changes only Stage3 PTS to original source fps; no frame insertion/deletion/blending.",
+  "independent_native_decode": {
+    "stage1": {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/inputs/extra05_man_studio/stage1_source_to_tstar_lossless.mp4",
+      "native_sha256": "ce1b6523a80804a4df69518c3569a2afc6d149897ebccfd2090e5c7dda887a73",
+      "frames": 186,
+      "fps": 25.0,
+      "first_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/ce1b6523a80804a4df69518c3569a2afc6d149897ebccfd2090e5c7dda887a73/first.png",
+      "last_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/ce1b6523a80804a4df69518c3569a2afc6d149897ebccfd2090e5c7dda887a73/last.png",
+      "first_rgb_sha256": "0355b0c3ab4eaba767ee39feb111d81ac885c877efa9befc0fcbe5e59f0cd911",
+      "last_rgb_sha256": "d76d8750d13223d6a9b1c8df6c10a5faab1cd3c690335fea9f7c83969abab891",
+      "independently_decoded": true,
+      "decoder": "system ffmpeg PNG rgb24; same YUV->RGB implementation used for source PNG; OpenCV decoder color differences are not seam evidence"
+    },
+    "stage2": {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra05_man_studio/native_v1/native.mp4",
+      "native_sha256": "76960d7262a1fbbf2f0a31b30eeb3198fc3c507da41e00fd5fc8f40344430cb6",
+      "frames": 81,
+      "fps": 25.0,
+      "first_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/76960d7262a1fbbf2f0a31b30eeb3198fc3c507da41e00fd5fc8f40344430cb6/first.png",
+      "last_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/76960d7262a1fbbf2f0a31b30eeb3198fc3c507da41e00fd5fc8f40344430cb6/last.png",
+      "first_rgb_sha256": "cbdd05b60a360f90bd3e2cec8e45f7a35e8ae4efd216864427d2438e2b2f6b99",
+      "last_rgb_sha256": "da013d94247d7bd6bb11d35dfc7da6d5723667c17e139b0519c1a3dba832fb2a",
+      "independently_decoded": true,
+      "decoder": "system ffmpeg PNG rgb24; same YUV->RGB implementation used for source PNG; OpenCV decoder color differences are not seam evidence"
+    },
+    "stage3": {
+      "native_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/extra05_man_studio/recam_endpoint_native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "75f6e49ead86d516f8012c42e163fec94a21af0b0b2b136e2a194b0761bace4a",
+      "frames": 81,
+      "fps": 15.0,
+      "first_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/75f6e49ead86d516f8012c42e163fec94a21af0b0b2b136e2a194b0761bace4a/first.png",
+      "last_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/seams/decoded/decoded_ffmpeg_rgb24/75f6e49ead86d516f8012c42e163fec94a21af0b0b2b136e2a194b0761bace4a/last.png",
+      "first_rgb_sha256": "a215033b2a7574b3fbbedfc818b7a6f802d2dde572525640e789d4cfbeea93a8",
+      "last_rgb_sha256": "e9efa2f75d88c318142bc02a8d3b9f82bd7f1104a9071db9774b1c41d83bbbbf",
+      "independently_decoded": true,
+      "decoder": "system ffmpeg PNG rgb24; same YUV->RGB implementation used for source PNG; OpenCV decoder color differences are not seam evidence"
+    }
+  },
+  "camera_visual_pose_calibrated": false
+}
