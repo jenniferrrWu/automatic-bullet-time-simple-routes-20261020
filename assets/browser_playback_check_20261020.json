@@ -1,5 +1,5 @@
 {
-  "started_unix": 1792550048.853747,
+  "started_unix": 1792550721.0858955,
   "url": "http://127.0.0.1:8040/results/stage23_simple_routes_20261020/site/index.html",
   "model_quality_review": false,
   "test_environment": "server-side headless Chromium; does not certify playback on every client computer/network",
@@ -7,14 +7,14 @@
   "http_failures": [],
   "samples": [
     {
-      "at": 1792550050.4464796,
+      "at": 1792550725.8813765,
       "visible": 30,
       "downloaded": 29,
       "ready": 24,
       "active_downloads": 1
     },
     {
-      "at": 1792550052.4738715,
+      "at": 1792550727.9084022,
       "visible": 30,
       "downloaded": 30,
       "ready": 30,
@@ -26,7 +26,7 @@
     "stalled": [],
     "requests": []
   },
-  "tested_html_sha256": "c41c15299d5cfe8b64a4ef2bb7ea4bbff4a2f3ca4da5c5f7916eb561a5e17a81",
+  "tested_html_sha256": "6c175978d213ff8b50523ef132bb2828a3a218896e1544f92b9d4565d958d52e",
   "stage_layout": [
     {
       "stage": "2",
@@ -54,9 +54,48 @@
     }
   ],
   "shared_input_layout_check_passed": true,
+  "per_row_controls": [
+    {
+      "key": "route_a2stp",
+      "independent_toggle_passed": true
+    },
+    {
+      "key": "route_a2recam",
+      "independent_toggle_passed": true
+    },
+    {
+      "key": "route_a2world",
+      "independent_toggle_passed": true
+    },
+    {
+      "key": "route_a2redirector",
+      "independent_toggle_passed": true
+    },
+    {
+      "key": "route_a2gen3c",
+      "independent_toggle_passed": true
+    },
+    {
+      "key": "route_a3depthdirector",
+      "independent_toggle_passed": true
+    },
+    {
+      "key": "route_a3camclonemaster",
+      "independent_toggle_passed": true
+    },
+    {
+      "key": "route_a3trimotion",
+      "independent_toggle_passed": true
+    },
+    {
+      "key": "route_a3h3_ref2va",
+      "independent_toggle_passed": true
+    }
+  ],
+  "row_state_reload_persisted": true,
   "separate_load_and_play_buttons": 0,
   "before_play": {
-    "at": "2026-10-21T02:34:12.475Z",
+    "at": "2026-10-21T02:45:27.909Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -785,8 +824,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.762,
+      "frames": 128,
+      "time": 1.7512,
       "error": null
     },
     {
@@ -805,8 +844,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7561,
+      "frames": 126,
+      "time": 1.7243,
       "error": null
     },
     {
@@ -825,8 +864,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 128,
-      "time": 1.7512,
+      "frames": 126,
+      "time": 1.7242,
       "error": null
     },
     {
@@ -846,7 +885,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7355,
+      "time": 1.7242,
       "error": null
     },
     {
@@ -856,7 +895,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7354,
+      "time": 1.7199,
       "error": null
     },
     {
@@ -866,7 +905,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7341,
+      "time": 1.7198,
       "error": null
     },
     {
@@ -906,7 +945,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9994,
+      "time": 4.9778,
       "error": null
     },
     {
@@ -916,7 +955,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9993,
+      "time": 4.9764,
       "error": null
     },
     {
@@ -926,7 +965,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9988,
+      "time": 4.9755,
       "error": null
     },
     {
@@ -936,7 +975,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9966,
+      "time": 4.9755,
       "error": null
     },
     {
@@ -946,7 +985,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9965,
+      "time": 4.9754,
       "error": null
     },
     {
@@ -956,7 +995,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9962,
+      "time": 4.9754,
       "error": null
     },
     {
@@ -966,7 +1005,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7302,
+      "time": 1.7107,
       "error": null
     },
     {
@@ -976,7 +1015,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7304,
+      "time": 1.7106,
       "error": null
     },
     {
@@ -986,7 +1025,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7299,
+      "time": 1.7105,
       "error": null
     },
     {
@@ -996,7 +1035,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9956,
+      "time": 4.9753,
       "error": null
     },
     {
@@ -1016,7 +1055,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9956,
+      "time": 4.9753,
       "error": null
     },
     {
@@ -1036,7 +1075,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9948,
+      "time": 4.9753,
       "error": null
     },
     {
@@ -1056,7 +1095,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2096,
       "error": null
     },
     {
@@ -1086,7 +1125,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2093,
       "error": null
     },
     {
@@ -1116,7 +1155,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2088,
       "error": null
     },
     {
@@ -1146,7 +1185,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2088,
       "error": null
     },
     {
@@ -1166,7 +1205,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2088,
       "error": null
     },
     {
@@ -1186,7 +1225,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 152,
-      "time": 2.3088,
+      "time": 2.2819,
       "error": null
     },
     {
@@ -1206,7 +1245,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.994,
+      "time": 4.975,
       "error": null
     },
     {
@@ -1236,7 +1275,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.994,
+      "time": 4.975,
       "error": null
     },
     {
@@ -1266,7 +1305,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9932,
+      "time": 4.975,
       "error": null
     },
     {
@@ -1299,7 +1338,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9979,
+      "time": 2.9859,
       "error": null
     },
     {
@@ -1319,7 +1358,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9907,
+      "time": 2.9652,
       "error": null
     },
     {
@@ -1339,7 +1378,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9895,
+      "time": 2.9651,
       "error": null
     },
     {
@@ -1359,7 +1398,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9828,
+      "time": 2.965,
       "error": null
     },
     {
@@ -1369,7 +1408,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9815,
+      "time": 2.9647,
       "error": null
     },
     {
@@ -1379,7 +1418,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9795,
+      "time": 2.9646,
       "error": null
     },
     {
@@ -1389,7 +1428,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 51,
-      "time": 2.9794,
+      "time": 2.9615,
       "error": null
     },
     {
@@ -1399,7 +1438,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 51,
-      "time": 2.9792,
+      "time": 2.961,
       "error": null
     },
     {
@@ -1409,7 +1448,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 51,
-      "time": 2.9793,
+      "time": 2.9581,
       "error": null
     },
     {
@@ -1419,7 +1458,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9788,
+      "time": 2.9554,
       "error": null
     },
     {
@@ -1429,7 +1468,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9786,
+      "time": 2.9541,
       "error": null
     },
     {
@@ -1439,7 +1478,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9782,
+      "time": 2.9532,
       "error": null
     },
     {
@@ -1449,7 +1488,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9759,
+      "time": 2.9531,
       "error": null
     },
     {
@@ -1459,7 +1498,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9758,
+      "time": 2.9531,
       "error": null
     },
     {
@@ -1469,7 +1508,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9756,
+      "time": 2.9531,
       "error": null
     },
     {
@@ -1479,7 +1518,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9751,
+      "time": 2.953,
       "error": null
     },
     {
@@ -1489,7 +1528,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.9752,
+      "time": 2.953,
       "error": null
     },
     {
@@ -1499,7 +1538,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 76,
-      "time": 2.975,
+      "time": 2.9529,
       "error": null
     },
     {
@@ -1509,7 +1548,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9749,
+      "time": 2.9529,
       "error": null
     },
     {
@@ -1529,7 +1568,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9749,
+      "time": 2.9529,
       "error": null
     },
     {
@@ -1549,7 +1588,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 49,
-      "time": 2.9741,
+      "time": 2.9529,
       "error": null
     },
     {
@@ -1569,7 +1608,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.2103,
+      "time": 0.1872,
       "error": null
     },
     {
@@ -1599,7 +1638,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.2103,
+      "time": 0.1869,
       "error": null
     },
     {
@@ -1629,7 +1668,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.2103,
+      "time": 0.1864,
       "error": null
     },
     {
@@ -1659,7 +1698,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.2103,
+      "time": 0.1864,
       "error": null
     },
     {
@@ -1679,7 +1718,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.2102,
+      "time": 0.1864,
       "error": null
     },
     {
@@ -1699,7 +1738,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 92,
-      "time": 0.2882,
+      "time": 0.2595,
       "error": null
     },
     {
@@ -1719,7 +1758,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9734,
+      "time": 2.9527,
       "error": null
     },
     {
@@ -1749,7 +1788,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9734,
+      "time": 2.9527,
       "error": null
     },
     {
@@ -1779,7 +1818,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 73,
-      "time": 2.9726,
+      "time": 2.9527,
       "error": null
     },
     {
@@ -1810,8 +1849,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.762,
+      "frames": 128,
+      "time": 1.7512,
       "error": null
     },
     {
@@ -1830,8 +1869,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7561,
+      "frames": 126,
+      "time": 1.7243,
       "error": null
     },
     {
@@ -1850,8 +1889,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 128,
-      "time": 1.7512,
+      "frames": 126,
+      "time": 1.7242,
       "error": null
     },
     {
@@ -1871,7 +1910,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7355,
+      "time": 1.7242,
       "error": null
     },
     {
@@ -1881,7 +1920,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7354,
+      "time": 1.7199,
       "error": null
     },
     {
@@ -1891,7 +1930,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7341,
+      "time": 1.7198,
       "error": null
     },
     {
@@ -1931,7 +1970,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9994,
+      "time": 4.9778,
       "error": null
     },
     {
@@ -1941,7 +1980,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9993,
+      "time": 4.9764,
       "error": null
     },
     {
@@ -1951,7 +1990,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9988,
+      "time": 4.9755,
       "error": null
     },
     {
@@ -1961,7 +2000,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9966,
+      "time": 4.9755,
       "error": null
     },
     {
@@ -1971,7 +2010,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9965,
+      "time": 4.9754,
       "error": null
     },
     {
@@ -1981,7 +2020,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9962,
+      "time": 4.9754,
       "error": null
     },
     {
@@ -1991,7 +2030,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7302,
+      "time": 1.7107,
       "error": null
     },
     {
@@ -2001,7 +2040,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7304,
+      "time": 1.7106,
       "error": null
     },
     {
@@ -2011,7 +2050,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 126,
-      "time": 1.7299,
+      "time": 1.7105,
       "error": null
     },
     {
@@ -2021,7 +2060,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9956,
+      "time": 4.9753,
       "error": null
     },
     {
@@ -2041,7 +2080,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9956,
+      "time": 4.9753,
       "error": null
     },
     {
@@ -2061,7 +2100,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 79,
-      "time": 4.9948,
+      "time": 4.9753,
       "error": null
     },
     {
@@ -2081,7 +2120,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2096,
       "error": null
     },
     {
@@ -2111,7 +2150,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2093,
       "error": null
     },
     {
@@ -2141,7 +2180,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2088,
       "error": null
     },
     {
@@ -2171,7 +2210,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2088,
       "error": null
     },
     {
@@ -2191,7 +2230,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 149,
-      "time": 2.2309,
+      "time": 2.2088,
       "error": null
     },
     {
@@ -2211,7 +2250,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 152,
-      "time": 2.3088,
+      "time": 2.2819,
       "error": null
     },
     {
@@ -2231,7 +2270,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.994,
+      "time": 4.975,
       "error": null
     },
     {
@@ -2261,7 +2300,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.994,
+      "time": 4.975,
       "error": null
     },
     {
@@ -2291,7 +2330,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 121,
-      "time": 4.9932,
+      "time": 4.975,
       "error": null
     },
     {
@@ -2316,7 +2355,7 @@
     }
   ],
   "after_play": {
-    "at": "2026-10-21T02:34:17.630Z",
+    "at": "2026-10-21T02:45:33.039Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -2331,7 +2370,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7819,
+        "currentTime": 1.7682,
         "error": "",
         "mediaError": null,
         "source": "assets/e3de47030dbb9be522334fc8_preview.mp4"
@@ -2359,7 +2398,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7761,
+        "currentTime": 1.7414,
         "error": "",
         "mediaError": null,
         "source": "assets/089f3e34f430c1ae2df1b94d_preview.mp4"
@@ -2387,7 +2426,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7713,
+        "currentTime": 1.7412,
         "error": "",
         "mediaError": null,
         "source": "assets/d7a2ac79328535ade25e3821_preview.mp4"
@@ -2415,7 +2454,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7555,
+        "currentTime": 1.7413,
         "error": "",
         "mediaError": null,
         "source": "assets/e594d2043fdc1936a5cb4bed_preview.mp4"
@@ -2429,7 +2468,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7554,
+        "currentTime": 1.737,
         "error": "",
         "mediaError": null,
         "source": "assets/311afa455a21ea4ee334a85a_preview.mp4"
@@ -2443,7 +2482,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7542,
+        "currentTime": 1.7369,
         "error": "",
         "mediaError": null,
         "source": "assets/383094c45955d394398a2125_preview.mp4"
@@ -2457,7 +2496,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.0067,
+        "currentTime": 4.8125,
         "error": "",
         "mediaError": null,
         "source": "assets/c1be5e930db1e3de9772b6a8_preview.mp4"
@@ -2471,7 +2510,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.0067,
+        "currentTime": 4.8125,
         "error": "",
         "mediaError": null,
         "source": "assets/7758083056c2e7c6962219c7_preview.mp4"
@@ -2485,7 +2524,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.0067,
+        "currentTime": 4.8125,
         "error": "",
         "mediaError": null,
         "source": "assets/8a81c38e2655c07e5548c400_preview.mp4"
@@ -2499,7 +2538,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0195,
+        "currentTime": 4.9949,
         "error": "",
         "mediaError": null,
         "source": "assets/42593da20fbe6beeb4d76cb0_preview.mp4"
@@ -2513,7 +2552,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0193,
+        "currentTime": 4.9935,
         "error": "",
         "mediaError": null,
         "source": "assets/17f101d150b1b47adc144197_preview.mp4"
@@ -2527,7 +2566,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0189,
+        "currentTime": 4.9927,
         "error": "",
         "mediaError": null,
         "source": "assets/65999af1517f2262e7f980fa_preview.mp4"
@@ -2541,7 +2580,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0166,
+        "currentTime": 4.9926,
         "error": "",
         "mediaError": null,
         "source": "assets/3963cd1227a362598c60bb1f_preview.mp4"
@@ -2555,7 +2594,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0165,
+        "currentTime": 4.9926,
         "error": "",
         "mediaError": null,
         "source": "assets/d453335f9fa2505c97f572ed_preview.mp4"
@@ -2569,7 +2608,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0163,
+        "currentTime": 4.9925,
         "error": "",
         "mediaError": null,
         "source": "assets/8ec34148f1d6d26752e782f2_preview.mp4"
@@ -2583,7 +2622,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7502,
+        "currentTime": 1.7278,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -2597,7 +2636,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7505,
+        "currentTime": 1.7277,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -2611,7 +2650,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.75,
+        "currentTime": 1.7277,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
@@ -2625,7 +2664,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0157,
+        "currentTime": 4.9924,
         "error": "",
         "mediaError": null,
         "source": "assets/1e397fe6d2f5a5d72489d14d_preview.mp4"
@@ -2653,7 +2692,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0156,
+        "currentTime": 4.9924,
         "error": "",
         "mediaError": null,
         "source": "assets/4a8ae4c2d99e33bfff03d181_preview.mp4"
@@ -2681,7 +2720,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0149,
+        "currentTime": 4.9924,
         "error": "",
         "mediaError": null,
         "source": "assets/e7f3525deb2c3b7f0b2d199a_preview.mp4"
@@ -2709,7 +2748,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.251,
+        "currentTime": 2.2268,
         "error": "",
         "mediaError": null,
         "source": "assets/b917e67a9473c916fd688b69_preview.mp4"
@@ -2751,7 +2790,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.251,
+        "currentTime": 2.2264,
         "error": "",
         "mediaError": null,
         "source": "assets/ead2ebd2fef9403d81f5a190_preview.mp4"
@@ -2793,7 +2832,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2511,
+        "currentTime": 2.226,
         "error": "",
         "mediaError": null,
         "source": "assets/2ae4cb93382db5fc2dbaa849_preview.mp4"
@@ -2835,7 +2874,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2511,
+        "currentTime": 2.226,
         "error": "",
         "mediaError": null,
         "source": "assets/4a5af0b491521d63c92247c3_preview.mp4"
@@ -2863,7 +2902,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.251,
+        "currentTime": 2.226,
         "error": "",
         "mediaError": null,
         "source": "assets/e1e1587dd0e6a57c752f876f_preview.mp4"
@@ -2891,7 +2930,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.3289,
+        "currentTime": 2.2991,
         "error": "",
         "mediaError": null,
         "source": "assets/41789472686653a87826641d_preview.mp4"
@@ -2919,7 +2958,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0142,
+        "currentTime": 4.9922,
         "error": "",
         "mediaError": null,
         "source": "assets/fbbc5e7b72c809f56e64d3ba_preview.mp4"
@@ -2961,7 +3000,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0142,
+        "currentTime": 4.9922,
         "error": "",
         "mediaError": null,
         "source": "assets/afa51bb25d317a91163c8ea1_preview.mp4"
@@ -3003,7 +3042,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0134,
+        "currentTime": 4.9923,
         "error": "",
         "mediaError": null,
         "source": "assets/c2769e9944a465cb03af2123_preview.mp4"
@@ -3042,7 +3081,7 @@
   "simultaneous_playing_count": 30,
   "decoding_advanced_count": 30,
   "collapsed_state": {
-    "at": "2026-10-21T02:34:23.325Z",
+    "at": "2026-10-21T02:45:38.696Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -3309,7 +3348,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.7766,
+        "currentTime": 0.775,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -3323,7 +3362,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.7766,
+        "currentTime": 0.775,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -3337,7 +3376,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.7766,
+        "currentTime": 0.7749,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
@@ -3768,5 +3807,5 @@
   "csv_score_export_roundtrip": true,
   "queue_fairness_fault_check": true,
   "status": "passed",
-  "finished_unix": 1792550063.4944787
+  "finished_unix": 1792550738.8508253
 }
