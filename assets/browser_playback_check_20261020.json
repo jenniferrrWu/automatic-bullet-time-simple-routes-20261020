@@ -1,5 +1,5 @@
 {
-  "started_unix": 1792546847.6779895,
+  "started_unix": 1792547556.1297123,
   "url": "http://127.0.0.1:8040/results/stage23_simple_routes_20261020/site/index.html",
   "model_quality_review": false,
   "test_environment": "server-side headless Chromium; does not certify playback on every client computer/network",
@@ -7,17 +7,17 @@
   "http_failures": [],
   "samples": [
     {
-      "at": 1792546849.0846848,
-      "visible": 27,
-      "downloaded": 25,
-      "ready": 21,
-      "active_downloads": 2
+      "at": 1792547557.4430494,
+      "visible": 30,
+      "downloaded": 29,
+      "ready": 24,
+      "active_downloads": 1
     },
     {
-      "at": 1792546851.115572,
-      "visible": 27,
-      "downloaded": 27,
-      "ready": 27,
+      "at": 1792547559.4700696,
+      "visible": 30,
+      "downloaded": 30,
+      "ready": 30,
       "active_downloads": 0
     }
   ],
@@ -26,10 +26,10 @@
     "stalled": [],
     "requests": []
   },
-  "tested_html_sha256": "7c7d314a20bc540dc4ac3ed284e4c9d03208ba4cb92d75efeb1bd059ceea6d06",
+  "tested_html_sha256": "b4bd68b8d8550f49fcf59830fb1ef878bdc14067af8639380c26102879b43586",
   "separate_load_and_play_buttons": 0,
   "before_play": {
-    "at": "2026-10-21T01:40:51.117Z",
+    "at": "2026-10-21T01:52:39.471Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -622,18 +622,144 @@
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/fbbc5e7b72c809f56e64d3ba_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/d1e4b2a5cd2ca96ae0b5dfe3_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/afa51bb25d317a91163c8ea1_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/2d70f8a0fedf9ab44dfaced0_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "ready",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c2769e9944a465cb03af2123_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/73d045f643803aa4e9ba1226_preview.mp4"
       }
     ]
   },
-  "playback_samples_before": [
+  "first_playback_snapshot_after": [
     {
       "i": 0,
       "hidden": false,
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 82,
-      "time": 3.0323,
+      "frames": 132,
+      "time": 1.7572,
       "error": null
     },
     {
@@ -642,8 +768,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 82,
-      "time": 3.0162,
+      "frames": 126,
+      "time": 1.7469,
       "error": null
     },
     {
@@ -652,8 +778,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 82,
-      "time": 3.0162,
+      "frames": 126,
+      "time": 1.7311,
       "error": null
     },
     {
@@ -662,8 +788,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 82,
-      "time": 3.0157,
+      "frames": 126,
+      "time": 1.7299,
       "error": null
     },
     {
@@ -682,8 +808,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 82,
-      "time": 3.0079,
+      "frames": 126,
+      "time": 1.7311,
       "error": null
     },
     {
@@ -702,8 +828,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 81,
-      "time": 3.0043,
+      "frames": 126,
+      "time": 1.73,
       "error": null
     },
     {
@@ -722,8 +848,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 80,
-      "time": 3.0041,
+      "frames": 126,
+      "time": 1.73,
       "error": null
     },
     {
@@ -732,8 +858,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 80,
-      "time": 3.0041,
+      "frames": 126,
+      "time": 1.7258,
       "error": null
     },
     {
@@ -742,8 +868,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 80,
-      "time": 3.0038,
+      "frames": 126,
+      "time": 1.724,
       "error": null
     },
     {
@@ -752,8 +878,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 55,
-      "time": 3.0038,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -762,8 +888,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 55,
-      "time": 3.0038,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -772,8 +898,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 55,
-      "time": 3.0038,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -782,8 +908,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 51,
-      "time": 3.0021,
+      "frames": 79,
+      "time": 4.9888,
       "error": null
     },
     {
@@ -792,8 +918,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 3.0016,
+      "frames": 79,
+      "time": 4.9873,
       "error": null
     },
     {
@@ -802,8 +928,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 49,
-      "time": 3.0016,
+      "frames": 79,
+      "time": 4.9869,
       "error": null
     },
     {
@@ -812,8 +938,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 73,
-      "time": 3.0006,
+      "frames": 121,
+      "time": 4.9868,
       "error": null
     },
     {
@@ -822,8 +948,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 73,
-      "time": 3.0002,
+      "frames": 121,
+      "time": 4.9868,
       "error": null
     },
     {
@@ -832,8 +958,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 73,
-      "time": 2.9998,
+      "frames": 121,
+      "time": 4.9868,
       "error": null
     },
     {
@@ -842,8 +968,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 48,
-      "time": 3.0476,
+      "frames": 79,
+      "time": 4.9868,
       "error": null
     },
     {
@@ -862,8 +988,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 48,
-      "time": 3.0476,
+      "frames": 79,
+      "time": 4.9869,
       "error": null
     },
     {
@@ -882,8 +1008,521 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 48,
-      "time": 3.0475,
+      "frames": 79,
+      "time": 4.9868,
+      "error": null
+    },
+    {
+      "i": 26,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 27,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 149,
+      "time": 2.2204,
+      "error": null
+    },
+    {
+      "i": 28,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 29,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 30,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 149,
+      "time": 2.2204,
+      "error": null
+    },
+    {
+      "i": 31,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 32,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 33,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 149,
+      "time": 2.2204,
+      "error": null
+    },
+    {
+      "i": 34,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 35,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 36,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 149,
+      "time": 2.2204,
+      "error": null
+    },
+    {
+      "i": 37,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 38,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 149,
+      "time": 2.2204,
+      "error": null
+    },
+    {
+      "i": 39,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 40,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 152,
+      "time": 2.2846,
+      "error": null
+    },
+    {
+      "i": 41,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 42,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 121,
+      "time": 4.9867,
+      "error": null
+    },
+    {
+      "i": 43,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 44,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 45,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 121,
+      "time": 4.9867,
+      "error": null
+    },
+    {
+      "i": 46,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 47,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 48,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 121,
+      "time": 4.9857,
+      "error": null
+    },
+    {
+      "i": 49,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 50,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    }
+  ],
+  "loop_transition_rechecks": [],
+  "playback_samples_before": [
+    {
+      "i": 0,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9913,
+      "error": null
+    },
+    {
+      "i": 1,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9793,
+      "error": null
+    },
+    {
+      "i": 2,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9748,
+      "error": null
+    },
+    {
+      "i": 3,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9748,
+      "error": null
+    },
+    {
+      "i": 4,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 5,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9739,
+      "error": null
+    },
+    {
+      "i": 6,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 7,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9727,
+      "error": null
+    },
+    {
+      "i": 8,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 9,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9717,
+      "error": null
+    },
+    {
+      "i": 10,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9689,
+      "error": null
+    },
+    {
+      "i": 11,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 76,
+      "time": 2.9677,
+      "error": null
+    },
+    {
+      "i": 12,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 51,
+      "time": 2.9677,
+      "error": null
+    },
+    {
+      "i": 13,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 51,
+      "time": 2.9676,
+      "error": null
+    },
+    {
+      "i": 14,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 51,
+      "time": 2.9672,
+      "error": null
+    },
+    {
+      "i": 15,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 49,
+      "time": 2.9667,
+      "error": null
+    },
+    {
+      "i": 16,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 49,
+      "time": 2.9651,
+      "error": null
+    },
+    {
+      "i": 17,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 49,
+      "time": 2.9647,
+      "error": null
+    },
+    {
+      "i": 18,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 2.9647,
+      "error": null
+    },
+    {
+      "i": 19,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 2.9647,
+      "error": null
+    },
+    {
+      "i": 20,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 2.9647,
+      "error": null
+    },
+    {
+      "i": 21,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 49,
+      "time": 2.9647,
+      "error": null
+    },
+    {
+      "i": 22,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 23,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 49,
+      "time": 2.9647,
+      "error": null
+    },
+    {
+      "i": 24,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 25,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 49,
+      "time": 2.9647,
       "error": null
     },
     {
@@ -903,7 +1542,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.2387,
+      "time": 0.1983,
       "error": null
     },
     {
@@ -933,7 +1572,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 89,
-      "time": 0.2387,
+      "time": 0.1982,
       "error": null
     },
     {
@@ -962,8 +1601,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 92,
-      "time": 0.2832,
+      "frames": 89,
+      "time": 0.1982,
       "error": null
     },
     {
@@ -992,8 +1631,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 92,
-      "time": 0.2734,
+      "frames": 89,
+      "time": 0.1982,
       "error": null
     },
     {
@@ -1012,8 +1651,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 92,
-      "time": 0.2733,
+      "frames": 89,
+      "time": 0.1982,
       "error": null
     },
     {
@@ -1033,11 +1672,101 @@
       "readyState": 4,
       "width": 384,
       "frames": 92,
-      "time": 0.2733,
+      "time": 0.2625,
       "error": null
     },
     {
       "i": 41,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 42,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 2.9645,
+      "error": null
+    },
+    {
+      "i": 43,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 44,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 45,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 2.9645,
+      "error": null
+    },
+    {
+      "i": 46,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 47,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 48,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 73,
+      "time": 2.9636,
+      "error": null
+    },
+    {
+      "i": 49,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 50,
       "hidden": true,
       "paused": true,
       "readyState": 0,
@@ -1055,7 +1784,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 132,
-      "time": 1.7943,
+      "time": 1.7572,
       "error": null
     },
     {
@@ -1064,8 +1793,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7774,
+      "frames": 126,
+      "time": 1.7469,
       "error": null
     },
     {
@@ -1074,8 +1803,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7774,
+      "frames": 126,
+      "time": 1.7311,
       "error": null
     },
     {
@@ -1084,8 +1813,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7751,
+      "frames": 126,
+      "time": 1.7299,
       "error": null
     },
     {
@@ -1104,8 +1833,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7598,
+      "frames": 126,
+      "time": 1.7311,
       "error": null
     },
     {
@@ -1124,8 +1853,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7597,
+      "frames": 126,
+      "time": 1.73,
       "error": null
     },
     {
@@ -1144,8 +1873,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7597,
+      "frames": 126,
+      "time": 1.73,
       "error": null
     },
     {
@@ -1154,8 +1883,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7598,
+      "frames": 126,
+      "time": 1.7258,
       "error": null
     },
     {
@@ -1164,8 +1893,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 132,
-      "time": 1.7596,
+      "frames": 126,
+      "time": 1.724,
       "error": null
     },
     {
@@ -1174,8 +1903,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 85,
-      "time": 0.0124,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -1184,8 +1913,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 85,
-      "time": 0.0124,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -1194,8 +1923,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 85,
-      "time": 0.0124,
+      "frames": 81,
+      "time": 4.8125,
       "error": null
     },
     {
@@ -1204,8 +1933,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 82,
-      "time": 5.021,
+      "frames": 79,
+      "time": 4.9888,
       "error": null
     },
     {
@@ -1214,8 +1943,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 82,
-      "time": 5.0205,
+      "frames": 79,
+      "time": 4.9873,
       "error": null
     },
     {
@@ -1224,8 +1953,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 82,
-      "time": 5.0205,
+      "frames": 79,
+      "time": 4.9869,
       "error": null
     },
     {
@@ -1234,8 +1963,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 125,
-      "time": 5.0195,
+      "frames": 121,
+      "time": 4.9868,
       "error": null
     },
     {
@@ -1244,8 +1973,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 125,
-      "time": 5.0191,
+      "frames": 121,
+      "time": 4.9868,
       "error": null
     },
     {
@@ -1254,8 +1983,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 125,
-      "time": 5.0187,
+      "frames": 121,
+      "time": 4.9868,
       "error": null
     },
     {
@@ -1264,8 +1993,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 78,
-      "time": 5.0665,
+      "frames": 79,
+      "time": 4.9868,
       "error": null
     },
     {
@@ -1284,8 +2013,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 78,
-      "time": 5.0665,
+      "frames": 79,
+      "time": 4.9869,
       "error": null
     },
     {
@@ -1304,8 +2033,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 78,
-      "time": 5.0664,
+      "frames": 79,
+      "time": 4.9868,
       "error": null
     },
     {
@@ -1324,8 +2053,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 156,
-      "time": 2.2576,
+      "frames": 149,
+      "time": 2.2204,
       "error": null
     },
     {
@@ -1354,8 +2083,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 156,
-      "time": 2.2576,
+      "frames": 149,
+      "time": 2.2204,
       "error": null
     },
     {
@@ -1384,8 +2113,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 152,
-      "time": 2.3021,
+      "frames": 149,
+      "time": 2.2204,
       "error": null
     },
     {
@@ -1414,8 +2143,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 152,
-      "time": 2.2922,
+      "frames": 149,
+      "time": 2.2204,
       "error": null
     },
     {
@@ -1434,8 +2163,8 @@
       "paused": false,
       "readyState": 4,
       "width": 384,
-      "frames": 152,
-      "time": 2.2922,
+      "frames": 149,
+      "time": 2.2204,
       "error": null
     },
     {
@@ -1455,7 +2184,7 @@
       "readyState": 4,
       "width": 384,
       "frames": 152,
-      "time": 2.2922,
+      "time": 2.2846,
       "error": null
     },
     {
@@ -1467,10 +2196,100 @@
       "frames": 0,
       "time": 0,
       "error": null
+    },
+    {
+      "i": 42,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 121,
+      "time": 4.9867,
+      "error": null
+    },
+    {
+      "i": 43,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 44,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 45,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 121,
+      "time": 4.9867,
+      "error": null
+    },
+    {
+      "i": 46,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 47,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 48,
+      "hidden": false,
+      "paused": false,
+      "readyState": 4,
+      "width": 384,
+      "frames": 121,
+      "time": 4.9857,
+      "error": null
+    },
+    {
+      "i": 49,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
+    },
+    {
+      "i": 50,
+      "hidden": true,
+      "paused": true,
+      "readyState": 0,
+      "width": 0,
+      "frames": 0,
+      "time": 0,
+      "error": null
     }
   ],
   "after_play": {
-    "at": "2026-10-21T01:40:56.277Z",
+    "at": "2026-10-21T01:52:44.607Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -1485,7 +2304,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.8093,
+        "currentTime": 1.779,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -1499,7 +2318,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7925,
+        "currentTime": 1.7687,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -1513,7 +2332,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7925,
+        "currentTime": 1.753,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
@@ -1527,7 +2346,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7902,
+        "currentTime": 1.7518,
         "error": "",
         "mediaError": null,
         "source": "assets/e3de47030dbb9be522334fc8_preview.mp4"
@@ -1555,7 +2374,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7749,
+        "currentTime": 1.753,
         "error": "",
         "mediaError": null,
         "source": "assets/089f3e34f430c1ae2df1b94d_preview.mp4"
@@ -1583,7 +2402,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7748,
+        "currentTime": 1.7519,
         "error": "",
         "mediaError": null,
         "source": "assets/d7a2ac79328535ade25e3821_preview.mp4"
@@ -1611,7 +2430,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7748,
+        "currentTime": 1.7519,
         "error": "",
         "mediaError": null,
         "source": "assets/e594d2043fdc1936a5cb4bed_preview.mp4"
@@ -1625,7 +2444,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7749,
+        "currentTime": 1.7477,
         "error": "",
         "mediaError": null,
         "source": "assets/311afa455a21ea4ee334a85a_preview.mp4"
@@ -1639,7 +2458,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.7747,
+        "currentTime": 1.7459,
         "error": "",
         "mediaError": null,
         "source": "assets/383094c45955d394398a2125_preview.mp4"
@@ -1650,10 +2469,10 @@
         "phase": "playing",
         "downloaded": true,
         "attempts": 1,
-        "readyState": 4,
+        "readyState": 1,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.0275,
+        "currentTime": 0,
         "error": "",
         "mediaError": null,
         "source": "assets/c1be5e930db1e3de9772b6a8_preview.mp4"
@@ -1664,10 +2483,10 @@
         "phase": "playing",
         "downloaded": true,
         "attempts": 1,
-        "readyState": 4,
+        "readyState": 1,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.0275,
+        "currentTime": 0,
         "error": "",
         "mediaError": null,
         "source": "assets/7758083056c2e7c6962219c7_preview.mp4"
@@ -1678,10 +2497,10 @@
         "phase": "playing",
         "downloaded": true,
         "attempts": 1,
-        "readyState": 4,
+        "readyState": 1,
         "networkState": 1,
         "paused": false,
-        "currentTime": 0.0275,
+        "currentTime": 0,
         "error": "",
         "mediaError": null,
         "source": "assets/8a81c38e2655c07e5548c400_preview.mp4"
@@ -1695,7 +2514,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0361,
+        "currentTime": 5.0108,
         "error": "",
         "mediaError": null,
         "source": "assets/42593da20fbe6beeb4d76cb0_preview.mp4"
@@ -1709,7 +2528,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0357,
+        "currentTime": 5.0092,
         "error": "",
         "mediaError": null,
         "source": "assets/17f101d150b1b47adc144197_preview.mp4"
@@ -1723,7 +2542,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0356,
+        "currentTime": 5.0088,
         "error": "",
         "mediaError": null,
         "source": "assets/65999af1517f2262e7f980fa_preview.mp4"
@@ -1737,7 +2556,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0347,
+        "currentTime": 5.0088,
         "error": "",
         "mediaError": null,
         "source": "assets/3963cd1227a362598c60bb1f_preview.mp4"
@@ -1751,7 +2570,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0343,
+        "currentTime": 5.0088,
         "error": "",
         "mediaError": null,
         "source": "assets/d453335f9fa2505c97f572ed_preview.mp4"
@@ -1765,7 +2584,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0338,
+        "currentTime": 5.0088,
         "error": "",
         "mediaError": null,
         "source": "assets/8ec34148f1d6d26752e782f2_preview.mp4"
@@ -1779,7 +2598,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0816,
+        "currentTime": 5.0088,
         "error": "",
         "mediaError": null,
         "source": "assets/1e397fe6d2f5a5d72489d14d_preview.mp4"
@@ -1807,7 +2626,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0816,
+        "currentTime": 5.0089,
         "error": "",
         "mediaError": null,
         "source": "assets/4a8ae4c2d99e33bfff03d181_preview.mp4"
@@ -1835,7 +2654,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 5.0815,
+        "currentTime": 5.0088,
         "error": "",
         "mediaError": null,
         "source": "assets/e7f3525deb2c3b7f0b2d199a_preview.mp4"
@@ -1863,7 +2682,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2727,
+        "currentTime": 2.2424,
         "error": "",
         "mediaError": null,
         "source": "assets/b917e67a9473c916fd688b69_preview.mp4"
@@ -1905,7 +2724,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.2727,
+        "currentTime": 2.2425,
         "error": "",
         "mediaError": null,
         "source": "assets/ead2ebd2fef9403d81f5a190_preview.mp4"
@@ -1947,7 +2766,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.3173,
+        "currentTime": 2.2425,
         "error": "",
         "mediaError": null,
         "source": "assets/2ae4cb93382db5fc2dbaa849_preview.mp4"
@@ -1989,7 +2808,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.3074,
+        "currentTime": 2.2425,
         "error": "",
         "mediaError": null,
         "source": "assets/4a5af0b491521d63c92247c3_preview.mp4"
@@ -2017,7 +2836,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.3074,
+        "currentTime": 2.2425,
         "error": "",
         "mediaError": null,
         "source": "assets/e1e1587dd0e6a57c752f876f_preview.mp4"
@@ -2045,7 +2864,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 2.3073,
+        "currentTime": 2.3068,
         "error": "",
         "mediaError": null,
         "source": "assets/41789472686653a87826641d_preview.mp4"
@@ -2063,14 +2882,140 @@
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple01_woman_talking_plants",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.0088,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/fbbc5e7b72c809f56e64d3ba_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/d1e4b2a5cd2ca96ae0b5dfe3_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple02_woman_presenting_chalkboard",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.0089,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/afa51bb25d317a91163c8ea1_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/2d70f8a0fedf9ab44dfaced0_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple03_woman_slow_expression",
+        "hidden": false,
+        "phase": "playing",
+        "downloaded": true,
+        "attempts": 1,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 5.008,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c2769e9944a465cb03af2123_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/73d045f643803aa4e9ba1226_preview.mp4"
       }
     ]
   },
-  "visible_video_count": 27,
-  "simultaneous_playing_count": 27,
-  "decoding_advanced_count": 27,
+  "visible_video_count": 30,
+  "simultaneous_playing_count": 30,
+  "decoding_advanced_count": 30,
   "collapsed_state": {
-    "at": "2026-10-21T01:40:59.020Z",
+    "at": "2026-10-21T01:52:48.791Z",
     "downloadConcurrency": 4,
     "activeDownloads": 0,
     "playbackLimit": null,
@@ -2085,7 +3030,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.296,
+        "currentTime": 2.7053,
         "error": "",
         "mediaError": null,
         "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
@@ -2099,7 +3044,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.2718,
+        "currentTime": 2.6961,
         "error": "",
         "mediaError": null,
         "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
@@ -2113,7 +3058,7 @@
         "readyState": 4,
         "networkState": 1,
         "paused": false,
-        "currentTime": 1.2717,
+        "currentTime": 2.6671,
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
@@ -2663,6 +3608,132 @@
         "error": "",
         "mediaError": null,
         "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/fbbc5e7b72c809f56e64d3ba_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c3f3b22b0bb44e1f2046209d_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple01_woman_talking_plants",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/d1e4b2a5cd2ca96ae0b5dfe3_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/afa51bb25d317a91163c8ea1_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/66448ab389e07aa6787773a2_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple02_woman_presenting_chalkboard",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/2d70f8a0fedf9ab44dfaced0_preview.mp4"
+      },
+      {
+        "label": "MiniMax H3 · Ref2VA 图视频联合 route_a Stage3 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 1,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/c2769e9944a465cb03af2123_preview.mp4"
+      },
+      {
+        "label": "完整动作输入 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/5ce74488dca6b40f155740ce_preview.mp4"
+      },
+      {
+        "label": "Ref2VA实际动作参考含显式尾保持 simple03_woman_slow_expression",
+        "hidden": true,
+        "phase": "idle",
+        "downloaded": false,
+        "attempts": 0,
+        "readyState": 0,
+        "networkState": 0,
+        "paused": true,
+        "currentTime": 0,
+        "error": "",
+        "mediaError": null,
+        "source": "assets/73d045f643803aa4e9ba1226_preview.mp4"
       }
     ]
   },
@@ -2670,5 +3741,5 @@
   "csv_score_export_roundtrip": true,
   "queue_fairness_fault_check": true,
   "status": "passed",
-  "finished_unix": 1792546859.1768243
+  "finished_unix": 1792547568.952841
 }

@@ -1,0 +1,49 @@
+{
+  "status": "native_reference_encoders_returned",
+  "reference_kinds": [
+    "image",
+    "video"
+  ],
+  "actual_normalized_image_size": [
+    3712,
+    2048
+  ],
+  "actual_normalized_motion_shape": [
+    91,
+    768,
+    1344,
+    3
+  ],
+  "actual_normalized_motion_fps": 24.0,
+  "condition_latent_shapes": [
+    [
+      1,
+      24,
+      1,
+      128,
+      232
+    ],
+    [
+      1,
+      24,
+      27,
+      48,
+      84
+    ]
+  ],
+  "prompt_embed_shape": [
+    1,
+    11761,
+    5120
+  ],
+  "native_block_sequence": [
+    "before_encode",
+    "text_encoder",
+    "vae_encoder"
+  ],
+  "reference_input_file_sha256": "d1e4b2a5cd2ca96ae0b5dfe3b19c26cda60851cca1ce8b454ab9e999a2d3ef54",
+  "image_file_sha256": "8a1859e00373ac56ac3dadbd5f4e37be1e19fc9ae9c8a76322894433b5b8d156",
+  "no_generated_first_frame_replacement": true,
+  "no_sampling_intervention": true,
+  "encoded_state_sha256": "e545dff21e3597ab5c6cd53bf2ed9f449b22d8843d080968fbceab7101f231be"
+}

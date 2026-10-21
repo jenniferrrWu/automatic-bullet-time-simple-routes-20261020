@@ -317,5 +317,55 @@
     "strict_h3_stage3_unsupported": 3,
     "quality_status": "pending_human_acceptance"
   },
-  "status_definition": "Per-model historical problems retained; completed selected reruns do not imply old-smoke bug was overwritten or repaired in historical outputs."
+  "status_definition": "Per-model historical problems retained; completed selected reruns do not imply old-smoke bug was overwritten or repaired in historical outputs.",
+  "stage2_retained_followup": {
+    "updated_unix": 1792547214.249822,
+    "status": "delivered_five_stage2_models_three_cases_pending_quality_acceptance",
+    "url": "https://jenniferrrwu.github.io/automatic-bullet-time-simple-routes-20261020/#stage2-retained",
+    "published_commit": "4b00a2364d5e1e3f128dbd69be9d315025011bc0",
+    "stage2_model_cases_planned": 15,
+    "stage2_model_cases_succeeded": 15,
+    "stage2_running": 0,
+    "stage2_failed": 0,
+    "per_model": {
+      "SpaceTimePilot": 3,
+      "ReCamMaster": 3,
+      "WorldInWorld": 3,
+      "ReDirector": 3,
+      "GEN3C": 3
+    },
+    "native_first_image_condition_models": [
+      "WorldInWorld",
+      "GEN3C"
+    ],
+    "frozen_content_only_without_dedicated_first_keyframe_models": [
+      "SpaceTimePilot",
+      "ReCamMaster",
+      "ReDirector"
+    ],
+    "quality_confirmed_passes": 0,
+    "strict_first_frame_effectiveness_not_inferred_from_input_or_rgb_similarity": true,
+    "actual_sampled_and_inspected_videos": 15,
+    "actual_native_prefixes_inspected": 15,
+    "full_video_human_acceptance_completed": false,
+    "old27_native_sha_unchanged": true,
+    "current_page_stage2_outputs": 15,
+    "current_page_existing_stage3_outputs": 9,
+    "existing_stage3_eliminated_model_diagnostics": 6,
+    "current_page_source_previews": 3,
+    "current_page_visible_videos_after_expanding_rows": 27,
+    "local_browser_playing_and_decoding": 27,
+    "public_browser_playing_and_decoding": 27,
+    "public_http_range_checks_passed": 22,
+    "stage3_retested_with_this_batch_stage2_endpoints": false,
+    "AB_experiments_deferred_per_user": true,
+    "no_training": true,
+    "no_postdecode_frame_replacement": true,
+    "execution_integrity_report": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/audit/completion_integrity_20261021.json",
+    "case_matrix": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/audit/model_matrix.csv",
+    "sample_review": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/visual_review/assistant_sample_review.json",
+    "local_browser_report": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/audit/browser_retained_stage2_local_20261021.json",
+    "public_browser_report": "/public/wufeier/automatic_bullet_time/deployments/github_simple_routes_20261020/metadata/retained_stage2_public_browser_20261021.json",
+    "live_http_report": "/public/wufeier/automatic_bullet_time/deployments/github_simple_routes_20261020/metadata/github_live_delivery_checks_20261020.json"
+  }
 }
