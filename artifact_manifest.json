@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-21T15:21:41.774474+08:00",
-  "file_count": 922,
-  "content_bytes": 822878121,
+  "created_at": "2026-10-21T15:38:53.246303+08:00",
+  "file_count": 923,
+  "content_bytes": 823592524,
   "native_outputs_modified": false,
   "all_html_dependencies_bundled": true,
   "auxiliary_files": [
@@ -26,8 +26,8 @@
     },
     {
       "path": "alignment/index.html",
-      "bytes": 33886,
-      "sha256": "351550f9f1893f1a7075d9a50726f0d129976e0b3ac69fc99ee7aa88c06ffbd3"
+      "bytes": 33975,
+      "sha256": "94e5245f3875ef3c60b682bcbef0ff2098a65107dd67c765663e6e09b85caa3e"
     },
     {
       "path": "expansion/index.html",
@@ -2436,8 +2436,8 @@
     },
     {
       "path": "assets/review_media.js",
-      "bytes": 16689,
-      "sha256": "656397f499511a2172a677659859218b4abb865f8de0e8ce8d7a23d68549e6cf"
+      "bytes": 18381,
+      "sha256": "51d80446d65259efe58e1f93069a727d6ac2d0b1dc4bc5739d9d7e19e031f02d"
     },
     {
       "path": "alignment/assets/posters_index.json",
@@ -2450,14 +2450,19 @@
       "sha256": "660a8bcbdb66772d606c4cd8883ac7bfeed6c02cf8a8111456fd75e6de9c7fd2"
     },
     {
-      "path": "alignment/assets/b8b4c5b44b8315a73f71b04b.md",
-      "bytes": 2021,
-      "sha256": "b8b4c5b44b8315a73f71b04b4b9ca82db9aff810a6ec39460b1a57f45fa89d73"
+      "path": "alignment/assets/fed084b4edee48b6dda8cd40_preview_bundle.json",
+      "bytes": 708729,
+      "sha256": "fed084b4edee48b6dda8cd40ca21613d3a134c0be7ccf856463ee6d20d4d1369"
     },
     {
-      "path": "alignment/assets/e48afc8d826d27261c2229c6.md",
-      "bytes": 2738,
-      "sha256": "e48afc8d826d27261c2229c68c8b6a70af3158a5720de932a5dd378b19dc3f83"
+      "path": "alignment/assets/b64da5ec3ca24dada241fa8a.md",
+      "bytes": 2252,
+      "sha256": "b64da5ec3ca24dada241fa8ae2f2043df23eb9b13666b3871071902594c0649e"
+    },
+    {
+      "path": "alignment/assets/868c8b01d8954e3e3af3c7e6.md",
+      "bytes": 3016,
+      "sha256": "868c8b01d8954e3e3af3c7e6139b6da35bdea214373c639cfdd5f60a99d80419"
     },
     {
       "path": "alignment/assets/11c9a719b2849ea1cee8fca3.json",
@@ -3066,8 +3071,8 @@
     },
     {
       "path": "alignment/assets/review_media.js",
-      "bytes": 16689,
-      "sha256": "656397f499511a2172a677659859218b4abb865f8de0e8ce8d7a23d68549e6cf"
+      "bytes": 18381,
+      "sha256": "51d80446d65259efe58e1f93069a727d6ac2d0b1dc4bc5739d9d7e19e031f02d"
     },
     {
       "path": "expansion/assets/posters_index.json",
@@ -4606,8 +4611,8 @@
     },
     {
       "path": "expansion/assets/review_media.js",
-      "bytes": 16689,
-      "sha256": "656397f499511a2172a677659859218b4abb865f8de0e8ce8d7a23d68549e6cf"
+      "bytes": 18381,
+      "sha256": "51d80446d65259efe58e1f93069a727d6ac2d0b1dc4bc5739d9d7e19e031f02d"
     }
   ]
 }

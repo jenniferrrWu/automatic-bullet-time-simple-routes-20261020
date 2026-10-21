@@ -16,3 +16,5 @@
 不训练，不改官方权重，不替换解码首帧。Stage2目标仍右绕约30°；Stage3首图仍为真实ReCam末帧，动作参考仍为完整原片后段81帧。估计机位不是标定真值。单阶段通过、完整拼接通过分别待验收。
 
 验收地址：https://jenniferrrwu.github.io/automatic-bullet-time-simple-routes-20261020/alignment/
+
+预览加载优化：18条全帧轻量预览合并为一次JSON下载，在浏览器恢复成各自的视频Blob；每条字节及帧时间戳不变。原生文件保留单独下载，合并下载失败时可回退逐条加载。

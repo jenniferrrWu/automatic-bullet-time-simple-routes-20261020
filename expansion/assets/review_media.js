@@ -5,6 +5,7 @@ const bound=new WeakSet(),states=new WeakMap(),queue=[],blobCache=new Map();
 const DOWNLOADS=4,DOWNLOAD_TIMEOUT=12000,MAX_ATTEMPTS=4,CACHE_BYTES=64*1024*1024;
 let activeDownloads=0,cacheBytes=0,playAllActive=false,updateTimer=0;
 let posterIndex={},posterPromise=null,posterAt=0,posterReady=false;
+let previewBundlePromise=null,previewBundle=null,previewBundleError='',previewBundleFetches=0;
 function elements(root,selector){const a=[];if(root?.matches?.(selector))a.push(root);if(root?.querySelectorAll)a.push(...root.querySelectorAll(selector));return a;}
 function state(video){let s=states.get(video);if(!s){s={version:0,phase:'idle',loaded:false,job:null,promise:null,objectURL:null,wantPlay:false,userPaused:false,playPending:false,playAttempt:0,restart:false,error:'',attempts:0,playTimer:0};states.set(video,s);}return s;}
 function shell(video){return video.closest('.media-shell,.media-slot')||video.parentElement;}
@@ -12,7 +13,7 @@ function status(video,text){const box=shell(video);if(!box)return;let p=box.quer
 function hidden(el){if(!el.isConnected||el.closest('[hidden]')||(typeof el.getClientRects==='function'&&el.getClientRects().length===0))return true;for(let d=el.parentElement;d;d=d.parentElement)if(d.tagName==='DETAILS'&&!d.open)return true;return false;}
 function inView(el){if(hidden(el))return false;const r=el.getBoundingClientRect();return r.bottom>=-220&&r.top<=innerHeight+220&&r.right>=0&&r.left<=innerWidth;}
 function currentVideos(){return [...document.querySelectorAll('video[data-src]')].filter(v=>!hidden(v));}
-function diagnostics(){return {at:new Date().toISOString(),downloadConcurrency:DOWNLOADS,activeDownloads,playbackLimit:null,playAllActive,videos:[...document.querySelectorAll('video[data-src]')].map(v=>{const s=state(v);return {label:v.getAttribute('aria-label'),hidden:hidden(v),phase:s.phase,downloaded:s.loaded,attempts:s.attempts,readyState:v.readyState,networkState:v.networkState,paused:v.paused,currentTime:v.currentTime,error:s.error,mediaError:v.error?{code:v.error.code,message:v.error.message}:null,source:v.dataset.src};})};}
+function diagnostics(){return {at:new Date().toISOString(),downloadConcurrency:DOWNLOADS,activeDownloads,playbackLimit:null,playAllActive,previewBundle:{enabled:!!document.body.dataset.previewBundle,ready:!!previewBundle,clips:previewBundle?Object.keys(previewBundle).length:0,fetches:previewBundleFetches,error:previewBundleError},videos:[...document.querySelectorAll('video[data-src]')].map(v=>{const s=state(v);return {label:v.getAttribute('aria-label'),hidden:hidden(v),phase:s.phase,downloaded:s.loaded,attempts:s.attempts,readyState:v.readyState,networkState:v.networkState,paused:v.paused,currentTime:v.currentTime,error:s.error,mediaError:v.error?{code:v.error.code,message:v.error.message}:null,source:v.dataset.src};})};}
 function updateGroupNow(){
  updateTimer=0;const videos=currentVideos(),counts={downloaded:0,ready:0,playing:0,failed:0};let bytes=0,total=0;
  for(const v of videos){const s=state(v);total+=Number(v.dataset.bytes)||0;if(s.loaded){counts.downloaded++;bytes+=Number(v.dataset.bytes)||0;}if(v.readyState>=2)counts.ready++;if(!v.paused&&v.readyState>=2)counts.playing++;if(/error|blocked/.test(s.phase))counts.failed++;}
@@ -35,11 +36,26 @@ function valid(job){return !job.cancelled&&state(job.video).version===job.versio
 function attachBlob(job,blob){
  if(!valid(job))return false;const video=job.video,s=state(video);if(s.objectURL)URL.revokeObjectURL(s.objectURL);s.objectURL=URL.createObjectURL(blob);s.loaded=true;s.phase='buffered';s.error='';video.preload='auto';video.src=s.objectURL;video.load();status(video,'');updateGroup();return true;
 }
+async function bundledPreview(url){
+ const bundleURL=document.body.dataset.previewBundle;if(!bundleURL)return null;
+ if(!previewBundlePromise){
+  previewBundleFetches++;
+  previewBundlePromise=(async()=>{
+   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),30000);
+   try{const response=await fetch(bundleURL,{cache:'force-cache',signal:controller.signal});if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();if(data.version!==1||!data.clips)throw new Error('Invalid preview bundle');previewBundle=data.clips;return previewBundle;}
+   finally{clearTimeout(timer);}
+  })().catch(e=>{previewBundleError=String(e.message||e);return null;});
+ }
+ const clips=await previewBundlePromise,item=clips?.[url];if(!item)return null;
+ try{const raw=atob(item.base64),bytes=new Uint8Array(raw.length);for(let i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);if(bytes.length!==item.bytes)throw new Error('Incomplete bundled preview');const blob=new Blob([bytes],{type:'video/mp4'});cacheBlob(url,blob);return blob;}
+ catch(e){previewBundleError=String(e.message||e);return null;}
+}
 async function download(job){
  const video=job.video,s=state(video),url=video.dataset.src;
  try{
   if(!valid(job)){finish(job,false);return;}
   const cached=blobCache.get(url);if(cached){finish(job,attachBlob(job,cached));return;}
+  if(document.body.dataset.previewBundle){s.phase='downloading-bundle';status(video,'正在下载轻量预览…');updateGroup();const bundled=await bundledPreview(url);if(bundled){finish(job,attachBlob(job,bundled));return;}if(!valid(job)){finish(job,false);return;}}
   const attempt=(job.attempt||0)+1;job.attempt=attempt;
   s.attempts=attempt;s.phase='downloading';status(video,attempt===1?'正在下载轻量预览…':'正在重试下载（'+attempt+'/'+MAX_ATTEMPTS+'）…');updateGroup();
   const controller=new AbortController();job.controller=controller;let timedOut=false;
