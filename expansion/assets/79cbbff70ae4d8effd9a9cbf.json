@@ -3,7 +3,7 @@
   "model_key": "recam",
   "case_id": "extra03_woman_white_background",
   "stage": 2,
-  "execution_status": "running",
+  "execution_status": "succeeded",
   "attempt": "native_v1",
   "execution_gpus": "3",
   "source_tstar_image": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/inputs/extra03_woman_white_background/source_tstar.png",
@@ -17,7 +17,7 @@
   "official_weights_unchanged": true,
   "custom_latent_pinning": false,
   "postdecode_frame_replacement": false,
-  "native_video": "",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra03_woman_white_background/native_v1/native.mp4",
   "single_stage_quality": "pending",
   "seam_quality": "not_tested",
   "user_selection_status": "preferred_by_user_20261021",
@@ -38,5 +38,22 @@
   "target_camera_embedding": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra03_woman_white_background/native_v1/actual_target_camera_embedding.npy",
   "negative_prompt": "person motion, talking, blinking, head turn, hand movement, pose drift, subject rotation, rotating world, spinning background, identity change, geometry deformation, zoom, crop shift, camera shake, scene change, low quality",
   "steps": 50,
-  "native_output_fps": 25
+  "native_output_fps": 25,
+  "peak_allocated_mib": 17519.8,
+  "status": "generated_pending_visual_review",
+  "native_video_sha256": "008891aae860439a5e27803cad3803145bb3bcafd4e8287ab2cbe31806e736c0",
+  "native_frames": 81,
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra03_woman_white_background/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra03_woman_white_background/native_v1/native_last.png",
+  "actual_stage2_endpoint_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra03_woman_white_background/native_v1/native_last.png",
+  "native_first_comparison": {
+    "input": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra03_woman_white_background/native_v1/effective_first.png",
+    "native_f0": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/recam/stage2/extra03_woman_white_background/native_v1/native_first.png",
+    "analysis_resize_only": true,
+    "mae_0_255": 1.244557124732906,
+    "pixel_equal": false,
+    "quality_pass_inferred": false
+  },
+  "first_frame_effectiveness": "pending visual acceptance; no generated pixels replaced",
+  "elapsed_s": 1114.81
 }

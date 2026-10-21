@@ -1,0 +1,22 @@
+{
+  "status": "running",
+  "pin_count": 0,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "d3437c9f25109309c5e6dd0c1aa481c36991dd7cfda2887eb237a05d1191ee0f",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "official_endpoint_preprocessing_wh": [
+    1280,
+    704
+  ],
+  "endpoint_pixel_sha256": "1046a59aa66032a8857d1b8e51bf1f879882b02828d500cd91b80eec084cc0bd",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/extra04_man_contemporary/recam_endpoint_native_v1/preprocess/effective_endpoint.png"
+}

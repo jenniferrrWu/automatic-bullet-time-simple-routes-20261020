@@ -1,0 +1,22 @@
+{
+  "status": "running",
+  "pin_count": 0,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "0e6582ca038bca8e4509139b414b94142531a8c46d6f77dc78db6a1a9089dd4d",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "official_endpoint_preprocessing_wh": [
+    1280,
+    704
+  ],
+  "endpoint_pixel_sha256": "fe4fe734620687a55329372f37575e531b7d6c0d3d7eac628a486ca380af7dbb",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/raw/route_a/depthdirector/stage3/extra01_woman_drawing/recam_endpoint_native_v1/preprocess/effective_endpoint.png"
+}
