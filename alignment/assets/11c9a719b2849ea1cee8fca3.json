@@ -178,7 +178,9 @@
             "maximum_frame_mae": 1.8858827352523804,
             "dump_is_lossy": true,
             "raw_source_frames_replaced_or_padded": false,
-            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed"
+            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed",
+            "verified_dump_sha256": "9f2aed36d6b15f78b37be0bcc2feccb2c6448b3f0e19cb7bb290a68667269400",
+            "byte_identical_verification_source_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/canvas_nominal_v2_rays/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4"
           },
           "record": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
           "native": {
@@ -235,7 +237,7 @@
         "endpoint_estimated": {
           "consumed_source_motion": {
             "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
-            "actual_dataset_input_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/canvas_nominal_v2_rays/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4",
+            "actual_dataset_input_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/joint_endpoint_v5_pnp/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4",
             "frames_compared": 81,
             "all_source_frames_present_in_order_under_native_save_encoding": true,
             "per_frame_mae_0_255": [
@@ -324,7 +326,9 @@
             "maximum_frame_mae": 1.8858827352523804,
             "dump_is_lossy": true,
             "raw_source_frames_replaced_or_padded": false,
-            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed"
+            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed",
+            "verified_dump_sha256": "9f2aed36d6b15f78b37be0bcc2feccb2c6448b3f0e19cb7bb290a68667269400",
+            "byte_identical_verification_source_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/canvas_nominal_v2_rays/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4"
           },
           "record": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
           "native": {
@@ -599,7 +603,9 @@
             "maximum_frame_mae": 1.2148815393447876,
             "dump_is_lossy": true,
             "raw_source_frames_replaced_or_padded": false,
-            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed"
+            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed",
+            "verified_dump_sha256": "a0a71f8a4498fea7a64ed61aea1c0eba1712e0710aad6a96a4c8d31723c9b981",
+            "byte_identical_verification_source_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/canvas_nominal_v2_rays/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4"
           },
           "record": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
           "native": {
@@ -656,7 +662,7 @@
         "endpoint_estimated": {
           "consumed_source_motion": {
             "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
-            "actual_dataset_input_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/canvas_nominal_v2_rays/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4",
+            "actual_dataset_input_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/joint_endpoint_v6_translation/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4",
             "frames_compared": 81,
             "all_source_frames_present_in_order_under_native_save_encoding": true,
             "per_frame_mae_0_255": [
@@ -745,7 +751,9 @@
             "maximum_frame_mae": 1.2148815393447876,
             "dump_is_lossy": true,
             "raw_source_frames_replaced_or_padded": false,
-            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed"
+            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed",
+            "verified_dump_sha256": "a0a71f8a4498fea7a64ed61aea1c0eba1712e0710aad6a96a4c8d31723c9b981",
+            "byte_identical_verification_source_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/canvas_nominal_v2_rays/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4"
           },
           "record": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
           "native": {
@@ -1020,7 +1028,9 @@
             "maximum_frame_mae": 1.8447316884994507,
             "dump_is_lossy": true,
             "raw_source_frames_replaced_or_padded": false,
-            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed"
+            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed",
+            "verified_dump_sha256": "84d3178b5a870e40c85898e33992cbb02d9a67907cb4073ab3b1f6c16bb224f8",
+            "byte_identical_verification_source_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/canvas_nominal_v2_rays/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4"
           },
           "record": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
           "native": {
@@ -1077,7 +1087,7 @@
         "endpoint_estimated": {
           "consumed_source_motion": {
             "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
-            "actual_dataset_input_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/canvas_nominal_v2_rays/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4",
+            "actual_dataset_input_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/joint_endpoint_v5_pnp/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4",
             "frames_compared": 81,
             "all_source_frames_present_in_order_under_native_save_encoding": true,
             "per_frame_mae_0_255": [
@@ -1166,7 +1176,9 @@
             "maximum_frame_mae": 1.8447316884994507,
             "dump_is_lossy": true,
             "raw_source_frames_replaced_or_padded": false,
-            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed"
+            "comparison": "every official consumed-data dump frame against same-index original source frame under exact dataset resize/crop; encoding differences allowed",
+            "verified_dump_sha256": "84d3178b5a870e40c85898e33992cbb02d9a67907cb4073ab3b1f6c16bb224f8",
+            "byte_identical_verification_source_dump": "/public/wufeier/automatic_bullet_time/results/recam_depth_canvas_control_20261021/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/canvas_nominal_v2_rays/preprocess/Rotate,0,30,0,0,0/depthdirector_input.mp4"
           },
           "record": "/public/wufeier/automatic_bullet_time/results/recam_depth_alignment_fix_20261021/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
           "native": {
