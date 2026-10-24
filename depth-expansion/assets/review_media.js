@@ -2,7 +2,7 @@
 (function(){
 'use strict';
 const bound=new WeakSet(),states=new WeakMap(),queue=[],blobCache=new Map();
-const DOWNLOADS=4,DOWNLOAD_TIMEOUT=12000,MAX_ATTEMPTS=4,CACHE_BYTES=64*1024*1024;
+const DOWNLOADS=4,DOWNLOAD_TIMEOUT=45000,MAX_ATTEMPTS=4,CACHE_BYTES=64*1024*1024;
 let activeDownloads=0,cacheBytes=0,playAllActive=false,updateTimer=0;
 let posterIndex={},posterPromise=null,posterAt=0,posterReady=false;
 let previewBundlePromise=null,previewBundle=null,previewBundleError='',previewBundleFetches=0;
@@ -41,7 +41,7 @@ async function bundledPreview(url){
  if(!previewBundlePromise){
   previewBundleFetches++;
   previewBundlePromise=(async()=>{
-   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),30000);
+   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),120000);
    try{const response=await fetch(bundleURL,{cache:'force-cache',signal:controller.signal});if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();if(data.version!==1||!data.clips)throw new Error('Invalid preview bundle');previewBundle=data.clips;return previewBundle;}
    finally{clearTimeout(timer);}
   })().catch(e=>{previewBundleError=String(e.message||e);return null;});

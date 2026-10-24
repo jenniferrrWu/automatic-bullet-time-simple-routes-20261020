@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-24T19:21:28.214135+08:00",
+  "created_at": "2026-10-24T19:35:12.694172+08:00",
   "file_count": 1308,
-  "content_bytes": 988946924,
+  "content_bytes": 988946944,
   "native_outputs_modified": false,
   "all_html_dependencies_bundled": true,
   "auxiliary_files": [
@@ -46,8 +46,8 @@
     },
     {
       "path": "depth-expansion/index.html",
-      "bytes": 115276,
-      "sha256": "d680f6f058a89fb39af22f6020ab874ee2390607fec3c92290b9e93a45bd4e12"
+      "bytes": 115295,
+      "sha256": "d421035aef08eb6116efb1d3890642cecce3d210bf082a710ddbcb0f7adff0fa"
     },
     {
       "path": "assets/7bca55bcf011e8ac49685ada.png",
@@ -6536,8 +6536,8 @@
     },
     {
       "path": "depth-expansion/assets/review_media.js",
-      "bytes": 18381,
-      "sha256": "51d80446d65259efe58e1f93069a727d6ac2d0b1dc4bc5739d9d7e19e031f02d"
+      "bytes": 18382,
+      "sha256": "fa9e330e57a239b060a582de3871c936562caa17dca166b70ac4b92af7320add"
     }
   ]
 }
