@@ -1,0 +1,86 @@
+{
+  "case_id": "case08_dog_field_run",
+  "stage2_record": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case08_dog_field_run/records/route_a/depthdirector/stage2/case08_dog_field_run.json",
+  "stage3_record": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case08_dog_field_run/records/route_a/depthdirector/stage3/case08_dog_field_run.json",
+  "stage2_model": "DepthDirector",
+  "stage3_model": "DepthDirector",
+  "stage1_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case08_dog_field_run/stage1_to_tstar_lossless.mp4",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case08_dog_field_run/raw/route_a/depthdirector/stage2/case08_dog_field_run/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case08_dog_field_run/raw/route_a/depthdirector/stage3/case08_dog_field_run/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "stage2_sha256": "4c8f82d5be08d875f0d3a963e58e68fc48061fdcffe63b1811a0f15fbd18adc4",
+  "stage3_sha256": "0757d9b211e9e0da345e6115b7783ada513d51dd7c3c8bbff9e24565f5ac6b4d",
+  "stage2_first_input": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case08_dog_field_run/tstar.png",
+  "stage3_first_input": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case08_dog_field_run/raw/route_a/depthdirector/stage2/case08_dog_field_run/native_v1/native_last.png",
+  "action_reference": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case08_dog_field_run/action_condition81_lossless.mp4",
+  "real_motion_frames": 81,
+  "explicit_tail_hold_frames": 0,
+  "source_window": [
+    395,
+    475
+  ],
+  "post_end_is_raw_source_end": false,
+  "native_sampling_constraints_verified": true,
+  "first_latent_constraint_steps": 50,
+  "complete_decode": true,
+  "stitched_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case08_dog_field_run/depth_full_native_timing.mp4",
+  "stitched_sha256": "14f9217551c44fd9a409c8717b21fe50b64926cfb54015ff8a16e6b7fd873b80",
+  "stitched_details": {
+    "parts": [
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case08_dog_field_run/stage1_to_tstar_lossless.mp4",
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case08_dog_field_run/raw/route_a/depthdirector/stage2/case08_dog_field_run/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case08_dog_field_run/raw/route_a/depthdirector/stage3/case08_dog_field_run/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+    ],
+    "source_hashes": [
+      "9f7e8d1d38978a7c9b7dd301069597b446c84a3c50d80ddc80dc24cac826940c",
+      "4c8f82d5be08d875f0d3a963e58e68fc48061fdcffe63b1811a0f15fbd18adc4",
+      "0757d9b211e9e0da345e6115b7783ada513d51dd7c3c8bbff9e24565f5ac6b4d"
+    ],
+    "source_frame_counts": [
+      396,
+      81,
+      81
+    ],
+    "stitched_frame_count": 558,
+    "all_source_frames_retained": true,
+    "each_stage_native_time_rate_retained": true,
+    "stage3_display_action_fps": null,
+    "stage3_pts_only_retimed": false,
+    "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+    "no_output_frame_replacement": true,
+    "no_blending": true,
+    "no_interpolation": true,
+    "no_boundary_frame_deletion": true,
+    "purpose": "manual seam inspection only, not a seamlessness pass"
+  },
+  "stage_start_seconds": [
+    0,
+    13.2132,
+    18.6132
+  ],
+  "audit_file": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case08_dog_field_run/audit.json",
+  "contact": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case08_dog_field_run/source_stage2_stage3_samples.jpg",
+  "boundary_image": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case08_dog_field_run/native_boundaries.jpg",
+  "seam23_native_rgb": {
+    "left_png": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/decoded_boundaries/decoded_ffmpeg_rgb24/4c8f82d5be08d875f0d3a963e58e68fc48061fdcffe63b1811a0f15fbd18adc4/last.png",
+    "right_png": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/decoded_boundaries/decoded_ffmpeg_rgb24/0757d9b211e9e0da345e6115b7783ada513d51dd7c3c8bbff9e24565f5ac6b4d/first.png",
+    "left_wh": [
+      1280,
+      704
+    ],
+    "right_wh": [
+      1280,
+      704
+    ],
+    "metric_is_quality_verdict": false,
+    "direct_rgb_comparable": true,
+    "mae_0_255": 3.885139234138258,
+    "max_abs_0_255": 64.0,
+    "psnr_db": 32.97346089478337,
+    "pixel_equal": false
+  },
+  "single_stage_quality": "pending_manual_acceptance",
+  "full_stitch_quality": "pending_manual_acceptance",
+  "training": false,
+  "decoded_first_frame_replacement": false,
+  "old_results_preserved": true
+}

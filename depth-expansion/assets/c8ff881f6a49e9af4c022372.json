@@ -1,0 +1,86 @@
+{
+  "case_id": "case15_woman_studio_dance",
+  "stage2_record": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case15_woman_studio_dance/records/route_a/depthdirector/stage2/case15_woman_studio_dance.json",
+  "stage3_record": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case15_woman_studio_dance/records/route_a/depthdirector/stage3/case15_woman_studio_dance.json",
+  "stage2_model": "DepthDirector",
+  "stage3_model": "DepthDirector",
+  "stage1_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case15_woman_studio_dance/stage1_to_tstar_lossless.mp4",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case15_woman_studio_dance/raw/route_a/depthdirector/stage2/case15_woman_studio_dance/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case15_woman_studio_dance/raw/route_a/depthdirector/stage3/case15_woman_studio_dance/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "stage2_sha256": "d264346989aa7119315f70471acb241252919c1df9d8011de67492b45b65ae8c",
+  "stage3_sha256": "dfd8db79417debb9b021fa55de574193bfdb66628b47b730fba82949b9ad10fa",
+  "stage2_first_input": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case15_woman_studio_dance/tstar.png",
+  "stage3_first_input": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case15_woman_studio_dance/raw/route_a/depthdirector/stage2/case15_woman_studio_dance/native_v1/native_last.png",
+  "action_reference": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case15_woman_studio_dance/action_condition81_lossless.mp4",
+  "real_motion_frames": 81,
+  "explicit_tail_hold_frames": 0,
+  "source_window": [
+    125,
+    205
+  ],
+  "post_end_is_raw_source_end": false,
+  "native_sampling_constraints_verified": true,
+  "first_latent_constraint_steps": 50,
+  "complete_decode": true,
+  "stitched_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case15_woman_studio_dance/depth_full_native_timing.mp4",
+  "stitched_sha256": "29484e82fae7af4331b7733f7e0b2eb18af12deb2bf38df76c5d412be27832f3",
+  "stitched_details": {
+    "parts": [
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case15_woman_studio_dance/stage1_to_tstar_lossless.mp4",
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case15_woman_studio_dance/raw/route_a/depthdirector/stage2/case15_woman_studio_dance/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case15_woman_studio_dance/raw/route_a/depthdirector/stage3/case15_woman_studio_dance/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+    ],
+    "source_hashes": [
+      "cbe0ce428b633f21f4a711202f02389ab72b48f121ae5d518eda5b13274c9a8c",
+      "d264346989aa7119315f70471acb241252919c1df9d8011de67492b45b65ae8c",
+      "dfd8db79417debb9b021fa55de574193bfdb66628b47b730fba82949b9ad10fa"
+    ],
+    "source_frame_counts": [
+      126,
+      81,
+      81
+    ],
+    "stitched_frame_count": 288,
+    "all_source_frames_retained": true,
+    "each_stage_native_time_rate_retained": true,
+    "stage3_display_action_fps": null,
+    "stage3_pts_only_retimed": false,
+    "display_transform": "aspect preserving resize+letterbox to540x960, H264 display encoding; sources unchanged",
+    "no_output_frame_replacement": true,
+    "no_blending": true,
+    "no_interpolation": true,
+    "no_boundary_frame_deletion": true,
+    "purpose": "manual seam inspection only, not a seamlessness pass"
+  },
+  "stage_start_seconds": [
+    0,
+    5.04,
+    10.440000000000001
+  ],
+  "audit_file": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case15_woman_studio_dance/audit.json",
+  "contact": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case15_woman_studio_dance/source_stage2_stage3_samples.jpg",
+  "boundary_image": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case15_woman_studio_dance/native_boundaries.jpg",
+  "seam23_native_rgb": {
+    "left_png": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/decoded_boundaries/decoded_ffmpeg_rgb24/d264346989aa7119315f70471acb241252919c1df9d8011de67492b45b65ae8c/last.png",
+    "right_png": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/decoded_boundaries/decoded_ffmpeg_rgb24/dfd8db79417debb9b021fa55de574193bfdb66628b47b730fba82949b9ad10fa/first.png",
+    "left_wh": [
+      704,
+      1280
+    ],
+    "right_wh": [
+      704,
+      1280
+    ],
+    "metric_is_quality_verdict": false,
+    "direct_rgb_comparable": true,
+    "mae_0_255": 1.219356652462121,
+    "max_abs_0_255": 15.0,
+    "psnr_db": 44.80770140911097,
+    "pixel_equal": false
+  },
+  "single_stage_quality": "pending_manual_acceptance",
+  "full_stitch_quality": "pending_manual_acceptance",
+  "training": false,
+  "decoded_first_frame_replacement": false,
+  "old_results_preserved": true
+}

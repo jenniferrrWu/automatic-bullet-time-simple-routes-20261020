@@ -1,0 +1,86 @@
+{
+  "case_id": "case01_person_modern_dance_jump",
+  "stage2_record": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case01_person_modern_dance_jump/records/route_a/depthdirector/stage2/case01_person_modern_dance_jump.json",
+  "stage3_record": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case01_person_modern_dance_jump/records/route_a/depthdirector/stage3/case01_person_modern_dance_jump.json",
+  "stage2_model": "DepthDirector",
+  "stage3_model": "DepthDirector",
+  "stage1_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case01_person_modern_dance_jump/stage1_to_tstar_lossless.mp4",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case01_person_modern_dance_jump/raw/route_a/depthdirector/stage2/case01_person_modern_dance_jump/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case01_person_modern_dance_jump/raw/route_a/depthdirector/stage3/case01_person_modern_dance_jump/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "stage2_sha256": "038be7f8da7c84dee0795bc432c1395e39f7c960837857d92dceef75441fc4fb",
+  "stage3_sha256": "bf38377d260679f6e424baf8a73277fa0e3dfcf0525538cce8dfe5c2e73702b6",
+  "stage2_first_input": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case01_person_modern_dance_jump/tstar.png",
+  "stage3_first_input": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case01_person_modern_dance_jump/raw/route_a/depthdirector/stage2/case01_person_modern_dance_jump/native_v1/native_last.png",
+  "action_reference": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case01_person_modern_dance_jump/action_condition81_lossless.mp4",
+  "real_motion_frames": 81,
+  "explicit_tail_hold_frames": 0,
+  "source_window": [
+    64,
+    144
+  ],
+  "post_end_is_raw_source_end": false,
+  "native_sampling_constraints_verified": true,
+  "first_latent_constraint_steps": 50,
+  "complete_decode": true,
+  "stitched_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case01_person_modern_dance_jump/depth_full_native_timing.mp4",
+  "stitched_sha256": "24d43aaa725596fdc4b6aea07018f6bc3bb20a7229472e23a3de2bd1222385e7",
+  "stitched_details": {
+    "parts": [
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case01_person_modern_dance_jump/stage1_to_tstar_lossless.mp4",
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case01_person_modern_dance_jump/raw/route_a/depthdirector/stage2/case01_person_modern_dance_jump/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case01_person_modern_dance_jump/raw/route_a/depthdirector/stage3/case01_person_modern_dance_jump/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+    ],
+    "source_hashes": [
+      "b04722da32181a7e24b25e2311d0683024784c8f52e88f5b9c55ab5346ef3b0b",
+      "038be7f8da7c84dee0795bc432c1395e39f7c960837857d92dceef75441fc4fb",
+      "bf38377d260679f6e424baf8a73277fa0e3dfcf0525538cce8dfe5c2e73702b6"
+    ],
+    "source_frame_counts": [
+      65,
+      81,
+      81
+    ],
+    "stitched_frame_count": 227,
+    "all_source_frames_retained": true,
+    "each_stage_native_time_rate_retained": true,
+    "stage3_display_action_fps": null,
+    "stage3_pts_only_retimed": false,
+    "display_transform": "aspect preserving resize+letterbox to540x960, H264 display encoding; sources unchanged",
+    "no_output_frame_replacement": true,
+    "no_blending": true,
+    "no_interpolation": true,
+    "no_boundary_frame_deletion": true,
+    "purpose": "manual seam inspection only, not a seamlessness pass"
+  },
+  "stage_start_seconds": [
+    0,
+    2.6,
+    8.0
+  ],
+  "audit_file": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case01_person_modern_dance_jump/audit.json",
+  "contact": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case01_person_modern_dance_jump/source_stage2_stage3_samples.jpg",
+  "boundary_image": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case01_person_modern_dance_jump/native_boundaries.jpg",
+  "seam23_native_rgb": {
+    "left_png": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/decoded_boundaries/decoded_ffmpeg_rgb24/038be7f8da7c84dee0795bc432c1395e39f7c960837857d92dceef75441fc4fb/last.png",
+    "right_png": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/decoded_boundaries/decoded_ffmpeg_rgb24/bf38377d260679f6e424baf8a73277fa0e3dfcf0525538cce8dfe5c2e73702b6/first.png",
+    "left_wh": [
+      704,
+      1280
+    ],
+    "right_wh": [
+      704,
+      1280
+    ],
+    "metric_is_quality_verdict": false,
+    "direct_rgb_comparable": true,
+    "mae_0_255": 2.1090172969933714,
+    "max_abs_0_255": 36.0,
+    "psnr_db": 39.9856196725723,
+    "pixel_equal": false
+  },
+  "single_stage_quality": "pending_manual_acceptance",
+  "full_stitch_quality": "pending_manual_acceptance",
+  "training": false,
+  "decoded_first_frame_replacement": false,
+  "old_results_preserved": true
+}

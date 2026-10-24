@@ -1,0 +1,86 @@
+{
+  "case_id": "case07_dog_courtyard_run",
+  "stage2_record": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case07_dog_courtyard_run/records/route_a/depthdirector/stage2/case07_dog_courtyard_run.json",
+  "stage3_record": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case07_dog_courtyard_run/records/route_a/depthdirector/stage3/case07_dog_courtyard_run.json",
+  "stage2_model": "DepthDirector",
+  "stage3_model": "DepthDirector",
+  "stage1_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case07_dog_courtyard_run/stage1_to_tstar_lossless.mp4",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case07_dog_courtyard_run/raw/route_a/depthdirector/stage2/case07_dog_courtyard_run/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "stage3_native_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case07_dog_courtyard_run/raw/route_a/depthdirector/stage3/case07_dog_courtyard_run/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+  "stage2_sha256": "9df64a97b6d404b069923960f553bff342b4a9c654ac2f304ca834cc970f0e02",
+  "stage3_sha256": "3d71a49d7a50604bd79c818ff54d834929bc954364904b8d58ad6a275da0eb69",
+  "stage2_first_input": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case07_dog_courtyard_run/tstar.png",
+  "stage3_first_input": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case07_dog_courtyard_run/raw/route_a/depthdirector/stage2/case07_dog_courtyard_run/native_v1/native_last.png",
+  "action_reference": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case07_dog_courtyard_run/action_condition81_lossless.mp4",
+  "real_motion_frames": 51,
+  "explicit_tail_hold_frames": 30,
+  "source_window": [
+    251,
+    301
+  ],
+  "post_end_is_raw_source_end": true,
+  "native_sampling_constraints_verified": true,
+  "first_latent_constraint_steps": 50,
+  "complete_decode": true,
+  "stitched_video": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case07_dog_courtyard_run/depth_full_native_timing.mp4",
+  "stitched_sha256": "db65522e7e04fb4305360d71ed62eee169161ef9286a1700b782fcfe2f46fa40",
+  "stitched_details": {
+    "parts": [
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/inputs/case07_dog_courtyard_run/stage1_to_tstar_lossless.mp4",
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case07_dog_courtyard_run/raw/route_a/depthdirector/stage2/case07_dog_courtyard_run/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/native_verified_runs/case07_dog_courtyard_run/raw/route_a/depthdirector/stage3/case07_dog_courtyard_run/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4"
+    ],
+    "source_hashes": [
+      "96c31e62e809e7fac71c14ca8e240a3052fa37437c7897b4abd71209b4fb8747",
+      "9df64a97b6d404b069923960f553bff342b4a9c654ac2f304ca834cc970f0e02",
+      "3d71a49d7a50604bd79c818ff54d834929bc954364904b8d58ad6a275da0eb69"
+    ],
+    "source_frame_counts": [
+      252,
+      81,
+      81
+    ],
+    "stitched_frame_count": 414,
+    "all_source_frames_retained": true,
+    "each_stage_native_time_rate_retained": true,
+    "stage3_display_action_fps": null,
+    "stage3_pts_only_retimed": false,
+    "display_transform": "aspect preserving resize+letterbox to960x540, H264 display encoding; sources unchanged",
+    "no_output_frame_replacement": true,
+    "no_blending": true,
+    "no_interpolation": true,
+    "no_boundary_frame_deletion": true,
+    "purpose": "manual seam inspection only, not a seamlessness pass"
+  },
+  "stage_start_seconds": [
+    0,
+    8.4084,
+    13.8084
+  ],
+  "audit_file": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case07_dog_courtyard_run/audit.json",
+  "contact": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case07_dog_courtyard_run/source_stage2_stage3_samples.jpg",
+  "boundary_image": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/cases_verified/case07_dog_courtyard_run/native_boundaries.jpg",
+  "seam23_native_rgb": {
+    "left_png": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/decoded_boundaries/decoded_ffmpeg_rgb24/9df64a97b6d404b069923960f553bff342b4a9c654ac2f304ca834cc970f0e02/last.png",
+    "right_png": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/decoded_boundaries/decoded_ffmpeg_rgb24/3d71a49d7a50604bd79c818ff54d834929bc954364904b8d58ad6a275da0eb69/first.png",
+    "left_wh": [
+      1280,
+      704
+    ],
+    "right_wh": [
+      1280,
+      704
+    ],
+    "metric_is_quality_verdict": false,
+    "direct_rgb_comparable": true,
+    "mae_0_255": 1.6424109256628787,
+    "max_abs_0_255": 17.0,
+    "psnr_db": 41.95301697576724,
+    "pixel_equal": false
+  },
+  "single_stage_quality": "pending_manual_acceptance",
+  "full_stitch_quality": "pending_manual_acceptance",
+  "training": false,
+  "decoded_first_frame_replacement": false,
+  "old_results_preserved": true
+}

@@ -1,0 +1,30 @@
+{
+  "case_count": 15,
+  "new_native_jobs": 30,
+  "stage2_model": "DepthDirector",
+  "stage3_model": "DepthDirector",
+  "accepted_recipe": {
+    "seed": 42,
+    "cfg": 1,
+    "lora_strength": 1,
+    "steps": 50,
+    "frames": 81,
+    "native_output_fps": 15,
+    "right_orbit_degrees": 30
+  },
+  "immutable_code_sha256": {
+    "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+    "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+    "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+    "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+    "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+  },
+  "input_adaptations": [
+    "portrait sample size1280×704 vs landscape704×1280; no subject crop to force landscape",
+    "animal noun replaces person only for animal cases",
+    "short real action windows retain every real frame and explicitly append last-state holds to81 input frames"
+  ],
+  "new_training": false,
+  "postdecode_frame_replacement": false,
+  "old_results_preserved": true
+}
