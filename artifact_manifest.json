@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-24T19:15:44.258016+08:00",
+  "created_at": "2026-10-24T19:21:28.214135+08:00",
   "file_count": 1308,
-  "content_bytes": 988946353,
+  "content_bytes": 988946924,
   "native_outputs_modified": false,
   "all_html_dependencies_bundled": true,
   "auxiliary_files": [
@@ -47,7 +47,7 @@
     {
       "path": "depth-expansion/index.html",
       "bytes": 115276,
-      "sha256": "8e534b3b1ecdcedf9359e52f852c0f590b646e0ee38b5e7967a5d2b270a42adc"
+      "sha256": "d680f6f058a89fb39af22f6020ab874ee2390607fec3c92290b9e93a45bd4e12"
     },
     {
       "path": "assets/7bca55bcf011e8ac49685ada.png",
@@ -5100,9 +5100,9 @@
       "sha256": "f52aaf72ca39d343d4dc66ab4e79eb39277adc2ffd913bb022ad698768db1500"
     },
     {
-      "path": "depth-expansion/assets/fef1c2c4ec526495cb30c46e.md",
-      "bytes": 2429,
-      "sha256": "fef1c2c4ec526495cb30c46ed26b569dcab54a252fc0b8405c795c19ea2f54dc"
+      "path": "depth-expansion/assets/5b1bd05dea30e358a03b7405.md",
+      "bytes": 3000,
+      "sha256": "5b1bd05dea30e358a03b7405c9c0ea108422c2a21397ca559c88a492f0575c8e"
     },
     {
       "path": "depth-expansion/assets/c839b567e928bb5e78f8a9df.json",
